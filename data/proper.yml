@@ -102,6 +102,53 @@
     - reused
 
 - id: 3
+  title: "A brief review on multi-objective software refactoring and a new method for its recommendation"
+  url:
+    - https://link.springer.com/article/10.1007/s11831-020-09491-5
+  source:
+    - Google24 (other)
+    - Google24 (time)
+  year: 2021
+  venue: Springer ACME
+  venue_type:
+    - journal
+  fitness:
+    - code quality
+  fitness_secondary:
+    - none
+  fitness_multi: true
+  tool_name:
+    - MOSHO
+  tool_search:
+    - genetic algorithm
+  tool_approach:
+    - refactoring
+  software_nb: 5
+  software_name:
+    - GanttProject
+    - JHotDraw
+    - orDrumBox
+    - HealthWatcher
+    - Xerces
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Java
+  software_size:
+    - application
+  software_usage:
+    - irrelevant
+  software_origin:
+    - open-source
+  software_notoriety:
+    - toy
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - reused
+
+- id: 4
   title: "Abstract: Memory and Parallelism Exploration Using the LULESH Proxy Application"
   url:
     - https://ieeexplore.ieee.org/document/6496017/
@@ -147,7 +194,7 @@
   benchmark_quality:
     - named
 
-- id: 4
+- id: 5
   title: "A Case Study of Memory Optimization for Migration of a Plasmonics Simulation Application to SX-ACE"
   url:
     - https://ieeexplore.ieee.org/document/7424769/
@@ -189,7 +236,7 @@
   benchmark_quality:
     - described
 
-- id: 5
+- id: 6
   title: "Access pattern restructuring for memory energy"
   url:
     - https://ieeexplore.ieee.org/document/1271179/
@@ -246,7 +293,7 @@
     - named
     - reused
 
-- id: 6
+- id: 7
   title: "Achieving high instruction cache performance with an optimizing compiler"
   url:
     - https://dl.acm.org/doi/abs/10.1145/74925.74953
@@ -298,7 +345,7 @@
     - described
     - named
 
-- id: 7
+- id: 8
   title: "A Cloud Based Super-Optimization Method to Parallelize the Sequential Code's Nested Loops"
   url:
     - https://ieeexplore.ieee.org/document/8906721/
@@ -339,7 +386,7 @@
   benchmark_quality:
     - described
 
-- id: 8
+- id: 9
   title: "A Code Generator for Energy-Efficient Wavefront Parallelization of Uniform Dependence Computations"
   url:
     - https://ieeexplore.ieee.org/document/7935535/
@@ -385,7 +432,7 @@
   benchmark_quality:
     - described
 
-- id: 9
+- id: 10
   title: "A comparison of empirical and model-driven optimization"
   url:
     - https://dl.acm.org/doi/abs/10.1145/781131.781140
@@ -427,7 +474,7 @@
   benchmark_quality:
     - described
 
-- id: 10
+- id: 11
   title: "A compiler-automated array compression scheme for optimizing memory intensive programs"
   url:
     - https://dl.acm.org/doi/10.1145/1810085.1810124
@@ -473,7 +520,7 @@
     - named
     - reused
 
-- id: 11
+- id: 12
   title: "A compiler-based approach for dynamically managing scratch-pad memories in embedded systems"
   url:
     - https://ieeexplore.ieee.org/document/1262461/
@@ -521,7 +568,7 @@
     - named
     - reused
 
-- id: 12
+- id: 13
   title: "A Compiler Based Leakage Reduction Technique by Power-Gating Functional Units in Embedded Microprocessors"
   url:
     - https://ieeexplore.ieee.org/document/4092048/
@@ -576,7 +623,7 @@
   benchmark_quality:
     - reused
 
-- id: 13
+- id: 14
   title: "A compiler optimization algorithm for shared-memory multiprocessors"
   url:
     - https://ieeexplore.ieee.org/document/706049/
@@ -626,7 +673,7 @@
   benchmark_quality:
     - named
 
-- id: 14
+- id: 15
   title: "A comprehensive study of bloated dependencies in the Maven ecosystem"
   url:
     - https://doi.org/10.1007/s10664-020-09914-8
@@ -670,7 +717,7 @@
     - described
     - named
 
-- id: 15
+- id: 16
   title: "A Cross-Layer Multicore Architecture to Tradeoff Program Accuracy and Resilience Overheads"
   url:
     - https://ieeexplore.ieee.org/document/6936844/
@@ -716,7 +763,7 @@
   benchmark_quality:
     - reused
 
-- id: 16
+- id: 17
   title: "ADAPT: Automated De-coupled Adaptive Program Transformation"
   url:
     - https://ieeexplore.ieee.org/document/876107/
@@ -759,7 +806,110 @@
   benchmark_quality:
     - reused
 
-- id: 17
+- id: 18
+  title: "Adapting Multi-objectivized Software Configuration Tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3643751
+    - https://dl.acm.org/doi/abs/10.1145/3643751
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+    - Google24 (energy)
+  year: 2024
+  venue: IEEE TSE
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - energy usage
+    - solution quality
+  fitness_multi: true
+  tool_name:
+    - AdMMO
+  tool_search:
+    - genetic algorithm
+  tool_approach:
+    - parameter tuning
+  software_nb: 7
+  software_name:
+    - MariaDB
+    - Storm
+    - VP9
+    - Keras
+    - MongoDB
+    - x264
+    - LLVM
+  software_set_name:
+    - unnamed
+  software_lang:
+    - C/C++
+    - Java
+    - Perl
+    - Python
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - windows
+    - mac
+    - unix/linux
+  benchmark_quality:
+    - reused
+    - available
+
+- id: 19
+  title: "Adaptive Code Learning for Spark Configuration Tuning"
+  url:
+    - https://ieeexplore.ieee.org/document/9835695/
+    - https://ieeexplore.ieee.org/abstract/document/9835695/?casa_token=UvSZb6JFZq8AAAAA:USoNhwClNYWXnykZbXKXFXTkDia_m05jEWFWYzm1VuK4TMZbD5B6FbRNrh8kCJXuveu2gh0
+  source:
+    - Google24 (quality)
+    - IEEE24 (other)
+    - IEEE24 (time)
+  year: 2022
+  venue: ICDE
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - LITE
+  tool_search:
+    - machine learning
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 20
   title: "A flexible tradeoff between code size and WCET using a dual instruction set processor"
   url:
     - https://doi.org/10.1007/978-3-540-30113-4_18
@@ -804,7 +954,7 @@
   benchmark_quality:
     - reused
 
-- id: 18
+- id: 21
   title: "A Framework for Effective Memory Optimization of High Performance Computing Applications"
   url:
     - https://ieeexplore.ieee.org/document/5166981/
@@ -850,7 +1000,7 @@
   benchmark_quality:
     - described
 
-- id: 19
+- id: 22
   title: "A fuzzy genetic automatic refactoring approach to improve software maintainability and flexibility"
   url:
     - https://link.springer.com/article/10.1007%2Fs00500-020-05443-0
@@ -894,7 +1044,7 @@
   benchmark_quality:
     - reused
 
-- id: 20
+- id: 23
   title: "A General-Purpose Framework for Genetic Improvement"
   url:
     - https://doi.org/10.1007/978-3-319-45823-6_32
@@ -940,7 +1090,7 @@
   benchmark_quality:
     - described
 
-- id: 21
+- id: 24
   title: "A GPGPU compiler for memory optimization and parallelism management"
   url:
     - https://dl.acm.org/doi/abs/10.1145/1809028.1806606
@@ -991,7 +1141,70 @@
   benchmark_quality:
     - described
 
-- id: 22
+- id: 25
+  title: "A Holistic Approach to Automatic Mixed-Precision Code Generation and Tuning for Affine Programs"
+  url:
+    - https://dl.acm.org/doi/10.1145/3627535.3638484
+  source:
+    - ACM24 (quality)
+  year: 2024
+  venue: PPoPP
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - PrecTuner
+  tool_search:
+    - none
+  tool_approach:
+    - code generation
+    - loop transformation
+  software_nb: 21
+  software_name:
+    - correlation (PolyBench)
+    - covariance (PolyBench)
+    - 2mm (PolyBench)
+    - doitgen (PolyBench)
+    - gemm (PolyBench)
+    - symm (PolyBench)
+    - syr2k (PolyBench)
+    - syrk (PolyBench)
+    - trmm (PolyBench)
+    - cholesky (PolyBench)
+    - durbin (PolyBench)
+    - gramschmidt (PolyBench)
+    - lu (PolyBench)
+    - deriche (PolyBench)
+    - floyd (PolyBench)
+    - nussinov (PolyBench)
+    - adi (PolyBench)
+    - fdtd-2d (PolyBench)
+    - heat-3d (PolyBench)
+    - jacobi-2d (PolyBench)
+    - seidel-2d (PolyBench)
+  software_set_name:
+    - PolyBench
+  software_lang:
+    - C/C++
+  software_size:
+    - block
+    - function
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - unix/linux
+  benchmark_quality:
+    - reused
+
+- id: 26
   title: "A low-footprint java-to-native compilation scheme using formal methods"
   url:
     - https://doi.org/10.1007/11733447_24
@@ -1039,7 +1252,7 @@
     - named
     - reused
 
-- id: 23
+- id: 27
   title: "A Machine Learning Approach for Productive Data Locality Exploitation in Parallel Computing Systems"
   url:
     - https://ieeexplore.ieee.org/document/8752854/
@@ -1089,7 +1302,7 @@
   benchmark_quality:
     - named
 
-- id: 24
+- id: 28
   title: "A Machine-Learning-Based Framework for Productive Locality Exploitation"
   url:
     - https://ieeexplore.ieee.org/document/9321696/
@@ -1138,7 +1351,7 @@
   benchmark_quality:
     - named
 
-- id: 25
+- id: 29
   title: "A methodology correlating code optimizations with data memory accesses, execution time and energy consumption"
   url:
     - https://link.springer.com/article/10.1007%2Fs11227-019-02880-z
@@ -1188,7 +1401,7 @@
   benchmark_quality:
     - reused
 
-- id: 26
+- id: 30
   title: "A methodology for efficient code optimizations and memory management"
   url:
     - https://dl.acm.org/doi/10.1145/3203217.3203274
@@ -1235,7 +1448,7 @@
   benchmark_quality:
     - reused
 
-- id: 27
+- id: 31
   title: "A modular memory optimization for synchronous data-flow languages: application to arrays in a lustre compiler"
   url:
     - https://dl.acm.org/doi/10.1145/2248418.2248426
@@ -1282,7 +1495,7 @@
   benchmark_quality:
     - named
 
-- id: 28
+- id: 32
   title: "AN5D: Automated Stencil Framework for High-Degree Temporal Blocking on GPUs"
   url:
     - https://arxiv.org/abs/2001.01473
@@ -1325,7 +1538,7 @@
     - described
     - named
 
-- id: 29
+- id: 33
   title: "An actionable performance profiler for optimizing the order of evaluations"
   url:
     - https://doi.org/10.1145/3092703.3092716
@@ -1371,7 +1584,7 @@
     - named
     - reused
 
-- id: 30
+- id: 34
   title: "Analysing and improving the performance of software code for Real Time Embedded systems"
   url:
     - https://ieeexplore.ieee.org/document/6926134/
@@ -1414,7 +1627,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 31
+- id: 35
   title: "Analysis and Optimization of Embedded Software Energy Consumption on the Source Code and Algorithm Level"
   url:
     - https://ieeexplore.ieee.org/document/5402965/
@@ -1460,7 +1673,7 @@
   benchmark_quality:
     - described
 
-- id: 32
+- id: 36
   title: "Analysis of high-level address code transformations for programmable processors"
   url:
     - https://ieeexplore.ieee.org/document/840008/
@@ -1501,7 +1714,7 @@
   benchmark_quality:
     - described
 
-- id: 33
+- id: 37
   title: "Analyzing Optimization Techniques for Power Efficiency on Heterogeneous Platforms"
   url:
     - https://ieeexplore.ieee.org/document/6650989/
@@ -1544,7 +1757,7 @@
   benchmark_quality:
     - described
 
-- id: 34
+- id: 38
   title: "An approach based on a DSL + API for programming runtime adaptivity and autotuning concerns"
   url:
     - https://dl.acm.org/doi/10.1145/3167132.3167263
@@ -1588,7 +1801,7 @@
   benchmark_quality:
     - described
 
-- id: 35
+- id: 39
   title: "An Approach to Enhance Loop Performance for Multicluster VLIW DSP Processor"
   url:
     - https://ieeexplore.ieee.org/document/6775074/
@@ -1642,12 +1855,14 @@
   benchmark_quality:
     - reused
 
-- id: 36
+- id: 40
   title: "An Automated Tool for Analysis and Tuning of GPU-accelerated Code in HPC Applications"
   url:
     - https://ieeexplore.ieee.org/document/9470950/
+    - https://ieeexplore.ieee.org/abstract/document/9470950/?casa_token=44Bzh5y2U14AAAAA:rVQKyS78f-9uXF7avxAJpaxkMdfUwxszV62c0zf38ZSrWr-UuxAErpQxQAHtPDjCcS2lIVA
   source:
     - IEEE (time)
+    - Google24 (memory)
   year: 2022
   venue: IEEE TPDS
   venue_type:
@@ -1712,7 +1927,7 @@
     - named
     - reused
 
-- id: 37
+- id: 41
   title: "An Automatic Compiler Optimizations Selection Framework for Embedded Applications"
   url:
     - https://ieeexplore.ieee.org/document/5066672/
@@ -1754,7 +1969,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 38
+- id: 42
   title: "An effective fusion and tile size model for optimizing image processing pipelines"
   url:
     - https://dl.acm.org/doi/10.1145/3178487.3178507
@@ -1801,7 +2016,7 @@
   benchmark_quality:
     - described
 
-- id: 39
+- id: 43
   title: "An efficient compiler technique for code size reduction using reduced bit-width ISAs"
   url:
     - https://ieeexplore.ieee.org/document/998305/
@@ -1863,14 +2078,66 @@
   benchmark_quality:
     - reused
 
-- id: 40
+- id: 44
+  title: "An Empirical Evaluation on the Effect of Refactoring Code Smells Mobile Applications Android with ASATs on Resource Usage"
+  url:
+    - https://ijaseit.insightsociety.org/index.php/ijaseit/article/view/18852
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85186932866&doi=10.18517%2fijaseit.14.1.18852&partnerID=40&md5=c17354efb35141d5135b848b46eee5f3
+  source:
+    - Scopus24 (memory)
+  year: 2024
+  venue: IJASEIT
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - none
+  tool_approach:
+    - refactoring
+  software_nb: 3
+  software_name:
+    - Calculator
+    - Todo-list
+    - Openflood
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - unknown
+  software_notoriety:
+    - toy
+  software_platform:
+    - android
+  benchmark_quality:
+    - named
+
+- id: 45
   title: "An Empirical Investigation on the Effect of Code Smells on Resource Usage of Android Mobile Applications"
   url:
     - https://ieeexplore.ieee.org/document/9410530/
     - https://doi.org/10.1109/ACCESS.2021.3075040
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85104572199&doi=10.1109%2fACCESS.2021.3075040&partnerID=40&md5=d24e4568c0a9ab0b9e5eca21f8d08e0e
   source:
     - IEEE (memory)
     - Scopus (memory)
+    - IEEE24 (memory)
+    - IEEE24 (other)
+    - IEEE24 (quality)
+    - Scopus24 (memory)
+    - Scopus24 (other)
+    - Scopus24 (quality)
   year: 2021
   venue: IEEE Access
   venue_type:
@@ -1916,7 +2183,7 @@
     - named
     - available
 
-- id: 41
+- id: 46
   title: "An empirical study of the performance impacts of Android code smells"
   url:
     - https://dl.acm.org/doi/10.1145/2897073.2897100
@@ -1962,7 +2229,107 @@
     - named
     - available
 
-- id: 42
+- id: 47
+  title: "An Empirical Study on the Impact of Deep Parameters on Mobile App Energy Usage"
+  url:
+    - https://ieeexplore.ieee.org/document/9825870/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85135829730&doi=10.1109%2fSANER53432.2022.00103&partnerID=40&md5=feeee83be991fd2ff7f1fb67345c65e0
+  source:
+    - IEEE24 (energy)
+    - Scopus24 (energy)
+  year: 2022
+  venue: SANER
+  venue_type:
+    - conference
+  fitness:
+    - energy usage
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - sampling
+  tool_approach:
+    - source code changes
+  software_nb: 16
+  software_name:
+    - SAI
+    - ConnectBot
+    - AnySoftKeyboard
+    - KeePassDroid
+    - Amaze File Manager
+    - AntennaPod
+    - OpenKeychain
+    - Slide for Reddit
+    - Conversations
+    - Download Navi
+    - Wikimedia Commons
+    - Etar Calendar
+    - IPFS Lite
+    - F-Droid
+    - F-Droid Build Status
+    - RadarWeather
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - android
+  benchmark_quality:
+    - described
+
+- id: 48
+  title: "An empirical study on the impact of refactoring on quality metrics in android applications"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9460932/
+  source:
+    - Google24 (time)
+  year: 2021
+  venue: MobileSoft
+  venue_type:
+    - conference
+  fitness:
+    - code complexity
+  fitness_secondary:
+    - source code size
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - none
+  tool_approach:
+    - refactoring
+  software_nb: 300
+  software_name:
+    - unnamed
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - project
+    - application
+  software_usage:
+    - unknown
+  software_origin:
+    - open-source
+  software_notoriety:
+    - unknown
+  software_platform:
+    - android
+  benchmark_quality:
+    - unspecified
+
+- id: 49
   title: "An evaluation of data-parallel compiler support for line-sweep applications"
   url:
     - https://doi.org/10.1109/PACT.2002.1105969
@@ -2006,13 +2373,16 @@
   benchmark_quality:
     - reused
 
-- id: 43
+- id: 50
   title: "An Experience with Code-Size Optimization for Production iOS Mobile Applications"
   url:
     - https://ieeexplore.ieee.org/document/9370306/
+    - https://dl.acm.org/doi/10.1109/CGO51591.2021.9370306
   source:
     - IEEE (other)
     - IEEE (quality)
+    - ACM24 (other)
+    - IEEE24 (other)
   year: 2021
   venue: CGO
   venue_type:
@@ -2052,7 +2422,7 @@
   benchmark_quality:
     - named
 
-- id: 44
+- id: 51
   title: "An experimental evaluation of data dependence analysis techniques"
   url:
     - https://ieeexplore.ieee.org/document/1264806/
@@ -2099,7 +2469,7 @@
     - named
     - reused
 
-- id: 45
+- id: 52
   title: "An Implementation of LLVM Pass for Loop Parallelization Based on IR-Level Directives"
   url:
     - https://ieeexplore.ieee.org/document/8590951/
@@ -2142,7 +2512,7 @@
   benchmark_quality:
     - reused
 
-- id: 46
+- id: 53
   title: "An industrial experience report on performance-aware refactoring on a database-centric web application"
   url:
     - https://dl.acm.org/doi/10.1109/ASE.2019.00066
@@ -2185,7 +2555,49 @@
   benchmark_quality:
     - named
 
-- id: 47
+- id: 54
+  title: "An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems"
+  url:
+    - https://dl.acm.org/doi/10.14778/3450980.3450992
+  source:
+    - ACM24 (quality)
+  year: 2021
+  venue: VLDBE
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - OtterTune
+  tool_search:
+    - sampling
+  tool_approach:
+    - parameter tuning
+  software_nb: 2
+  software_name:
+    - MySQL
+    - Postgres
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - unix/linux
+  benchmark_quality:
+    - named
+
+- id: 55
   title: "An integer programming framework for optimizing shared memory use on GPUs"
   url:
     - https://ieeexplore.ieee.org/document/5713187/
@@ -2230,7 +2642,7 @@
   benchmark_quality:
     - described
 
-- id: 48
+- id: 56
   title: "An integer programming framework for optimizing shared memory use on GPUs_"
   url:
     - https://ieeexplore.ieee.org/document/7851559/
@@ -2272,7 +2684,7 @@
   benchmark_quality:
     - described
 
-- id: 49
+- id: 57
   title: "An intelligent semi-automatic application porting system for application accelerators"
   url:
     - https://dl.acm.org/doi/10.1145/1531666.1531669
@@ -2314,7 +2726,7 @@
   benchmark_quality:
     - described
 
-- id: 50
+- id: 58
   title: "An OpenMP Based Parallelization Compiler for C Applications"
   url:
     - https://ieeexplore.ieee.org/document/8672334/
@@ -2387,7 +2799,7 @@
   benchmark_quality:
     - reused
 
-- id: 51
+- id: 59
   title: "An optimization-based approach to lookup table program transformations"
   url:
     - https://doi.org/10.1002/smr.1620
@@ -2434,7 +2846,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 52
+- id: 60
   title: "An Optimized Tuning of Genetic Algorithm Parameters in Compiler Flag Selection Based on Compilation and Execution Duration"
   url:
     - https://link.springer.com/chapter/10.1007%2F978-81-322-0491-6_55
@@ -2477,7 +2889,7 @@
   benchmark_quality:
     - named
 
-- id: 53
+- id: 61
   title: "A Novel Technique for Orchestration of Compiler Optimization Functions Using Branch and Bound Strategy"
   url:
     - https://ieeexplore.ieee.org/document/4809056/
@@ -2528,7 +2940,7 @@
   benchmark_quality:
     - reused
 
-- id: 54
+- id: 62
   title: "An SMT based method for optimizing arithmetic computations in embedded software code"
   url:
     - https://doi.org/10.1109/fmcad.2013.6679401
@@ -2571,7 +2983,7 @@
   benchmark_quality:
     - described
 
-- id: 55
+- id: 63
   title: "An SSA-based algorithm for optimal speculative code motion under an execution profile"
   url:
     - https://dl.acm.org/doi/10.1145/1993498.1993510
@@ -2644,7 +3056,7 @@
   benchmark_quality:
     - reused
 
-- id: 56
+- id: 64
   title: "Antipattern-based model refactoring for software performance improvement"
   url:
     - https://dl.acm.org/doi/10.1145/2304696.2304704
@@ -2685,7 +3097,7 @@
   benchmark_quality:
     - described
 
-- id: 57
+- id: 65
   title: "A performance tuning methodology with compiler support"
   url:
     - https://doi.org/10.3233/SPR-2008-0253
@@ -2737,7 +3149,7 @@
     - named
     - reused
 
-- id: 58
+- id: 66
   title: "API-Constrained Genetic Improvement"
   url:
     - https://link.springer.com/chapter/10.1007/978-3-319-47106-8_16
@@ -2778,7 +3190,7 @@
   benchmark_quality:
     - named
 
-- id: 59
+- id: 67
   title: "Application of correctness preserving transformations to software maintenance"
   url:
     - https://doi.org/10.1109/icsm.2000.883025
@@ -2819,14 +3231,14 @@
   benchmark_quality:
     - described
 
-- id: 60
+- id: 68
   title: "Applying genetic improvement to a genetic programming library in C++"
   url:
     - https://link.springer.com/article/10.1007%2Fs00500-018-03705-6
   source:
     - manual
   year: 2019
-  venue: SoftComputing
+  venue: Soft Computing
   venue_type:
     - journal
   fitness:
@@ -2861,7 +3273,7 @@
   benchmark_quality:
     - named
 
-- id: 61
+- id: 69
   title: "Applying Genetic Improvement to MiniSAT"
   url:
     - https://link.springer.com/chapter/10.1007/978-3-642-39742-4_21
@@ -2902,7 +3314,7 @@
   benchmark_quality:
     - named
 
-- id: 62
+- id: 70
   title: "Approximate Oracles and Synergy in Software Energy Search Spaces"
   url:
     - https://ieeexplore.ieee.org/document/8338061
@@ -2948,7 +3360,7 @@
   benchmark_quality:
     - reused
 
-- id: 63
+- id: 71
   title: "A Probabilistic Framework for Compiler Optimization with Multithread Power-Gating Controls"
   url:
     - https://ieeexplore.ieee.org/document/7576478/
@@ -2998,7 +3410,7 @@
   benchmark_quality:
     - named
 
-- id: 64
+- id: 72
   title: "Area and power reduction of embedded DSP systems using instruction compression and re-configurable encoding"
   url:
     - https://doi.org/10.1007/s11265-006-8538-6
@@ -3040,7 +3452,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 65
+- id: 73
   title: "Area and power reduction of embedded DSP systems using instruction compression and re-configurable encoding_"
   url:
     - https://doi.org/10.1109/ICCAD.2001.968727
@@ -3082,7 +3494,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 66
+- id: 74
   title: "A robust steganography-based software watermarking"
   url:
     - https://doi.org/10.1145/2401603.2401675
@@ -3125,7 +3537,7 @@
   benchmark_quality:
     - named
 
-- id: 67
+- id: 75
   title: "Array regrouping and its use in compiling data-intensive, embedded applications"
   url:
     - https://ieeexplore.ieee.org/document/1255787/
@@ -3188,7 +3600,7 @@
     - named
     - reused
 
-- id: 68
+- id: 76
   title: "A search for improved performance in regular expressions"
   url:
     - https://dl.acm.org/doi/10.1145/3071178.3071196
@@ -3231,7 +3643,7 @@
   benchmark_quality:
     - available
 
-- id: 69
+- id: 77
   title: "A software-only compression system for trading-offs between performance and code size"
   url:
     - https://doi.org/10.1145/1140389.1140393
@@ -3286,7 +3698,7 @@
   benchmark_quality:
     - reused
 
-- id: 70
+- id: 78
   title: "A source-level energy optimization framework for mobile applications"
   url:
     - https://doi.org/10.1109/SCAM.2016.12
@@ -3327,7 +3739,7 @@
   benchmark_quality:
     - described
 
-- id: 71
+- id: 79
   title: "Assisting non-specialist developers to build energy-efficient software"
   url:
     - https://dl.acm.org/doi/10.1109/ICSE-C.2017.133
@@ -3369,7 +3781,7 @@
   benchmark_quality:
     - reused
 
-- id: 72
+- id: 80
   title: "A Study on the Efficiency Aspect of Data Race Detection: A Compiler Optimization Level Perspective"
   url:
     - https://ieeexplore.ieee.org/document/6605907/
@@ -3420,7 +3832,7 @@
   benchmark_quality:
     - reused
 
-- id: 73
+- id: 81
   title: "A Synchronization Optimization Technique for OpenMP"
   url:
     - https://ieeexplore.ieee.org/document/9386475/
@@ -3461,7 +3873,7 @@
   benchmark_quality:
     - described
 
-- id: 74
+- id: 82
   title: "A synthesis of memory mechanisms for distributed architectures"
   url:
     - https://doi.org/10.1145/377792.377799
@@ -3511,7 +3923,54 @@
     - named
     - reused
 
-- id: 75
+- id: 83
+  title: "A systematic approach to parameter optimization and its application to flight schedule simulation software"
+  url:
+    - https://link.springer.com/article/10.1007/s10732-022-09501-8
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85133428509&doi=10.1007%2fs10732-022-09501-8&partnerID=40&md5=07800f086ba78a4cf8ebe6ebb4baacbe
+  source:
+    - Google24 (memory)
+    - Scopus24 (other)
+    - Scopus24 (time)
+  year: 2022
+  venue: JoH
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+    - solution quality
+  fitness_secondary:
+    - none
+  fitness_multi: true
+  tool_name:
+    - irace
+    - SMAC
+  tool_search:
+    - sampling
+    - local search
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Opium
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - described
+
+- id: 84
   title: "A technique for the effective and automatic reuse of classical compiler optimizations on multithreaded code"
   url:
     - https://dl.acm.org/doi/10.1145/1926385.1926457
@@ -3562,7 +4021,7 @@
   benchmark_quality:
     - reused
 
-- id: 76
+- id: 85
   title: "ATM: Approximate Task Memoization in the Runtime System"
   url:
     - https://ieeexplore.ieee.org/document/7967204/
@@ -3611,7 +4070,7 @@
     - named
     - reused
 
-- id: 77
+- id: 86
   title: "A tuning framework for software-managed memory hierarchies"
   url:
     - https://dl.acm.org/doi/10.1145/1454115.1454155
@@ -3655,7 +4114,7 @@
   benchmark_quality:
     - described
 
-- id: 78
+- id: 87
   title: "A unified framework for optimizing locality, parallelism, and communication in out-of-core computations"
   url:
     - https://ieeexplore.ieee.org/document/877759/
@@ -3710,7 +4169,53 @@
   benchmark_quality:
     - reused
 
-- id: 79
+- id: 88
+  title: "Automated Code Repair to Ensure Spatial Memory Safety"
+  url:
+    - https://ieeexplore.ieee.org/document/9474531/
+  source:
+    - IEEE24 (memory)
+  year: 2021
+  venue: ICSE
+  venue_type:
+    - workshop
+  fitness:
+    - security
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - ACR
+  tool_search:
+    - none
+  tool_approach:
+    - refactoring
+  software_nb: 4
+  software_name:
+    - bzip2 (SPEC)
+    - mcf (SPEC)
+    - sjeng (SPEC)
+    - libquantum (SPEC)
+  software_set_name:
+    - SPEC
+  software_lang:
+    - C/C++
+  software_size:
+    - project
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - unix/linux
+  benchmark_quality:
+    - reused
+
+- id: 89
   title: "Automated compiler optimization of multiple vector loads/stores"
   url:
     - https://doi.org/10.1145/2903150.2903169
@@ -3764,7 +4269,53 @@
     - named
     - reused
 
-- id: 80
+- id: 90
+  title: "Automated empirical optimizations of software and the ATLAS project"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0167819100000879
+  source:
+    - Google (memory)
+    - Google (other)
+    - Google (quality)
+  year: 2001
+  venue: Parallel Computing
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - ATLAS
+  tool_search:
+    - local search
+  tool_approach:
+    - refactoring
+    - code generation
+    - loop transformation
+  software_nb: 0
+  software_name:
+    - unnamed
+  software_set_name:
+    - BLAS
+  software_lang:
+    - C/C++
+  software_size:
+    - block
+    - function
+  software_usage:
+    - unknown
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - reused
+
+- id: 91
   title: "Automated empirical tuning of scientific codes for performance and power consumption"
   url:
     - https://dl.acm.org/doi/10.1145/1944862.1944880
@@ -3810,7 +4361,7 @@
   benchmark_quality:
     - described
 
-- id: 81
+- id: 92
   title: "Automated just-in-time compiler tuning"
   url:
     - https://dl.acm.org/doi/10.1145/1772954.1772965
@@ -3869,7 +4420,7 @@
   benchmark_quality:
     - reused
 
-- id: 82
+- id: 93
   title: "Automated memory leak fixing on value-flow slices for C programs"
   url:
     - https://dl.acm.org/doi/10.1145/2851613.2851773
@@ -3918,7 +4469,7 @@
     - named
     - reused
 
-- id: 83
+- id: 94
   title: "Automated refactoring for size reduction of CSS style sheets"
   url:
     - https://dl.acm.org/doi/10.1145/2644866.2644885
@@ -3967,7 +4518,7 @@
   benchmark_quality:
     - named
 
-- id: 84
+- id: 95
   title: "Automated selection of software refactorings that improve performance"
   url:
     - https://www.scitepress.org/PublicationsDetail.aspx?ID=Xi8Fg71oxAc=
@@ -4008,7 +4559,7 @@
   benchmark_quality:
     - named
 
-- id: 85
+- id: 96
   title: "Automated software winnowing"
   url:
     - https://dl.acm.org/doi/10.1145/2695664.2695751
@@ -4056,7 +4607,7 @@
   benchmark_quality:
     - named
 
-- id: 86
+- id: 97
   title: "AutomaticAI – A hybrid approach for automatic artificial intelligence algorithm selection and hyperparameter tuning"
   url:
     - https://doi.org/10.1016/j.eswa.2021.115225
@@ -4097,7 +4648,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 87
+- id: 98
   title: "Automatically Exploring Tradeoffs Between Software Output Fidelity and Energy Costs"
   url:
     - https://ieeexplore.ieee.org/document/8118155/
@@ -4155,7 +4706,7 @@
     - named
     - reused
 
-- id: 88
+- id: 99
   title: "Automatically tuning parallel and parallelized programs"
   url:
     - https://doi.org/10.1007/978-3-642-13374-9_9
@@ -4198,7 +4749,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 89
+- id: 100
   title: "Automatic analysis for managing and optimizing performance-code quality"
   url:
     - https://dl.acm.org/doi/10.1145/1394504.1394508
@@ -4243,7 +4794,7 @@
     - named
     - reused
 
-- id: 90
+- id: 101
   title: "Automatic array alignment in parallel Matlab scripts"
   url:
     - https://ieeexplore.ieee.org/document/760489/
@@ -4290,7 +4841,7 @@
   benchmark_quality:
     - named
 
-- id: 91
+- id: 102
   title: "Automatic code overlay generation and partially redundant code fetch elimination"
   url:
     - https://doi.org/10.1145/2207222.2207226
@@ -4355,7 +4906,7 @@
     - named
     - reused
 
-- id: 92
+- id: 103
   title: "Automatic compiler optimization on embedded software through k-means clustering"
   url:
     - https://dl.acm.org/doi/10.1145/3380446.3430631
@@ -4397,7 +4948,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 93
+- id: 104
   title: "Automatic creation of tile size selection models"
   url:
     - https://dl.acm.org/doi/10.1145/1772954.1772982
@@ -4446,7 +4997,7 @@
   benchmark_quality:
     - described
 
-- id: 94
+- id: 105
   title: "Automatic C-to-CUDA code generation for affine programs"
   url:
     - https://doi.org/10.1007/978-3-642-11970-5_14
@@ -4487,7 +5038,7 @@
   benchmark_quality:
     - described
 
-- id: 95
+- id: 106
   title: "Automatic generation of openMP directives and its application to computational fluid dynamics codes"
   url:
     - https://doi.org/10.1007/3-540-39999-2_42
@@ -4541,7 +5092,7 @@
     - named
     - reused
 
-- id: 96
+- id: 107
   title: "Automatic generation of parallel C code for stencil applications written in MATLAB"
   url:
     - https://dl.acm.org/doi/10.1145/2935323.2935329
@@ -4586,7 +5137,7 @@
   benchmark_quality:
     - named
 
-- id: 97
+- id: 108
   title: "Automatic Improvement of Apache Spark Queries using Semantics-preserving Program Reduction"
   url:
     - https://dl.acm.org/doi/10.1145/2908961.2931692
@@ -4628,7 +5179,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 98
+- id: 109
   title: "Automatic MPI application transformation with ASPhALT"
   url:
     - https://ieeexplore.ieee.org/document/4228214/
@@ -4669,7 +5220,7 @@
   benchmark_quality:
     - described
 
-- id: 99
+- id: 110
   title: "Automatic OpenCL Code Generation from LLVM-IR using Polyhedral Optimization"
   url:
     - https://dl.acm.org/doi/10.1145/3183767.3183779
@@ -4710,7 +5261,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 100
+- id: 111
   title: "Automatic OpenCL work-group size selection for multicore CPUs"
   url:
     - https://dl.acm.org/doi/10.5555/2523721.2523772
@@ -4754,7 +5305,7 @@
   benchmark_quality:
     - reused
 
-- id: 101
+- id: 112
   title: "Automatic parallelization of fine-grained meta-functions on a chip multiprocessor"
   url:
     - https://ieeexplore.ieee.org/document/5764681/
@@ -4803,7 +5354,7 @@
   benchmark_quality:
     - reused
 
-- id: 102
+- id: 113
   title: "Automatic Software Tuning of Parallel Programs for Energy-Aware Executions"
   url:
     - https://doi.org/10.1007/978-3-030-43222-5_13
@@ -4845,7 +5396,7 @@
   benchmark_quality:
     - named
 
-- id: 103
+- id: 114
   title: "Automatic, template-based run-time specialization: implementation and experimental study"
   url:
     - https://ieeexplore.ieee.org/document/674164/
@@ -4893,7 +5444,7 @@
   benchmark_quality:
     - named
 
-- id: 104
+- id: 115
   title: "A Variable Vector Length SIMD Architecture for HW/SW Co-designed Processors"
   url:
     - https://arxiv.org/abs/2102.13410
@@ -4953,7 +5504,7 @@
   benchmark_quality:
     - reused
 
-- id: 105
+- id: 116
   title: "Bandit-based optimization on graphs with application to library performance tuning"
   url:
     - https://dl.acm.org/doi/10.1145/1553374.1553468
@@ -4994,7 +5545,7 @@
   benchmark_quality:
     - described
 
-- id: 106
+- id: 117
   title: "Behavior-level observability don&#39;t-cares and application to low-power behavioral synthesis"
   url:
     - https://dl.acm.org/doi/10.1145/1594233.1594266
@@ -5039,7 +5590,7 @@
   benchmark_quality:
     - named
 
-- id: 107
+- id: 118
   title: "Binary control-flow trimming"
   url:
     - https://doi.org/10.1145/3319535.3345665
@@ -5113,7 +5664,7 @@
     - named
     - reused
 
-- id: 108
+- id: 119
   title: "Binary Debloating for Security via Demand Driven Loading"
   url:
     - https://arxiv.org/abs/1902.06570
@@ -5177,7 +5728,7 @@
   benchmark_quality:
     - reused
 
-- id: 109
+- id: 120
   title: "Binary refactoring: Improving code behind the scenes"
   url:
     - https://dl.acm.org/doi/10.1145/1062455.1062511
@@ -5224,7 +5775,7 @@
     - described
     - reused
 
-- id: 110
+- id: 121
   title: "Black-Box Optimization of Hadoop Parameters Using Derivative-Free Optimization"
   url:
     - https://ieeexplore.ieee.org/document/7445312/
@@ -5266,7 +5817,7 @@
   benchmark_quality:
     - described
 
-- id: 111
+- id: 122
   title: "BlankIt library debloating: getting what you want instead of cutting what you don&rsquo;t"
   url:
     - https://dl.acm.org/doi/10.1145/3385412.3386017
@@ -5331,7 +5882,7 @@
   benchmark_quality:
     - reused
 
-- id: 112
+- id: 123
   title: "Bloat Factors and Binary Specialization"
   url:
     - https://dl.acm.org/doi/10.1145/3338502.3359765
@@ -5401,7 +5952,7 @@
     - named
     - reused
 
-- id: 113
+- id: 124
   title: "BOLT: A Practical Binary Optimizer for Data Centers and Beyond"
   url:
     - https://ieeexplore.ieee.org/document/8661201/
@@ -5446,7 +5997,7 @@
   benchmark_quality:
     - named
 
-- id: 114
+- id: 125
   title: "Cache miss equations: a compiler framework for analyzing and tuning memory behavior"
   url:
     - https://dl.acm.org/doi/abs/10.1145/325478.325479
@@ -5496,7 +6047,7 @@
     - unspecified
     - named
 
-- id: 115
+- id: 126
   title: "Can traditional programming bridge the Ninja performance gap for parallel computing applications?"
   url:
     - https://dl.acm.org/doi/10.5555/2337159.2337210
@@ -5551,7 +6102,7 @@
   benchmark_quality:
     - named
 
-- id: 116
+- id: 127
   title: "CARVE: Practical Security-Focused Software Debloating Using Simple Feature Set Mappings"
   url:
     - https://dl.acm.org/doi/10.1145/3338502.3359764
@@ -5599,7 +6150,7 @@
   benchmark_quality:
     - named
 
-- id: 117
+- id: 128
   title: "Challenges on applying genetic improvement in JavaScript using a high-performance computer"
   url:
     - https://link.springer.com/article/10.1186%2Fs40411-018-0056-2
@@ -5655,7 +6206,7 @@
   benchmark_quality:
     - named
 
-- id: 118
+- id: 129
   title: "Cimplifier: automatically debloating containers"
   url:
     - https://dl.acm.org/doi/10.1145/3106237.3106271
@@ -5706,7 +6257,7 @@
   benchmark_quality:
     - named
 
-- id: 119
+- id: 130
   title: "Classbox/J: controlling the scope of change in Java"
   url:
     - https://dl.acm.org/doi/10.1145/1103845.1094826
@@ -5748,7 +6299,7 @@
   benchmark_quality:
     - named
 
-- id: 120
+- id: 131
   title: "Cleaning up erlang code is a dirty job but somebody's gotta do it"
   url:
     - https://doi.org/10.1145/1596600.1596602
@@ -5801,7 +6352,7 @@
   benchmark_quality:
     - named
 
-- id: 121
+- id: 132
   title: "Clone detection and elimination for Haskell"
   url:
     - https://doi.org/10.1145/1706356.1706378
@@ -5854,7 +6405,7 @@
   benchmark_quality:
     - reused
 
-- id: 122
+- id: 133
   title: "COBAYN: Compiler Autotuning Framework Using Bayesian Networks"
   url:
     - https://dl.acm.org/doi/10.1145/2928270
@@ -5932,7 +6483,7 @@
   benchmark_quality:
     - reused
 
-- id: 123
+- id: 134
   title: "Code decomposition and recomposition for enhancing embedded software performance"
   url:
     - https://dl.acm.org/doi/10.5555/1509633.1509777
@@ -5978,7 +6529,7 @@
   benchmark_quality:
     - described
 
-- id: 124
+- id: 135
   title: "Code generation and optimization for transactional memory constructs in an unmanaged language"
   url:
     - https://ieeexplore.ieee.org/abstract/document/4145103/
@@ -6027,7 +6578,7 @@
   benchmark_quality:
     - reused
 
-- id: 125
+- id: 136
   title: "Code layout optimizations for transaction processing workloads"
   url:
     - https://ieeexplore.ieee.org/document/937444/
@@ -6070,7 +6621,7 @@
   benchmark_quality:
     - named
 
-- id: 126
+- id: 137
   title: "CodeMason: Binary-Level Profile-Guided Optimization"
   url:
     - https://dl.acm.org/doi/10.1145/3338502.3359763
@@ -6136,7 +6687,7 @@
   benchmark_quality:
     - reused
 
-- id: 127
+- id: 138
   title: "Code optimization for code compression"
   url:
     - https://doi.org/10.1109/CGO.2003.1191555
@@ -6186,7 +6737,7 @@
   benchmark_quality:
     - named
 
-- id: 128
+- id: 139
   title: "Code optimizations using formally verified properties"
   url:
     - https://dl.acm.org/doi/10.1145/2509136.2509513
@@ -6229,7 +6780,7 @@
   benchmark_quality:
     - named
 
-- id: 129
+- id: 140
   title: "Code refactoring techniques for reducing energy consumption in embedded computing environment"
   url:
     - https://doi.org/10.1007/s10586-016-0691-5
@@ -6270,7 +6821,7 @@
   benchmark_quality:
     - named
 
-- id: 130
+- id: 141
   title: "Code size and performance optimization for mobile JavaScript just-in-time compiler"
   url:
     - https://dl.acm.org/doi/10.1145/1739025.1739034
@@ -6316,7 +6867,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 131
+- id: 142
   title: "Code Size Reduction Technique and Implementation for Software-Pipelined DSP Applications"
   url:
     - https://doi.org/10.1145/950162.950168
@@ -6362,7 +6913,7 @@
   benchmark_quality:
     - named
 
-- id: 132
+- id: 143
   title: "Code Specialization through Dynamic Feature Observation"
   url:
     - https://dl.acm.org/doi/10.1145/3422337.3447844
@@ -6432,7 +6983,7 @@
     - named
     - reused
 
-- id: 133
+- id: 144
   title: "Code Transformation Impact on Compiler-based Optimization: A Case Study in the CMSSW"
   url:
     - https://iopscience.iop.org/article/10.1088/1742-6596/1936/1/012023
@@ -6473,7 +7024,7 @@
   benchmark_quality:
     - named
 
-- id: 134
+- id: 145
   title: "Code transformations for low power caching in embedded multimedia processors"
   url:
     - https://doi.org/10.1109/IPPS.1998.669928
@@ -6518,7 +7069,7 @@
   benchmark_quality:
     - described
 
-- id: 135
+- id: 146
   title: "Code transformations to improve memory parallelism"
   url:
     - https://ieeexplore.ieee.org/abstract/document/809452/
@@ -6566,7 +7117,7 @@
     - named
     - reused
 
-- id: 136
+- id: 147
   title: "Combining concern input with program analysis for bloat detection"
   url:
     - https://dl.acm.org/doi/10.1145/2509136.2509522
@@ -6624,7 +7175,7 @@
     - named
     - reused
 
-- id: 137
+- id: 148
   title: "Combining global code and data compaction"
   url:
     - https://doi.org/10.1145/384197.384204
@@ -6694,7 +7245,7 @@
     - named
     - reused
 
-- id: 138
+- id: 149
   title: "Compact and efficient code generation through program restructuring on limited memory embedded DSPs"
   url:
     - https://ieeexplore.ieee.org/document/918207/
@@ -6739,7 +7290,7 @@
   benchmark_quality:
     - described
 
-- id: 139
+- id: 150
   title: "Comparative study of the impact of processor architecture on compiler tuning"
   url:
     - https://ieeexplore.ieee.org/document/7732109
@@ -6791,7 +7342,7 @@
   benchmark_quality:
     - reused
 
-- id: 140
+- id: 151
   title: "Comparing Genetic Programming Approaches for Non-functional Genetic Improvement"
   url:
     - https://link.springer.com/chapter/10.1007/978-3-030-44094-7_5
@@ -6832,7 +7383,7 @@
   benchmark_quality:
     - named
 
-- id: 141
+- id: 152
   title: "Compiler-based optimizations impact on embedded software power consumption"
   url:
     - https://doi.org/10.1109/NEWCAS.2009.5290480
@@ -6874,7 +7425,7 @@
   benchmark_quality:
     - named
 
-- id: 142
+- id: 153
   title: "Compiler-controlled memory"
   url:
     - https://dl.acm.org/doi/abs/10.1145/384265.291010
@@ -6920,7 +7471,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 143
+- id: 154
   title: "Compiler Directed Battery-Aware Implementation of Mobile Applications"
   url:
     - https://ieeexplore.ieee.org/document/4136946/
@@ -6962,7 +7513,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 144
+- id: 155
   title: "Compiler-Directed Code Restructuring for Operating with Compressed Arrays"
   url:
     - https://ieeexplore.ieee.org/document/4092049/
@@ -7012,7 +7563,7 @@
   benchmark_quality:
     - reused
 
-- id: 145
+- id: 156
   title: "Compiler-Directed Energy Optimization for Parallel Disk Based Systems"
   url:
     - https://ieeexplore.ieee.org/document/4288124/
@@ -7057,7 +7608,7 @@
   benchmark_quality:
     - reused
 
-- id: 146
+- id: 157
   title: "Compiler-directed selection of dynamic memory layouts"
   url:
     - https://ieeexplore.ieee.org/document/924679/
@@ -7102,7 +7653,7 @@
   benchmark_quality:
     - described
 
-- id: 147
+- id: 158
   title: "Compiler extensions towards reliable multicore processors"
   url:
     - https://ieeexplore.ieee.org/document/7943714/
@@ -7144,7 +7695,7 @@
   benchmark_quality:
     - described
 
-- id: 148
+- id: 159
   title: "Compiler optimization of memory-resident value communication between speculative threads"
   url:
     - https://ieeexplore.ieee.org/abstract/document/1281662/
@@ -7199,7 +7750,7 @@
   benchmark_quality:
     - reused
 
-- id: 149
+- id: 160
   title: "Compiler optimization-space exploration"
   url:
     - https://ieeexplore.ieee.org/abstract/document/1191546/
@@ -7250,7 +7801,7 @@
   benchmark_quality:
     - reused
 
-- id: 150
+- id: 161
   title: "Compiler support for scalable and efficient memory systems"
   url:
     - https://ieeexplore.ieee.org/abstract/document/966497/
@@ -7322,7 +7873,7 @@
   benchmark_quality:
     - reused
 
-- id: 151
+- id: 162
   title: "Compiling and Optimizing Java 8 Programs for GPU Execution"
   url:
     - https://ieeexplore.ieee.org/document/7429325/
@@ -7376,7 +7927,7 @@
   benchmark_quality:
     - reused
 
-- id: 152
+- id: 163
   title: "Compiling for performance and power efficiency"
   url:
     - https://ieeexplore.ieee.org/document/6662167/
@@ -7420,7 +7971,7 @@
     - unspecified
     - reused
 
-- id: 153
+- id: 164
   title: "Compressed Instruction Set Coding (CISC) for Performance Optimization of Hand Held Devices"
   url:
     - https://ieeexplore.ieee.org/document/4760455/
@@ -7478,7 +8029,7 @@
   benchmark_quality:
     - reused
 
-- id: 154
+- id: 165
   title: "Configuration-Driven Software Debloating"
   url:
     - https://dl.acm.org/doi/10.1145/3301417.3312501
@@ -7523,7 +8074,7 @@
   benchmark_quality:
     - named
 
-- id: 155
+- id: 166
   title: "Context-aware code optimization"
   url:
     - https://ieeexplore.ieee.org/document/5403838/
@@ -7580,7 +8131,7 @@
   benchmark_quality:
     - reused
 
-- id: 156
+- id: 167
   title: "CRbS:A Code Reordering Based Speeding-up Method of Irregular Loops on CMP"
   url:
     - https://ieeexplore.ieee.org/document/8825145/
@@ -7627,7 +8178,7 @@
   benchmark_quality:
     - reused
 
-- id: 157
+- id: 168
   title: "Darwinian data structure selection"
   url:
     - https://dl.acm.org/doi/10.1145/3236024.3236043
@@ -7720,7 +8271,7 @@
     - named
     - reused
 
-- id: 158
+- id: 169
   title: "Data Compression and Re-computation Based Performance Improvement in Multi-Core Architectures"
   url:
     - https://ieeexplore.ieee.org/document/9031221/
@@ -7768,7 +8319,7 @@
   benchmark_quality:
     - named
 
-- id: 159
+- id: 170
   title: "Data-layout optimization based on memory-access-pattern analysis for source-code performance improvement"
   url:
     - https://dl.acm.org/doi/10.1145/3378678.3391874
@@ -7818,7 +8369,96 @@
   benchmark_quality:
     - named
 
-- id: 160
+- id: 171
+  title: "Debloating Feature-Rich Closed-Source Windows Software"
+  url:
+    - https://ieeexplore.ieee.org/document/10589724/
+  source:
+    - IEEE24 (quality)
+  year: 2024
+  venue: SANER
+  venue_type:
+    - conference
+  fitness:
+    - attack surface
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - BinDebloat
+  tool_search:
+    - none
+  tool_approach:
+    - source code changes
+  software_nb: 2
+  software_name:
+    - 7zip
+    - Acrobat
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - unknown
+  software_origin:
+    - open-source
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - windows
+  benchmark_quality:
+    - named
+
+- id: 172
+  title: "DeepCAT: A Cost-Efficient Online Configuration Auto-Tuning Approach for Big Data Frameworks"
+  url:
+    - https://dl.acm.org/doi/10.1145/3545008.3545018
+  source:
+    - ACM24 (quality)
+    - ACM24 (time)
+  year: 2022
+  venue: ICPP
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - DeepCat
+  tool_search:
+    - machine learning
+  tool_approach:
+    - parameter tuning
+  software_nb: 3
+  software_name:
+    - Spark
+    - YARN
+    - HDFS
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - unknown
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 173
   title: "Deep Parameter Optimisation"
   url:
     - https://dl.acm.org/doi/10.1145/2739480.2754648
@@ -7865,7 +8505,7 @@
   benchmark_quality:
     - named
 
-- id: 161
+- id: 174
   title: "Design and performance improvement of a real-world, object-oriented C++ solver with STL"
   url:
     - https://doi.org/10.1007/3-540-63827-X_40
@@ -7906,7 +8546,7 @@
   benchmark_quality:
     - named
 
-- id: 162
+- id: 175
   title: "Design of the CodeBoost transformation system for domain-specific optimisation of C++ programs"
   url:
     - https://doi.org/10.1109/SCAM.2003.1238032
@@ -7949,7 +8589,7 @@
   benchmark_quality:
     - named
 
-- id: 163
+- id: 176
   title: "Detection and correction of android-specific code smells and energy bugs: An android lint extension"
   url:
     - http://ceur-ws.org/Vol-2767/09-QuASoQ-2020.pdf
@@ -7999,7 +8639,7 @@
   benchmark_quality:
     - reused
 
-- id: 164
+- id: 177
   title: "Development of an optimizing compiler for a Fujitsu fixed-point digital signal processor"
   url:
     - https://ieeexplore.ieee.org/document/777381/
@@ -8053,7 +8693,7 @@
   benchmark_quality:
     - named
 
-- id: 165
+- id: 178
   title: "Distributed memory code generation for mixed Irregular&#x2F;Regular computations"
   url:
     - https://dl.acm.org/doi/10.1145/2688500.2688515
@@ -8098,7 +8738,7 @@
     - described
     - named
 
-- id: 166
+- id: 179
   title: "Do Energy-Oriented Changes Hinder Maintainability?"
   url:
     - https://doi.org/10.1109/ICSME.2019.00013
@@ -8144,7 +8784,7 @@
   benchmark_quality:
     - named
 
-- id: 167
+- id: 180
   title: "Does lean imply green? A study of the power performance implications of Java runtime bloat"
   url:
     - https://doi.org/10.1145/2254756.2254789
@@ -8187,7 +8827,7 @@
   benchmark_quality:
     - reused
 
-- id: 168
+- id: 181
   title: "Does the Introduction of Lambda Expressions Improve the Comprehension of Java Programs?"
   url:
     - https://dl.acm.org/doi/10.1145/3350768.3350791
@@ -8228,7 +8868,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 169
+- id: 182
   title: "Dominance-based duplication simulation (DBDS): code duplication to enable compiler optimizations"
   url:
     - https://dl.acm.org/doi/10.1145/3168811
@@ -8327,7 +8967,7 @@
     - named
     - reused
 
-- id: 170
+- id: 183
   title: "Dymaxion: Optimizing memory access patterns for heterogeneous systems"
   url:
     - https://dl.acm.org/doi/abs/10.1145/2063384.2063401
@@ -8371,7 +9011,7 @@
   benchmark_quality:
     - reused
 
-- id: 171
+- id: 184
   title: "Easy PRAM-Based High-Performance Parallel Programming with ICE"
   url:
     - https://ieeexplore.ieee.org/document/8046100/
@@ -8414,7 +9054,7 @@
   benchmark_quality:
     - described
 
-- id: 172
+- id: 185
   title: "Effective Program Debloating via Reinforcement Learning"
   url:
     - https://dl.acm.org/doi/10.1145/3243734.3243838
@@ -8468,7 +9108,7 @@
   benchmark_quality:
     - named
 
-- id: 173
+- id: 186
   title: "Effects of loop unrolling and use of instruction buffer on processor energy consumption"
   url:
     - https://ieeexplore.ieee.org/document/6089224
@@ -8514,7 +9154,7 @@
   benchmark_quality:
     - reused
 
-- id: 174
+- id: 187
   title: "Effects of Refactoring upon Efficiency of an NP-Hard Task Assignment Problem: A case study"
   url:
     - https://ieeexplore.ieee.org/document/9055956
@@ -8555,7 +9195,7 @@
   benchmark_quality:
     - described
 
-- id: 175
+- id: 188
   title: "Effects of source-code optimizations on GPU performance and energy consumption"
   url:
     - https://dl.acm.org/doi/10.1145/2716282.2716292
@@ -8601,12 +9241,20 @@
   benchmark_quality:
     - described
 
-- id: 176
+- id: 189
   title: "Efficient Auto-Tuning of Parallel Programs with Interdependent Tuning Parameters via Auto-Tuning Framework (ATF)"
   url:
     - https://dl.acm.org/doi/10.1145/3427093
+    - https://dl.acm.org/doi/abs/10.1145/3427093
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099782495&doi=10.1145%2f3427093&partnerID=40&md5=eaf467ee7ac66b0103dcaab5acaae53e
   source:
     - manual
+    - ACM24 (memory)
+    - ACM24 (quality)
+    - ACM24 (time)
+    - Google24 (memory)
+    - Scopus24 (memory)
+    - Scopus24 (other)
   year: 2021
   venue: ACM TACO
   venue_type:
@@ -8645,7 +9293,7 @@
     - described
     - named
 
-- id: 177
+- id: 190
   title: "Efficient Compiler Autotuning via Bayesian Optimization"
   url:
     - https://ieeexplore.ieee.org/document/9401979/
@@ -8708,7 +9356,7 @@
   benchmark_quality:
     - reused
 
-- id: 178
+- id: 191
   title: "Efficient hyperparameter optimization by way of PAC-Bayes bound minimization"
   url:
     - https://arxiv.org/abs/2008.06431
@@ -8750,7 +9398,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 179
+- id: 192
   title: "Efficient implementation of ADPCM codec"
   url:
     - https://ieeexplore.ieee.org/document/812649/
@@ -8793,7 +9441,94 @@
   benchmark_quality:
     - described
 
-- id: 180
+- id: 193
+  title: "Efficiently Trimming the Fat: Streamlining Software Dependencies with Java Reflection and Dependency Analysis"
+  url:
+    - https://ieeexplore.ieee.org/document/10549332/
+  source:
+    - IEEE24 (other)
+  year: 2024
+  venue: ICSE
+  venue_type:
+    - conference
+  fitness:
+    - source code size
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - SLIMMING
+  tool_search:
+    - none
+  tool_approach:
+    - source code changes
+  software_nb: 4035
+  software_name:
+    - unnamed
+  software_set_name:
+    - DaCapo
+  software_lang:
+    - Java
+  software_size:
+    - project
+    - application
+    - unknown
+  software_usage:
+    - unknown
+  software_origin:
+    - open-source
+  software_notoriety:
+    - unknown
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - unspecified
+
+- id: 194
+  title: "EFTuner: A Bi-Objective Configuration Parameter Auto-Tuning Method Towards Energy-Efficient Big Data Processing"
+  url:
+    - https://dl.acm.org/doi/10.1145/3609437.3609443
+  source:
+    - ACM24 (energy)
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2023
+  venue: InternetWare
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+    - energy usage
+  fitness_secondary:
+    - none
+  fitness_multi: true
+  tool_name:
+    - EFTuner
+  tool_search:
+    - genetic algorithm
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 195
   title: "Embedding Adaptivity in Software Systems using the ECSELR framework"
   url:
     - https://dl.acm.org/doi/10.1145/2739482.2768425
@@ -8834,7 +9569,7 @@
   benchmark_quality:
     - described
 
-- id: 181
+- id: 196
   title: "Empirical Comparison of Search Heuristics for Genetic Improvement of Software"
   url:
     - https://ieeexplore.ieee.org/document/9392013
@@ -8887,7 +9622,7 @@
   benchmark_quality:
     - named
 
-- id: 182
+- id: 197
   title: "Enabling multi-threaded applications on hybrid shared memory manycore architectures"
   url:
     - https://dl.acm.org/doi/10.5555/2755753.2755922
@@ -8937,7 +9672,7 @@
   benchmark_quality:
     - described
 
-- id: 183
+- id: 198
   title: "EnDebug: A hardware-software framework for automated energy debugging"
   url:
     - https://doi.org/10.1016/j.jpdc.2016.05.005
@@ -8996,7 +9731,56 @@
   benchmark_quality:
     - reused
 
-- id: 184
+- id: 199
+  title: "Energy Efficiency Analysis of Code Refactoring Techniques for Green and Sustainable Software in Portable Devices"
+  url:
+    - https://www.mdpi.com/2079-9292/11/3/442
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85123696731&doi=10.3390%2felectronics11030442&partnerID=40&md5=8fe011f33af431035e57ce272701b1b4
+  source:
+    - Scopus24 (energy)
+    - Scopus24 (quality)
+    - Scopus24 (time)
+  year: 2022
+  venue: Electronics
+  venue_type:
+    - journal
+  fitness:
+    - energy usage
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - none
+  tool_approach:
+    - refactoring
+    - loop transformation
+    - inlining
+  software_nb: 2
+  software_name:
+    - 2048 (android)
+    - 2048 (desktop)
+  software_set_name:
+    - unnamed
+  software_lang:
+    - C#
+    - Java
+  software_size:
+    - unknown
+  software_usage:
+    - unknown
+  software_origin:
+    - unknown
+  software_notoriety:
+    - toy
+  software_platform:
+    - windows
+    - android
+  benchmark_quality:
+    - unspecified
+
+- id: 200
   title: "Energy-optimizing source code transformations for operating system-driven embedded software"
   url:
     - https://doi.org/10.1145/1324969.1324971
@@ -9037,7 +9821,7 @@
   benchmark_quality:
     - described
 
-- id: 185
+- id: 201
   title: "Energy-optimizing source code transformations for OS-driven embedded software"
   url:
     - https://ieeexplore.ieee.org/document/1260934/
@@ -9080,7 +9864,7 @@
   benchmark_quality:
     - described
 
-- id: 186
+- id: 202
   title: "Enhanced compression techniques to simplify program decompression and execution"
   url:
     - https://ieeexplore.ieee.org/document/628865
@@ -9121,7 +9905,7 @@
   benchmark_quality:
     - described
 
-- id: 187
+- id: 203
   title: "Enhancement in ARM code optimization for memory constrained embedded systems"
   url:
     - https://doi.org/10.1109/ADCOM.2006.4289940
@@ -9166,7 +9950,7 @@
   benchmark_quality:
     - described
 
-- id: 188
+- id: 204
   title: "Enhancing Genetic Improvement of Software with Regression Test Selection"
   url:
     - https://ieeexplore.ieee.org/document/9401972/
@@ -9216,7 +10000,49 @@
   benchmark_quality:
     - named
 
-- id: 189
+- id: 205
+  title: "ETune: Efficient configuration tuning for big-data software systems via configuration space reduction"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S016412122300331X?via%3Dihub
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85181014377&doi=10.1016%2fj.jss.2023.111936&partnerID=40&md5=7bc713f34d3595ce08baa7e4051d8008
+  source:
+    - Scopus24 (other)
+  year: 2024
+  venue: JSS
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - ETune
+  tool_search:
+    - local search
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 206
   title: "Evaluating the Impact of Code Smell Refactoring on the Energy Consumption of Android Applications"
   url:
     - https://doi.org/10.1109/SEAA.2019.00021
@@ -9260,7 +10086,7 @@
   benchmark_quality:
     - named
 
-- id: 190
+- id: 207
   title: "Evaluating the impact of memory system performance on software prefetching and locality optimizations"
   url:
     - https://doi.org/10.1145/377792.377906
@@ -9308,7 +10134,7 @@
     - named
     - reused
 
-- id: 191
+- id: 208
   title: "Evaluating the WaterRpg software watermarking model on Java application programs"
   url:
     - https://dl.acm.org/doi/10.1145/2491845.2491873
@@ -9353,7 +10179,7 @@
   benchmark_quality:
     - named
 
-- id: 192
+- id: 209
   title: "Evaluation and optimization of Java object ordering schemes"
   url:
     - https://ieeexplore.ieee.org/document/6021558/
@@ -9402,7 +10228,7 @@
   benchmark_quality:
     - reused
 
-- id: 193
+- id: 210
   title: "Evolutionary Improvement of Programs"
   url:
     - https://ieeexplore.ieee.org/document/5688317
@@ -9446,7 +10272,7 @@
   benchmark_quality:
     - available
 
-- id: 194
+- id: 211
   title: "Evolutionary Optimization of Compiler Flag Selection by Learning and Exploiting Flags Interactions"
   url:
     - https://dl.acm.org/doi/10.1145/2908961.2931696
@@ -9491,7 +10317,7 @@
   benchmark_quality:
     - reused
 
-- id: 195
+- id: 212
   title: "Evolutionary programming to optimize an assembly program"
   url:
     - https://ieeexplore.ieee.org/document/1004533
@@ -9532,7 +10358,7 @@
   benchmark_quality:
     - named
 
-- id: 196
+- id: 213
   title: "Evolving a CUDA Kernel from an nVidia Template"
   url:
     - https://ieeexplore.ieee.org/document/5585922
@@ -9573,7 +10399,7 @@
   benchmark_quality:
     - reused
 
-- id: 197
+- id: 214
   title: "Evolving JavaScript code to reduce load time"
   url:
     - https://ieeexplore.ieee.org/document/8762190/
@@ -9629,7 +10455,7 @@
   benchmark_quality:
     - named
 
-- id: 198
+- id: 215
   title: "Evolving sqrt into 1/x via software data maintenance"
   url:
     - https://dl.acm.org/doi/10.1145/3377929.3398110
@@ -9670,7 +10496,7 @@
   benchmark_quality:
     - named
 
-- id: 199
+- id: 216
   title: "Examining energy efficiency of vectorization techniques using a Gaussian elimination"
   url:
     - https://doi.org/10.1109/HPCS.2018.00054
@@ -9712,7 +10538,7 @@
   benchmark_quality:
     - described
 
-- id: 200
+- id: 217
   title: "Exana: an execution-driven application analysis tool for assisting productive performance tuning"
   url:
     - https://dl.acm.org/doi/10.1145/2837476.2837477
@@ -9760,7 +10586,7 @@
     - named
     - reused
 
-- id: 201
+- id: 218
   title: "Execution profile driven speedup estimation for porting sequential code to GPU"
   url:
     - https://dl.acm.org/doi/10.1145/2675744.2675767
@@ -9808,7 +10634,7 @@
   benchmark_quality:
     - reused
 
-- id: 202
+- id: 219
   title: "Exploiting distributed and shared memory hierarchies with Hitmap"
   url:
     - https://ieeexplore.ieee.org/document/6903696/
@@ -9851,7 +10677,7 @@
   benchmark_quality:
     - described
 
-- id: 203
+- id: 220
   title: "Exploiting function similarity for code size reduction"
   url:
     - https://dl.acm.org/doi/10.1145/2597809.2597811
@@ -9913,7 +10739,7 @@
   benchmark_quality:
     - reused
 
-- id: 204
+- id: 221
   title: "Exploiting GPU Hardware Saturation for Fast Compiler Optimization"
   url:
     - https://dl.acm.org/doi/10.1145/2588768.2576791
@@ -9973,7 +10799,7 @@
   benchmark_quality:
     - reused
 
-- id: 205
+- id: 222
   title: "Exploiting slicing and patterns for RTSJ immortal memory optimization"
   url:
     - https://dl.acm.org/doi/abs/10.1145/2500828.2500845
@@ -10014,7 +10840,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 206
+- id: 223
   title: "Exploring compiler optimizations for enhancing power gating"
   url:
     - https://ieeexplore.ieee.org/document/5117928/
@@ -10065,7 +10891,7 @@
   benchmark_quality:
     - reused
 
-- id: 207
+- id: 224
   title: "Exploring Memory Persistency Models for GPUs"
   url:
     - https://arxiv.org/abs/1904.12661
@@ -10127,7 +10953,7 @@
   benchmark_quality:
     - reused
 
-- id: 208
+- id: 225
   title: "Exploring the Impact of Clone Refactoring on Test Code Size in Object-Oriented Software"
   url:
     - https://ieeexplore.ieee.org/document/8260695/
@@ -10168,7 +10994,7 @@
   benchmark_quality:
     - named
 
-- id: 209
+- id: 226
   title: "Exploring the space of optimization sequences for code-size reduction: insights and tools"
   url:
     - https://dl.acm.org/doi/10.1145/3446804.3446849
@@ -10211,7 +11037,7 @@
   benchmark_quality:
     - reused
 
-- id: 210
+- id: 227
   title: "Exposing hidden performance opportunities in high performance GPU applications"
   url:
     - https://dl.acm.org/doi/10.1109/CCGRID.2018.00045
@@ -10256,7 +11082,7 @@
   benchmark_quality:
     - named
 
-- id: 211
+- id: 228
   title: "Extended Memory Reuse: An Optimisation for Reducing Memory Allocations"
   url:
     - https://dl.acm.org/doi/10.1145/3310232.3310242
@@ -10318,7 +11144,7 @@
   benchmark_quality:
     - reused
 
-- id: 212
+- id: 229
   title: "Extracting client-side web application code"
   url:
     - https://dl.acm.org/doi/10.1145/2187836.2187947
@@ -10364,7 +11190,58 @@
   benchmark_quality:
     - named
 
-- id: 213
+- id: 230
+  title: "Facilitating database tuning with hyper-parameter optimization"
+  url:
+    - https://dl.acm.org/doi/10.14778/3538598.3538604
+  source:
+    - ACM24 (quality)
+  year: 2022
+  venue: VLDBE
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - sampling
+    - genetic algorithm
+    - local search
+  tool_approach:
+    - parameter tuning
+  software_nb: 9
+  software_name:
+    - JOB
+    - SYSBENCH
+    - TPC-C
+    - SEATS
+    - SmallBank
+    - TATP
+    - Voter
+    - Twitter
+    - SIBench
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - unknown
+  software_notoriety:
+    - unknown
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 231
   title: "Fast and effective orchestration of compiler optimizations for automatic performance tuning"
   url:
     - https://ieeexplore.ieee.org/abstract/document/1611551/
@@ -10427,7 +11304,7 @@
   benchmark_quality:
     - reused
 
-- id: 214
+- id: 232
   title: "FBT: filled buffer technique to reduce code size for VLIW processors"
   url:
     - https://dl.acm.org/doi/10.5555/1509456.1509578
@@ -10479,7 +11356,7 @@
   benchmark_quality:
     - reused
 
-- id: 215
+- id: 233
   title: "FlexFloat: A Software Library for Transprecision Computing"
   url:
     - https://ieeexplore.ieee.org/document/8556098/
@@ -10531,7 +11408,7 @@
   benchmark_quality:
     - described
 
-- id: 216
+- id: 234
   title: "Function inlining under code size constraints for embedded processors"
   url:
     - https://dl.acm.org/doi/pdf/10.5555/339492.340022
@@ -10573,7 +11450,7 @@
   benchmark_quality:
     - described
 
-- id: 217
+- id: 235
   title: "Generating efficient data movement code for heterogeneous architectures with distributed-memory"
   url:
     - https://dl.acm.org/doi/10.5555/2523721.2523771
@@ -10620,7 +11497,7 @@
     - named
     - reused
 
-- id: 218
+- id: 236
   title: "Genetic improvement of data gives binary logarithm from sqrt"
   url:
     - https://dl.acm.org/doi/10.1145/3319619.3321954
@@ -10661,7 +11538,7 @@
   benchmark_quality:
     - named
 
-- id: 219
+- id: 237
   title: "Genetic improvement of data gives double precision invsqrt"
   url:
     - https://dl.acm.org/doi/10.1145/3319619.3326800
@@ -10702,7 +11579,7 @@
   benchmark_quality:
     - named
 
-- id: 220
+- id: 238
   title: "Genetic improvement of GPU code"
   url:
     - https://dl.acm.org/doi/10.1109/GI.2019.00014
@@ -10760,7 +11637,7 @@
     - named
     - reused
 
-- id: 221
+- id: 239
   title: "Genetic improvement of GPU software"
   url:
     - https://link.springer.com/article/10.1007/s10710-016-9273-9
@@ -10808,7 +11685,50 @@
     - described
     - named
 
-- id: 222
+- id: 240
+  title: "Genetic Improvement of Last Level Cache"
+  url:
+    - https://dl.acm.org/doi/abs/10.1007/978-3-031-56957-9_13
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85190695645&doi=10.1007%2f978-3-031-56957-9_13&partnerID=40&md5=69aad7707cae5d1ce3e31c25eb0c64ad
+  source:
+    - Scopus24 (other)
+  year: 2024
+  venue: SSBSE
+  venue_type:
+    - conference
+  fitness:
+    - memory usage
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - Magpie
+  tool_search:
+    - local search
+  tool_approach:
+    - source code changes
+    - compiler tuning
+  software_nb: 1
+  software_name:
+    - VIPS (PARSEC)
+  software_set_name:
+    - PARSEC
+  software_lang:
+    - C/C++
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unix/linux
+  benchmark_quality:
+    - reused
+
+- id: 241
   title: "Genetic improvement of runtime and its fitness landscape in a bioinformatics application"
   url:
     - https://dl.acm.org/doi/10.1145/3067695.3082526
@@ -10850,7 +11770,7 @@
   benchmark_quality:
     - named
 
-- id: 223
+- id: 242
   title: "Genetic Programming: From Design to Improved Implementation"
   url:
     - https://dl.acm.org/doi/10.1145/2908961.2931693
@@ -10891,7 +11811,7 @@
   benchmark_quality:
     - named
 
-- id: 224
+- id: 243
   title: "GEVO: GPU Code Optimization Using Evolutionary Computation"
   url:
     - https://dl.acm.org/doi/10.1145/3418055
@@ -10947,7 +11867,52 @@
     - named
     - reused
 
-- id: 225
+- id: 244
+  title: "GPU Auto-tuning Framework for Optimal Performance and Power Consumption"
+  url:
+    - https://dl.acm.org/doi/10.1145/3589236.3589241
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85163834542&doi=10.1145%2f3589236.3589241&partnerID=40&md5=e3ef7b43789e054e599c9e84a3f143ec
+  source:
+    - ACM24 (energy)
+    - Scopus24 (energy)
+    - Scopus24 (other)
+  year: 2023
+  venue: GPGPU
+  venue_type:
+    - workshop
+  fitness:
+    - execution time
+    - energy usage
+  fitness_secondary:
+    - none
+  fitness_multi: true
+  tool_name:
+    - MOKAT
+  tool_search:
+    - genetic algorithm
+  tool_approach:
+    - parameter tuning
+  software_nb: 8
+  software_name:
+    - unnamed
+  software_set_name:
+    - unnamed
+  software_lang:
+    - GPU
+  software_size:
+    - block
+  software_usage:
+    - dataset
+  software_origin:
+    - unknown
+  software_notoriety:
+    - toy
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - unspecified
+
+- id: 245
   title: "GPU-FPtuner: Mixed-precision Auto-tuning for Floating-point Applications on GPU"
   url:
     - https://ieeexplore.ieee.org/document/9406720/
@@ -10994,12 +11959,59 @@
   benchmark_quality:
     - reused
 
-- id: 226
+- id: 246
+  title: "Green Mining for Android Based Applications Using Refactoring Approach"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85123373550&doi=10.1109%2fICRITO51393.2021.9596476&partnerID=40&md5=0305fc9835d04f196c5beff133580443
+  source:
+    - Scopus24 (energy)
+  year: 2021
+  venue: ICRITO
+  venue_type:
+    - conference
+  fitness:
+    - energy usage
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - ADOCTOR
+  tool_search:
+    - none
+  tool_approach:
+    - refactoring
+  software_nb: 23
+  software_name:
+    - unnamed
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - android
+  benchmark_quality:
+    - named
+
+- id: 247
   title: "Green software: Refactoring approach"
   url:
     - https://doi.org/10.1016/j.jksuci.2020.10.022
+    - https://www.sciencedirect.com/science/article/pii/S1319157820305164
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099001353&doi=10.1016%2fj.jksuci.2020.10.022&partnerID=40&md5=ad2fa81862fa3f7179c9ff773a7b71ad
   source:
     - Scopus (energy)
+    - Google24 (energy)
+    - Scopus24 (energy)
+    - Scopus24 (other)
+    - Scopus24 (quality)
   year: 2020
   venue: JKSUCI
   venue_type:
@@ -11053,7 +12065,7 @@
   benchmark_quality:
     - described
 
-- id: 227
+- id: 248
   title: "Grover: Looking for Performance Improvement by Disabling Local Memory Usage in OpenCL Kernels"
   url:
     - https://ieeexplore.ieee.org/document/6957225
@@ -11105,7 +12117,7 @@
   benchmark_quality:
     - reused
 
-- id: 228
+- id: 249
   title: "Grow and Graft a Better CUDA pknotsRG for RNA Pseudoknot Free Energy Calculation"
   url:
     - https://dl.acm.org/doi/abs/10.1145/2739482.2768418
@@ -11146,7 +12158,7 @@
   benchmark_quality:
     - named
 
-- id: 229
+- id: 250
   title: "Hardware-Aware Automatic Code-Transformation to Support Compilers in Exploiting the Multi-Level Parallel Potential of Modern CPUs"
   url:
     - https://dl.acm.org/doi/10.1145/2723772.2723776
@@ -11200,7 +12212,7 @@
   benchmark_quality:
     - reused
 
-- id: 230
+- id: 251
   title: "Highly Optimized Code Generation for Stencil Codes with Computation Reuse for GPUs"
   url:
     - https://doi.org/10.1007/s11390-016-1696-5
@@ -11246,7 +12258,7 @@
   benchmark_quality:
     - described
 
-- id: 231
+- id: 252
   title: "High-performance code generation for stencil computations on GPU architectures"
   url:
     - https://dl.acm.org/doi/10.1145/2304576.2304619
@@ -11296,7 +12308,7 @@
   benchmark_quality:
     - described
 
-- id: 232
+- id: 253
   title: "High Performance I/O"
   url:
     - https://ieeexplore.ieee.org/document/5739034
@@ -11337,7 +12349,7 @@
   benchmark_quality:
     - described
 
-- id: 233
+- id: 254
   title: "High performance stencil code generation with Lift"
   url:
     - https://dl.acm.org/doi/10.1145/3168824
@@ -11393,7 +12405,7 @@
   benchmark_quality:
     - reused
 
-- id: 234
+- id: 255
   title: "How do code refactorings affect energy usage?"
   url:
     - https://dl.acm.org/doi/10.1145/2652524.2652538
@@ -11445,7 +12457,7 @@
   benchmark_quality:
     - named
 
-- id: 235
+- id: 256
   title: "Identifying and (automatically) remedying performance problems in CPU&#x2F;GPU applications"
   url:
     - https://dl.acm.org/doi/10.1145/3392717.3392759
@@ -11489,7 +12501,7 @@
   benchmark_quality:
     - named
 
-- id: 236
+- id: 257
   title: "Immediate optimization for compressed transport triggered architecture instructions"
   url:
     - https://ieeexplore.ieee.org/document/1267719
@@ -11538,7 +12550,7 @@
   benchmark_quality:
     - reused
 
-- id: 237
+- id: 258
   title: "Impact of GCC optimization levels in energy consumption during C/C++ program execution"
   url:
     - https://ieeexplore.ieee.org/document/7377807/
@@ -11585,7 +12597,7 @@
   benchmark_quality:
     - named
 
-- id: 238
+- id: 259
   title: "Implementing Quicksort programs"
   url:
     - https://dl.acm.org/doi/10.1145/359619.359631
@@ -11629,7 +12641,7 @@
   benchmark_quality:
     - described
 
-- id: 239
+- id: 260
   title: "Improved parallelization of legacy embedded software on soft-core MPSoCs through automatic loop transformations"
   url:
     - https://ieeexplore.ieee.org/document/8470217
@@ -11672,7 +12684,7 @@
   benchmark_quality:
     - named
 
-- id: 240
+- id: 261
   title: "Improve the performance of mobile applications based on code optimization techniques using PMD and android lint"
   url:
     - https://doi.org/10.1007/978-3-319-49046-5_29
@@ -11717,7 +12729,7 @@
   benchmark_quality:
     - named
 
-- id: 241
+- id: 262
   title: "Improving 3D medical image registration CUDA software with genetic programming"
   url:
     - https://dl.acm.org/doi/10.1145/2576768.2598244
@@ -11758,7 +12770,7 @@
   benchmark_quality:
     - named
 
-- id: 242
+- id: 263
   title: "Improving code density using compression techniques"
   url:
     - https://ieeexplore.ieee.org/abstract/document/645810/
@@ -11807,7 +12819,7 @@
   benchmark_quality:
     - reused
 
-- id: 243
+- id: 264
   title: "Improving CUDA DNA Analysis Software with Genetic Programming"
   url:
     - https://dl.acm.org/doi/10.1145/2739480.2754652
@@ -11848,7 +12860,112 @@
   benchmark_quality:
     - named
 
-- id: 244
+- id: 265
+  title: "Improving energy-efficiency by recommending Java collections"
+  url:
+    - https://link.springer.com/article/10.1007/s10664-021-09950-y
+  source:
+    - Google24 (energy)
+  year: 2021
+  venue: ESE
+  venue_type:
+    - journal
+  fitness:
+    - energy usage
+  fitness_secondary:
+    - execution time
+  fitness_multi: false
+  tool_name:
+    - CT+
+  tool_search:
+    - none
+  tool_approach:
+    - source code changes
+  software_nb: 17
+  software_name:
+    - Tomcat (DaCapo)
+    - Xalan
+    - Barbecue
+    - Battlecry
+    - JodaTime
+    - Twfbplayer
+    - Xisemele
+    - Apache Commons Math
+    - Google Gson
+    - XStream
+    - BioJava
+    - Cassandra
+    - Graphchi
+    - Kafka
+    - Zxing
+    - FastSearch
+    - PasswordGen
+  software_set_name:
+    - DaCapo
+  software_lang:
+    - Java
+  software_size:
+    - application
+    - unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+    - open-source
+  software_notoriety:
+    - toy
+    - wild
+    - unknown
+  software_platform:
+    - unix/linux
+    - android
+  benchmark_quality:
+    - named
+    - reused
+
+- id: 266
+  title: "Improving Readability of Scratch Programs with Search-based Refactoring"
+  url:
+    - https://ieeexplore.ieee.org/document/9610643/
+  source:
+    - IEEE24 (other)
+  year: 2021
+  venue: SCAM
+  venue_type:
+    - conference
+  fitness:
+    - source code size
+    - code complexity
+  fitness_secondary:
+    - none
+  fitness_multi: true
+  tool_name:
+    - LitterBox
+  tool_search:
+    - genetic algorithm
+  tool_approach:
+    - refactoring
+  software_nb: 1000
+  software_name:
+    - unnamed
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scratch
+  software_size:
+    - file
+  software_usage:
+    - irrelevant
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - unspecified
+
+- id: 267
   title: "Improving SSE parallel code with grow and graft genetic programming"
   url:
     - https://dl.acm.org/doi/10.1145/3067695.3082524
@@ -11890,7 +13007,7 @@
   benchmark_quality:
     - named
 
-- id: 245
+- id: 268
   title: "Improving the cache locality of memory allocation"
   url:
     - https://dl.acm.org/doi/abs/10.1145/155090.155107
@@ -11935,7 +13052,7 @@
   benchmark_quality:
     - named
 
-- id: 246
+- id: 269
   title: "Improving the ratio of memory operations to floating-point operations in loops"
   url:
     - https://dl.acm.org/doi/abs/10.1145/197320.197366
@@ -12006,7 +13123,57 @@
     - named
     - reused
 
-- id: 247
+- id: 270
+  title: "Industry practice of configuration auto-tuning for cloud applications and services"
+  url:
+    - https://dl.acm.org/doi/10.1145/3540250.3558962
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85143074502&doi=10.1145%2f3540250.3558962&partnerID=40&md5=50a70eecea2b90e139dcb35f48eb859f
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+    - Scopus24 (other)
+  year: 2022
+  venue: FSE
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - KeenTune
+  tool_search:
+    - sampling
+    - local search
+  tool_approach:
+    - parameter tuning
+  software_nb: 4
+  software_name:
+    - MySQL
+    - OceanBase
+    - nginx
+    - ACK (SPEC)
+  software_set_name:
+    - SPEC (Java)
+  software_lang:
+    - Java
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+    - reused
+
+- id: 271
   title: "Inheritance versus Delegation: Which is more energy efficient?"
   url:
     - https://doi.org/10.1145/3387940.3392192
@@ -12047,7 +13214,7 @@
   benchmark_quality:
     - described
 
-- id: 248
+- id: 272
   title: "Injecting Shortcuts for Faster Running Java Code"
   url:
     - https://ieeexplore.ieee.org/document/9185708/
@@ -12077,6 +13244,7 @@
     - unnamed
   software_lang:
     - Java
+    - Scala
   software_size:
     - application
   software_usage:
@@ -12090,7 +13258,7 @@
   benchmark_quality:
     - named
 
-- id: 249
+- id: 273
   title: "Instruction set encoding optimization for code size reduction"
   url:
     - https://doi.org/10.1109/ICSAMOS.2007.4285728
@@ -12142,7 +13310,7 @@
   benchmark_quality:
     - named
 
-- id: 250
+- id: 274
   title: "Inter-loop optimization in RAJA using loop chains"
   url:
     - https://dl.acm.org/doi/10.1145/3447818.3461665
@@ -12194,7 +13362,7 @@
     - unspecified
     - named
 
-- id: 251
+- id: 275
   title: "Interprocedural strength reduction of critical sections in explicitly-parallel programs"
   url:
     - https://ieeexplore.ieee.org/document/6618801/
@@ -12259,7 +13427,7 @@
     - named
     - reused
 
-- id: 252
+- id: 276
   title: "Interrelations between software quality metrics, performance and energy consumption in embedded applications"
   url:
     - https://doi.org/10.1145/3207719.3207736
@@ -12308,7 +13476,7 @@
     - named
     - reused
 
-- id: 253
+- id: 277
   title: "Investigating the energy impact of Android smells"
   url:
     - https://ieeexplore.ieee.org/document/7884614/
@@ -12355,7 +13523,7 @@
   benchmark_quality:
     - named
 
-- id: 254
+- id: 278
   title: "Investigation for software power consumption of code refactoring techniques"
   url:
     - https://ksiresearch.org/seke/seke14paper/seke14paper_25.pdf
@@ -12396,7 +13564,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 255
+- id: 279
   title: "In-vivo and offline optimisation of energy use in the presence of small energy signals: A case study on a popular Android library"
   url:
     - https://dl.acm.org/doi/10.1145/3286978.3287014
@@ -12438,7 +13606,7 @@
   benchmark_quality:
     - named
 
-- id: 256
+- id: 280
   title: "Is less really more? Towards better metrics for measuring security improvements realized through software debloating"
   url:
     - https://www.usenix.org/conference/cset19/presentation/brown
@@ -12488,7 +13656,7 @@
   benchmark_quality:
     - named
 
-- id: 257
+- id: 281
   title: "JRed: Program Customization and Bloatware Mitigation Based on Static Analysis"
   url:
     - https://ieeexplore.ieee.org/document/7551989/
@@ -12545,7 +13713,7 @@
   benchmark_quality:
     - reused
 
-- id: 258
+- id: 282
   title: "JShrink: in-depth investigation into debloating modern Java applications"
   url:
     - https://dl.acm.org/doi/10.1145/3368089.3409738
@@ -12616,7 +13784,7 @@
   benchmark_quality:
     - named
 
-- id: 259
+- id: 283
   title: "jStanley: Placing a Green Thumb on Java Collections"
   url:
     - https://ieeexplore.ieee.org/document/9000029/
@@ -12667,7 +13835,94 @@
   benchmark_quality:
     - named
 
-- id: 260
+- id: 284
+  title: "KeenTune: Automated Tuning Tool for Cloud Application Performance Testing and Optimization"
+  url:
+    - https://dl.acm.org/doi/10.1145/3597926.3604920
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2023
+  venue: ISSTA
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - KeenTune
+  tool_search:
+    - sampling
+    - local search
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - nginx
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 285
+  title: "KnobTune: A Dynamic Database Configuration Tuning Strategy Leveraging Historical Workload Similarities"
+  url:
+    - https://dl.acm.org/doi/10.1145/3661725.3661734
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+  year: 2024
+  venue: CMLDS
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - KnobTune
+    - SMAC
+  tool_search:
+    - sampling
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - MySQL
+  software_set_name:
+    - unnamed
+  software_lang:
+    - C/C++
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 286
   title: "Learning based compilation of embedded applications targeting minimal energy consumption"
   url:
     - https://doi.org/10.1016/j.sysarc.2021.102116
@@ -12740,7 +13995,7 @@
   benchmark_quality:
     - reused
 
-- id: 261
+- id: 287
   title: "Learning from Source Code History to Identify Performance Failures"
   url:
     - https://dl.acm.org/doi/10.1145/2851553.2851571
@@ -12799,7 +14054,48 @@
   benchmark_quality:
     - named
 
-- id: 262
+- id: 288
+  title: "Learning performance-improving code edits"
+  url:
+    - https://arxiv.org/abs/2302.07867
+  source:
+    - Google24 (time)
+  year: 2024
+  venue: ICLR
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - none
+  tool_approach:
+    - code generation
+  software_nb: 77000
+  software_name:
+    - unnamed
+  software_set_name:
+    - PIE
+  software_lang:
+    - C/C++
+  software_size:
+    - file
+  software_usage:
+    - test suite
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - unspecified
+
+- id: 289
   title: "Leveraging WebAssembly for Numerical JavaScript Code Virtualization"
   url:
     - https://ieeexplore.ieee.org/document/8901223/
@@ -12853,7 +14149,51 @@
   benchmark_quality:
     - named
 
-- id: 263
+- id: 290
+  title: "LOCAT: Low-Overhead Online Configuration Auto-Tuning of Spark SQL Applications"
+  url:
+    - https://dl.acm.org/doi/10.1145/3514221.3526157
+    - https://dl.acm.org/doi/abs/10.1145/3514221.3526157
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+    - Google24 (memory)
+  year: 2022
+  venue: SIGMOD
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - LOCAT
+  tool_search:
+    - sampling
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 291
   title: "locoGP: Improving Performance by Genetic Programming Java Source Code"
   url:
     - https://dl.acm.org/doi/10.1145/2739482.2768419
@@ -12905,7 +14245,7 @@
   benchmark_quality:
     - described
 
-- id: 264
+- id: 292
   title: "Making web applications more energy efficient for OLED smartphones"
   url:
     - https://dl.acm.org/doi/10.1145/2568225.2568321
@@ -12952,7 +14292,7 @@
   benchmark_quality:
     - named
 
-- id: 265
+- id: 293
   title: "Managing the Energy-Delay Tradeoff in Mobile Applications with Tempus"
   url:
     - https://dl.acm.org/doi/10.1145/2814576.2814803
@@ -12995,7 +14335,7 @@
   benchmark_quality:
     - named
 
-- id: 266
+- id: 294
   title: "Memory Footprint Optimization Techniques for Machine Learning Applications in Embedded Systems"
   url:
     - https://ieeexplore.ieee.org/document/9181038/
@@ -13038,7 +14378,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 267
+- id: 295
   title: "Memspy: Analyzing memory system bottlenecks in programs"
   url:
     - https://dl.acm.org/doi/abs/10.1145/149439.133079
@@ -13083,7 +14423,52 @@
     - named
     - reused
 
-- id: 268
+- id: 296
+  title: "MespaConfig: Memory-Sparing Configuration Auto-Tuning for Co-Located In-Memory Cluster Computing Jobs"
+  url:
+    - https://ieeexplore.ieee.org/document/9367004/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85102309709&doi=10.1109%2fTSC.2021.3063118&partnerID=40&md5=6b94495f891d600b67bad3d6b4c7ff05
+  source:
+    - IEEE24 (memory)
+    - Scopus24 (memory)
+    - IEEE (memory)
+  year: 2022
+  venue: IEEE TSC
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+    - memory usage
+  fitness_secondary:
+    - none
+  fitness_multi: true
+  tool_name:
+    - MespaConfig
+  tool_search:
+    - genetic algorithm
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 297
   title: "Minimizing dependencies within generic classes for faster and smaller programs"
   url:
     - https://doi.org/10.1145/1639949.1640121
@@ -13125,7 +14510,7 @@
   benchmark_quality:
     - described
 
-- id: 269
+- id: 298
   title: "MLComp: A Methodology for Machine Learning-based Performance Estimation and Adaptive Selection of Pareto-Optimal Compiler Optimization Sequences"
   url:
     - https://arxiv.org/abs/2012.05270
@@ -13178,7 +14563,7 @@
   benchmark_quality:
     - reused
 
-- id: 270
+- id: 299
   title: "MO-ParamILS: A Multi-objective Automatic Algorithm Configuration Framework"
   url:
     - https://link.springer.com/chapter/10.1007%2F978-3-319-50349-3_3
@@ -13223,7 +14608,7 @@
   benchmark_quality:
     - reused
 
-- id: 271
+- id: 300
   title: "Mossad: defeating software plagiarism detection"
   url:
     - https://dl.acm.org/doi/abs/10.1145/3428206
@@ -13264,7 +14649,7 @@
   benchmark_quality:
     - described
 
-- id: 272
+- id: 301
   title: "Multicriteria energy efficient source code compilation for dependable embedded applications"
   url:
     - https://doi.org/10.1109/INNOVATIONS.2006.301963
@@ -13316,7 +14701,7 @@
   benchmark_quality:
     - named
 
-- id: 273
+- id: 302
   title: "Multigrain parallelization for model-based design applications using the OSCAR compiler"
   url:
     - https://doi.org/10.1007/978-3-319-29778-1_8
@@ -13362,7 +14747,103 @@
     - described
     - named
 
-- id: 274
+- id: 303
+  title: "Multi-intention-aware configuration selection for performance tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3510003.3510094
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2022
+  venue: ICSE
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - SafeTune
+  tool_search:
+    - sampling
+  tool_approach:
+    - parameter tuning
+  software_nb: 3
+  software_name:
+    - PostgrSQL
+    - Squid
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - unknown
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unix/linux
+  benchmark_quality:
+    - named
+
+- id: 304
+  title: "Multi-objectivizing software configuration tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3468264.3468555
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2021
+  venue: FSE
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - solution quality
+    - energy usage
+  fitness_multi: true
+  tool_name:
+    - MMO
+  tool_search:
+    - genetic algorithm
+  tool_approach:
+    - parameter tuning
+  software_nb: 4
+  software_name:
+    - Trimesh
+    - x264
+    - Storm
+    - Keras
+  software_set_name:
+    - unnamed
+  software_lang:
+    - C/C++
+    - Java
+    - Python
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - windows
+    - mac
+    - unix/linux
+  benchmark_quality:
+    - named
+    - reused
+
+- id: 305
   title: "NEAT: A Framework for Automated Exploration of Floating Point Approximations"
   url:
     - https://arxiv.org/abs/2102.08547
@@ -13415,7 +14896,7 @@
   benchmark_quality:
     - reused
 
-- id: 275
+- id: 306
   title: "Nibbler: Debloating binary shared libraries"
   url:
     - https://dl.acm.org/doi/10.1145/3359789.3359823
@@ -13494,7 +14975,7 @@
     - named
     - reused
 
-- id: 276
+- id: 307
   title: "Novelty search for software improvement of a SLAM system"
   url:
     - https://dl.acm.org/doi/10.1145/3205651.3208237
@@ -13536,7 +15017,7 @@
   benchmark_quality:
     - named
 
-- id: 277
+- id: 308
   title: "NRG-loops: adjusting power from within applications"
   url:
     - https://dl.acm.org/doi/10.1145/2854038.2854045
@@ -13586,7 +15067,7 @@
     - described
     - reused
 
-- id: 278
+- id: 309
   title: "Obfuscation of executable code to improve resistance to static disassembly"
   url:
     - https://dl.acm.org/doi/abs/10.1145/948109.948149
@@ -13636,7 +15117,7 @@
   benchmark_quality:
     - reused
 
-- id: 279
+- id: 310
   title: "Object-Oriented Genetic Improvement for Improved Energy Consumption in Google Guava"
   url:
     - https://link.springer.com/chapter/10.1007/978-3-319-22183-0_20
@@ -13677,7 +15158,7 @@
   benchmark_quality:
     - named
 
-- id: 280
+- id: 311
   title: "On improving heap memory layout by dynamic pool allocation"
   url:
     - https://dl.acm.org/doi/10.1145/1772954.1772969
@@ -13732,7 +15213,7 @@
   benchmark_quality:
     - reused
 
-- id: 281
+- id: 312
   title: "Online Genetic Improvement on the java virtual machine with ECSELR"
   url:
     - https://link.springer.com/article/10.1007/s10710-016-9278-4
@@ -13773,7 +15254,7 @@
   benchmark_quality:
     - described
 
-- id: 282
+- id: 313
   title: "On the impact of data input sets on statistical compiler tuning"
   url:
     - https://ieeexplore.ieee.org/document/1639724/
@@ -13821,7 +15302,7 @@
   benchmark_quality:
     - reused
 
-- id: 283
+- id: 314
   title: "Optimal code and data layout in embedded systems"
   url:
     - https://doi.org/10.1109/ICVD.2003.1183195
@@ -13863,7 +15344,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 284
+- id: 315
   title: "Optimal code size reduction for software-pipelined and unfolded loops"
   url:
     - https://ieeexplore.ieee.org/document/1227167/
@@ -13908,7 +15389,7 @@
   benchmark_quality:
     - named
 
-- id: 285
+- id: 316
   title: "Optimal code size reduction for software-pipelined loops on DSP applications"
   url:
     - https://ieeexplore.ieee.org/document/1040919/
@@ -13952,7 +15433,7 @@
   benchmark_quality:
     - named
 
-- id: 286
+- id: 317
   title: "Optimization and Implementation of LBM Benchmark on Multithreaded GPU"
   url:
     - https://ieeexplore.ieee.org/document/5452598/
@@ -13995,7 +15476,7 @@
   benchmark_quality:
     - reused
 
-- id: 287
+- id: 318
   title: "Optimization of Java Virtual Machine Flags using Feature Model and Genetic Algorithm"
   url:
     - https://dl.acm.org/doi/10.1145/3447545.3451177
@@ -14047,7 +15528,7 @@
   benchmark_quality:
     - reused
 
-- id: 288
+- id: 319
   title: "Optimization of LAMMPS"
   url:
     - https://ieeexplore.ieee.org/document/4134082/
@@ -14090,7 +15571,7 @@
   benchmark_quality:
     - named
 
-- id: 289
+- id: 320
   title: "Optimization opportunities created by global data reordering"
   url:
     - https://ieeexplore.ieee.org/document/1191548/
@@ -14141,7 +15622,7 @@
   benchmark_quality:
     - reused
 
-- id: 290
+- id: 321
   title: "Optimization principles and application performance evaluation of a multithreaded GPU using CUDA"
   url:
     - https://dl.acm.org/doi/10.1145/1345206.1345220
@@ -14202,7 +15683,7 @@
     - named
     - reused
 
-- id: 291
+- id: 322
   title: "Optimizing energy of HTTP requests in Android applications"
   url:
     - https://dl.acm.org/doi/10.1145/2804345.2804351
@@ -14245,7 +15726,7 @@
   benchmark_quality:
     - named
 
-- id: 292
+- id: 323
   title: "Optimizing Existing Software With Genetic Programming"
   url:
     - https://ieeexplore.ieee.org/document/6733370
@@ -14286,7 +15767,7 @@
   benchmark_quality:
     - named
 
-- id: 293
+- id: 324
   title: "Optimizing for reduced code space using genetic algorithms"
   url:
     - https://dl.acm.org/doi/abs/10.1145/314403.314414
@@ -14346,7 +15827,7 @@
     - named
     - reused
 
-- id: 294
+- id: 325
   title: "Optuna: A next-generation hyperparameter optimization framework"
   url:
     - https://dl.acm.org/doi/abs/10.1145/3292500.3330701
@@ -14388,7 +15869,7 @@
   benchmark_quality:
     - named
 
-- id: 295
+- id: 326
   title: "Parallel incremental whole-program optimizations for Scala.js"
   url:
     - https://dl.acm.org/doi/10.1145/2983990.2984013
@@ -14432,7 +15913,7 @@
   benchmark_quality:
     - named
 
-- id: 296
+- id: 327
   title: "Parallelizing irregular C codes assisted by interprocedural shape analysis"
   url:
     - https://ieeexplore.ieee.org/document/4536285/
@@ -14478,7 +15959,7 @@
     - described
     - reused
 
-- id: 297
+- id: 328
   title: "ParamILS: An Automatic Algorithm Configuration Framework"
   url:
     - https://jair.org/index.php/jair/article/view/10628
@@ -14522,7 +16003,7 @@
   benchmark_quality:
     - named
 
-- id: 298
+- id: 329
   title: "Pegasus: Performance Engineering for Software Applications Targeting HPC Systems"
   url:
     - https://ieeexplore.ieee.org/document/9113456/
@@ -14572,7 +16053,7 @@
   benchmark_quality:
     - named
 
-- id: 299
+- id: 330
   title: "Performance-based guidelines for energy efficient mobile applications"
   url:
     - https://dl.acm.org/doi/10.1109/MOBILESoft.2017.19
@@ -14619,7 +16100,7 @@
   benchmark_quality:
     - named
 
-- id: 300
+- id: 331
   title: "Performance localisation"
   url:
     - https://dl.acm.org/doi/10.1145/3194810.3194815
@@ -14660,7 +16141,7 @@
   benchmark_quality:
     - reused
 
-- id: 301
+- id: 332
   title: "Performance profile of some hybrid heuristic search techniques using compiler flag selection as a seed example"
   url:
     - https://ieeexplore.ieee.org/document/6256576
@@ -14702,7 +16183,50 @@
   benchmark_quality:
     - described
 
-- id: 302
+- id: 333
+  title: "Phronesis: Efficient Performance Modeling for High-dimensional Configuration Tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3546868
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+  year: 2023
+  venue: ACM TACO
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - Phronesis
+  tool_search:
+    - sampling
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 334
   title: "Playing regex golf with genetic programming"
   url:
     - https://dl.acm.org/doi/10.1145/2576768.2598333
@@ -14743,7 +16267,7 @@
   benchmark_quality:
     - described
 
-- id: 303
+- id: 335
   title: "Pluto: A practical and fully automatic polyhedral program optimization system"
   url:
     - https://www.researchgate.net/profile/J-Ramanujam/publication/228732823_PLuTo_A_practical_and_fully_automatic_polyhedral_program_optimization_system/links/0912f50b7b3c59b6c0000000/PLuTo-A-practical-and-fully-automatic-polyhedral-program-optimization-system.pdf
@@ -14785,7 +16309,7 @@
   benchmark_quality:
     - described
 
-- id: 304
+- id: 336
   title: "Post-compiler software optimization for reducing energy"
   url:
     - https://dl.acm.org/doi/10.1145/2541940.2541980
@@ -14838,7 +16362,7 @@
   benchmark_quality:
     - reused
 
-- id: 305
+- id: 337
   title: "Poster: Memory and Parallelism Exploration Using the LULESH Proxy Application"
   url:
     - https://ieeexplore.ieee.org/document/6496018/
@@ -14882,7 +16406,7 @@
   benchmark_quality:
     - named
 
-- id: 306
+- id: 338
   title: "Postpass code optimization of pipeline constraints"
   url:
     - https://dl.acm.org/doi/pdf/10.1145/2166.357217
@@ -14941,7 +16465,58 @@
   benchmark_quality:
     - described
 
-- id: 307
+- id: 339
+  title: "Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning"
+  url:
+    - https://ieeexplore.ieee.org/document/10548640/
+  source:
+    - IEEE24 (quality)
+  year: 2024
+  venue: ICSE
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - FPLearner
+  tool_search:
+    - none
+  tool_approach:
+    - source code changes
+  software_nb: 4
+  software_name:
+    - CG (NAS)
+    - MC (NAS)
+    - Lulesh (LLNL)
+    - LBM (SPEC)
+  software_set_name:
+    - NAS
+    - LLNL
+    - SPEC
+  software_lang:
+    - C/C++
+    - unknown
+  software_size:
+    - application
+    - unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+    - open-source
+    - unknown
+  software_notoriety:
+    - toy
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - reused
+
+- id: 340
   title: "Predicting the effects of optimization on a procedure body"
   url:
     - https://dl.acm.org/doi/10.1145/800229.806972
@@ -14982,9 +16557,10 @@
   benchmark_quality:
     - described
 
-- id: 308
+- id: 341
   title: "Proactive energy-aware programming with PEEK"
-  url: https://www.usenix.org/system/files/conference/trios14/trios14-paper-hoenig.pdf
+  url:
+    - https://www.usenix.org/system/files/conference/trios14/trios14-paper-hoenig.pdf
   source:
     - Scopus (energy)
   year: 2014
@@ -15035,7 +16611,7 @@
   benchmark_quality:
     - reused
 
-- id: 309
+- id: 342
   title: "Profile-guided code compression"
   url:
     - https://doi.org/10.1145/543552.512542
@@ -15085,7 +16661,7 @@
   benchmark_quality:
     - reused
 
-- id: 310
+- id: 343
   title: "Program Debloating via Stochastic Optimization"
   url:
     - https://ieeexplore.ieee.org/document/9397515/
@@ -15129,7 +16705,7 @@
   benchmark_quality:
     - named
 
-- id: 311
+- id: 344
   title: "Program energy efficiency: The impact of language, compiler and implementation choices"
   url:
     - https://ieeexplore.ieee.org/document/7039169/
@@ -15175,7 +16751,7 @@
   benchmark_quality:
     - described
 
-- id: 312
+- id: 345
   title: "Program fracture and recombination for efficient automatic code reuse"
   url:
     - https://ieeexplore.ieee.org/document/7396314/
@@ -15223,7 +16799,7 @@
   benchmark_quality:
     - described
 
-- id: 313
+- id: 346
   title: "Program optimization for a pipelined machine a case study"
   url:
     - https://dl.acm.org/doi/10.1145/1031382.809316
@@ -15265,14 +16841,14 @@
   benchmark_quality:
     - unspecified
 
-- id: 314
+- id: 347
   title: "Program optimizations: The interplay between power, performance, and energy"
   url:
     - https://doi.org/10.1016/j.parco.2016.05.004
   source:
     - Scopus (energy)
   year: 2016
-  venue: ParCo
+  venue: Parallel Computing
   venue_type:
     - journal
   fitness:
@@ -15308,7 +16884,7 @@
   benchmark_quality:
     - named
 
-- id: 315
+- id: 348
   title: "PyGGI 2.0: language independent genetic improvement framework"
   url:
     - https://dl.acm.org/doi/10.1145/3338906.3341184
@@ -15349,7 +16925,7 @@
   benchmark_quality:
     - named
 
-- id: 316
+- id: 349
   title: "Quasidynamic layout optimizations for improving data locality"
   url:
     - https://ieeexplore.ieee.org/document/1339250/
@@ -15400,7 +16976,7 @@
   benchmark_quality:
     - named
 
-- id: 317
+- id: 350
   title: "Rapidly selecting good compiler optimizations using performance counters"
   url:
     - https://ieeexplore.ieee.org/abstract/document/4145114/
@@ -15500,7 +17076,7 @@
   benchmark_quality:
     - reused
 
-- id: 318
+- id: 351
   title: "Razor: A framework for post-deployment software debloating"
   url:
     - https://www.usenix.org/conference/usenixsecurity19/presentation/qian
@@ -15581,7 +17157,7 @@
   benchmark_quality:
     - reused
 
-- id: 319
+- id: 352
   title: "Recommending energy-efficient Java collections"
   url:
     - https://dl.acm.org/doi/10.1109/MSR.2019.00033
@@ -15634,7 +17210,7 @@
     - named
     - reused
 
-- id: 320
+- id: 353
   title: "Reducing Energy Consumption Using Genetic Improvement"
   url:
     - https://dl.acm.org/doi/10.1145/2739480.2754752
@@ -15677,7 +17253,51 @@
   benchmark_quality:
     - named
 
-- id: 321
+- id: 354
+  title: "Reducing the Tail Latency of Microservices Applications via Optimal Configuration Tuning"
+  url:
+    - https://ieeexplore.ieee.org/document/9935027/
+  source:
+    - IEEE24 (other)
+  year: 2022
+  venue: ACSOS
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - local search
+  tool_approach:
+    - parameter tuning
+  software_nb: 3
+  software_name:
+    - social networking (DeathStarBench)
+    - microservices (DeathStarBench)
+    - train ticket
+  software_set_name:
+    - DeathStarBench
+  software_lang:
+    - unknown
+  software_size:
+    - unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - unknown
+  software_notoriety:
+    - toy
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+    - reused
+
+- id: 355
   title: "Reduction transformations for optimization parameter selection"
   url:
     - https://ieeexplore.ieee.org/document/1592280/
@@ -15726,7 +17346,7 @@
     - described
     - reused
 
-- id: 322
+- id: 356
   title: "Redundant Loads: A Software Inefficiency Indicator"
   url:
     - https://arxiv.org/abs/1902.05462
@@ -15821,7 +17441,49 @@
     - named
     - reused
 
-- id: 323
+- id: 357
+  title: "Refactoring for introducing and tuning parallelism for heterogeneous multicore machines in Erlang"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85068082266&doi=10.1002%2fcpe.5420&partnerID=40&md5=02c8ed0ef943ec1bfe038e54afd1c822
+  source:
+    - Scopus24 (time)
+  year: 2023
+  venue: CCPE
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - Lapedo
+  tool_search:
+    - none
+  tool_approach:
+    - refactoring
+    - code generation
+  software_nb: 4
+  software_name:
+    - unnamed
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Erlang
+  software_size:
+    - unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - unix/linux
+  benchmark_quality:
+    - described
+
+- id: 358
   title: "Refactoring Java Concurrent Programs Based on Synchronization Requirement Analysis"
   url:
     - https://ieeexplore.ieee.org/document/6976102/
@@ -15869,7 +17531,7 @@
   benchmark_quality:
     - named
 
-- id: 324
+- id: 359
   title: "Refactoring the FreeBSD Kernel with Checked C"
   url:
     - https://ieeexplore.ieee.org/document/9229980
@@ -15911,7 +17573,7 @@
   benchmark_quality:
     - named
 
-- id: 325
+- id: 360
   title: "Remove RATs from your code: automated optimization of resource inefficient database writes for mobile applications"
   url:
     - https://dl.acm.org/doi/10.1145/3213846.3213865
@@ -15955,7 +17617,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 326
+- id: 361
   title: "Removing runtime overhead for optimized object queries"
   url:
     - https://dl.acm.org/doi/10.1145/2847538.2847545
@@ -16005,7 +17667,7 @@
   benchmark_quality:
     - named
 
-- id: 327
+- id: 362
   title: "Restructuring Lisp programs for concurrent execution"
   url:
     - https://dl.acm.org/doi/10.1145/62115.62126
@@ -16046,7 +17708,7 @@
   benchmark_quality:
     - described
 
-- id: 328
+- id: 363
   title: "Reuse, recycle to de-bloat software"
   url:
     - https://doi.org/10.1007/978-3-642-22655-7_19
@@ -16094,7 +17756,100 @@
     - named
     - reused
 
-- id: 329
+- id: 364
+  title: "Revisiting Scenarios of Using Refactoring Techniques to Improve Software Systems Quality"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9932613/
+    - https://ieeexplore.ieee.org/document/9932613/
+  source:
+    - Google24 (time)
+    - IEEE24 (other)
+  year: 2023
+  venue: IEEE Access
+  venue_type:
+    - journal
+  fitness:
+    - code quality
+    - code complexity
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - none
+  tool_approach:
+    - refactoring
+  software_nb: 7
+  software_name:
+    - jHotDraw
+    - jGraphX
+    - Xerces
+    - jEdit
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Java
+  software_size:
+    - project
+    - application
+  software_usage:
+    - irrelevant
+  software_origin:
+    - academic
+    - open-source
+  software_notoriety:
+    - toy
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - described
+    - named
+
+- id: 365
+  title: "ROBOTune: High-Dimensional Configuration Tuning for Cluster-Based Data Analytics"
+  url:
+    - https://dl.acm.org/doi/10.1145/3472456.3472518
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2021
+  venue: ICPP
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - unnamed
+  tool_search:
+    - sampling
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 366
   title: "Rule-based techniques using abstract syntax tree for code optimization and secure programming in java"
   url:
     - https://doi.org/10.1007/978-3-319-05939-6_17
@@ -16141,7 +17896,7 @@
     - described
     - named
 
-- id: 330
+- id: 367
   title: "Runtime parallelization of legacy code on a transactional memory system"
   url:
     - https://dl.acm.org/doi/10.1145/1944862.1944882
@@ -16210,7 +17965,7 @@
   benchmark_quality:
     - reused
 
-- id: 331
+- id: 368
   title: "Safe automated refactoring for intelligent parallelization of Java 8 streams"
   url:
     - https://dl.acm.org/doi/10.1109/GI.2019.00014
@@ -16269,7 +18024,7 @@
     - named
     - reused
 
-- id: 332
+- id: 369
   title: "Scalable runtime bloat detection using abstract dynamic slicing"
   url:
     - https://doi.org/10.1145/2560047
@@ -16323,7 +18078,7 @@
   benchmark_quality:
     - reused
 
-- id: 333
+- id: 370
   title: "Search-Based Energy Optimization of Some Ubiquitous Algorithms"
   url:
     - https://ieeexplore.ieee.org/document/7935484/
@@ -16372,7 +18127,7 @@
     - described
     - named
 
-- id: 334
+- id: 371
   title: "SEEDS: a software engineer&#39;s energy-optimization decision support framework"
   url:
     - https://dl.acm.org/doi/10.1145/2568225.2568297
@@ -16423,7 +18178,7 @@
     - named
     - reused
 
-- id: 335
+- id: 372
   title: "Semi-automatic composition of loop transformations for deep parallelism and memory hierarchies"
   url:
     - https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s10766-006-0012-3.pdf
@@ -16478,7 +18233,7 @@
   benchmark_quality:
     - reused
 
-- id: 336
+- id: 373
   title: "Separation Logic-Assisted Code Transformations for Efficient High-Level Synthesis"
   url:
     - https://ieeexplore.ieee.org/document/6861573/
@@ -16522,7 +18277,7 @@
   benchmark_quality:
     - described
 
-- id: 337
+- id: 374
   title: "Sequential Model-Based Optimization for General Algorithm Configuration"
   url:
     - https://link.springer.com/chapter/10.1007%2F978-3-642-25566-3_40
@@ -16567,7 +18322,7 @@
   benchmark_quality:
     - named
 
-- id: 338
+- id: 375
   title: "ShadObf: A C-Source Obfuscator Based on Multi-objective Optimisation Algorithms"
   url:
     - https://ieeexplore.ieee.org/document/6650916/
@@ -16609,7 +18364,7 @@
   benchmark_quality:
     - described
 
-- id: 339
+- id: 376
   title: "Shasta: A low overhead, software-only approach for supporting fine-grain shared memory"
   url:
     - https://dl.acm.org/doi/abs/10.1145/237090.237179
@@ -16664,7 +18419,7 @@
   benchmark_quality:
     - reused
 
-- id: 340
+- id: 377
   title: "Simple, effective code-size reduction for functional programs"
   url:
     - https://doi.org/10.1007/11431664_13
@@ -16719,7 +18474,7 @@
   benchmark_quality:
     - named
 
-- id: 341
+- id: 378
   title: "Slimium: Debloating the Chromium Browser with Feature Subsetting"
   url:
     - https://dl.acm.org/doi/10.1145/3372297.3417866
@@ -16762,7 +18517,7 @@
   benchmark_quality:
     - named
 
-- id: 342
+- id: 379
   title: "Slimming javascript applications: An approach for removing unused functions from javascript libraries"
   url:
     - https://www.sciencedirect.com/science/article/pii/S0950584918302210
@@ -16825,7 +18580,7 @@
   benchmark_quality:
     - named
 
-- id: 343
+- id: 380
   title: "SMARTEST: A Surrogate-Assisted Memetic Algorithm for Code Size Reduction"
   url:
     - https://ieeexplore.ieee.org/document/9430597/
@@ -16894,7 +18649,7 @@
   benchmark_quality:
     - reused
 
-- id: 344
+- id: 381
   title: "Software architectural transformations: a new approach to low energy embedded software"
   url:
     - https://ieeexplore.ieee.org/document/1253742/
@@ -16942,7 +18697,7 @@
   benchmark_quality:
     - named
 
-- id: 345
+- id: 382
   title: "Software Pipelining for Quantum Loop Programs"
   url:
     - https://arxiv.org/abs/2012.12700
@@ -16983,7 +18738,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 346
+- id: 383
   title: "Soot: A Java bytecode optimization framework"
   url:
     - https://dl.acm.org/doi/abs/10.1145/1925805.1925818
@@ -17035,7 +18790,7 @@
     - named
     - reused
 
-- id: 347
+- id: 384
   title: "Sound Mixed-Precision Optimization with Rewriting"
   url:
     - https://ieeexplore.ieee.org/document/8443735/
@@ -17094,7 +18849,7 @@
   benchmark_quality:
     - described
 
-- id: 348
+- id: 385
   title: "Source code optimization and profiling of energy consumption in embedded systems"
   url:
     - https://ieeexplore.ieee.org/document/874049
@@ -17137,7 +18892,7 @@
   benchmark_quality:
     - described
 
-- id: 349
+- id: 386
   title: "Source code transformation based on software cost analysis"
   url:
     - https://dl.acm.org/doi/10.1145/500001.500036
@@ -17186,7 +18941,7 @@
   benchmark_quality:
     - described
 
-- id: 350
+- id: 387
   title: "Space-efficient multi-versioning for input-adaptive feedback-driven program optimizations"
   url:
     - https://dl.acm.org/doi/10.1145/2660193.2660229
@@ -17238,7 +18993,7 @@
   benchmark_quality:
     - reused
 
-- id: 351
+- id: 388
   title: "Specialising Software for Different Downstream Applications Using Genetic Improvement and Code Transplantation"
   url:
     - https://ieeexplore.ieee.org/abstract/document/7962212
@@ -17281,7 +19036,7 @@
   benchmark_quality:
     - named
 
-- id: 352
+- id: 389
   title: "Speculative optimizations for interpreting environments"
   url:
     - https://doi.org/10.1002/spe.2199
@@ -17348,7 +19103,7 @@
     - named
     - reused
 
-- id: 353
+- id: 390
   title: "Static memory management for efficient mobile sensing applications"
   url:
     - https://dl.acm.org/doi/10.5555/2830865.2830886
@@ -17410,7 +19165,7 @@
     - described
     - named
 
-- id: 354
+- id: 391
   title: "Stochastic energy optimization for mobile GPS applications"
   url:
     - https://dl.acm.org/doi/10.1145/3236024.3236076
@@ -17451,7 +19206,7 @@
   benchmark_quality:
     - named
 
-- id: 355
+- id: 392
   title: "Studying the impact of application-level optimizations on the power consumption of multi-core architectures"
   url:
     - https://dl.acm.org/doi/10.1145/2212908.2212927
@@ -17543,7 +19298,7 @@
     - described
     - reused
 
-- id: 356
+- id: 393
   title: "Subdomain-based generality-aware debloating"
   url:
     - https://dl.acm.org/doi/10.1145/3324884.3416644
@@ -17600,7 +19355,7 @@
   benchmark_quality:
     - named
 
-- id: 357
+- id: 394
   title: "Temporal system call specialization for attack surface reduction"
   url:
     - https://www.usenix.org/conference/usenixsecurity20/presentation/ghavamnia
@@ -17646,7 +19401,7 @@
   benchmark_quality:
     - named
 
-- id: 358
+- id: 395
   title: "Test case permutation to improve execution time"
   url:
     - https://ieeexplore.ieee.org/document/7582744/
@@ -17693,7 +19448,7 @@
   benchmark_quality:
     - reused
 
-- id: 359
+- id: 396
   title: "Testing Method of Code Redundancy Simplification Based on Program Dependency Graph"
   url:
     - https://ieeexplore.ieee.org/document/6296219/
@@ -17737,7 +19492,7 @@
   benchmark_quality:
     - named
 
-- id: 360
+- id: 397
   title: "The Effectiveness of Low-Precision Floating Arithmetic on Numerical Codes: A Case Study on Power Consumption"
   url:
     - https://doi.org/10.1145/3368474.3368492
@@ -17778,7 +19533,7 @@
   benchmark_quality:
     - named
 
-- id: 361
+- id: 398
   title: "The effect of compiler-flag tuning on SPEC benchmark performance"
   url:
     - https://dl.acm.org/doi/10.1145/190787.190807
@@ -17820,7 +19575,7 @@
   benchmark_quality:
     - reused
 
-- id: 362
+- id: 399
   title: "The effects of compiler optimisations on embedded system power consumption"
   url:
     - https://doi.org/10.1504/IJICT.2009.026431
@@ -17861,7 +19616,7 @@
   benchmark_quality:
     - described
 
-- id: 363
+- id: 400
   title: "The influence of the Java collection framework on overall energy consumption"
   url:
     - https://doi.org/10.1145/2896967.2896968
@@ -17902,7 +19657,7 @@
   benchmark_quality:
     - described
 
-- id: 364
+- id: 401
   title: "The semi-automatic parallelisation of scientific application codes using a computer aided parallelisation toolkit"
   url:
     - https://doi.org/10.1155/2001/327048
@@ -17948,7 +19703,7 @@
     - named
     - reused
 
-- id: 365
+- id: 402
   title: "The use of predictive models in dynamic treatment planning"
   url:
     - https://ieeexplore.ieee.org/document/8024536
@@ -17989,7 +19744,49 @@
   benchmark_quality:
     - described
 
-- id: 366
+- id: 403
+  title: "TIE: Fast Experiment-Driven ML-Based Configuration Tuning for In-Memory Data Analytics"
+  url:
+    - https://ieeexplore.ieee.org/document/10436432/
+  source:
+    - IEEE24 (memory)
+    - IEEE24 (time)
+  year: 2024
+  venue: IEEE TC
+  venue_type:
+    - journal
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - TIE
+  tool_search:
+    - sampling
+  tool_approach:
+    - parameter tuning
+  software_nb: 1
+  software_name:
+    - Spark
+  software_set_name:
+    - unnamed
+  software_lang:
+    - Scala
+  software_size:
+    - application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 404
   title: "Tile size selection of affine programs for GPGPUs using polyhedral cross-compilation"
   url:
     - https://dl.acm.org/doi/10.1145/3447818.3460369
@@ -18056,7 +19853,7 @@
   benchmark_quality:
     - reused
 
-- id: 367
+- id: 405
   title: "Tiling Optimizations for 3D Scientific Computations"
   url:
     - https://ieeexplore.ieee.org/document/1592745/
@@ -18102,7 +19899,7 @@
     - described
     - reused
 
-- id: 368
+- id: 406
   title: "Towards program optimization through automated analysis of numerical precision"
   url:
     - https://dl.acm.org/doi/10.1145/1772954.1772987
@@ -18146,7 +19943,7 @@
   benchmark_quality:
     - described
 
-- id: 369
+- id: 407
   title: "Transformations towards clean functional code"
   url:
     - https://dl.acm.org/doi/10.1145/3406085.3409010
@@ -18189,7 +19986,7 @@
     - described
     - available
 
-- id: 370
+- id: 408
   title: "Translating Java for resource constrained embedded systems"
   url:
     - https://doi.org/10.1109/ReCoSoC.2012.6322868
@@ -18236,15 +20033,22 @@
     - named
     - reused
 
-- id: 371
+- id: 409
   title: "TRIMMER: An Automated System for Configuration-based Software Debloating"
   url:
     - https://ieeexplore.ieee.org/document/9478582/
+    - https://ieeexplore.ieee.org/abstract/document/9478582/?casa_token=a__YUmNiP10AAAAA:GoaABjaRRCj8ew6LgIoB1NfzWm1zXy00mZPkX5Q3-7skNk1Uc8D5NDxIwLodco7BbNf_dEU
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85139125051&doi=10.1109%2fTSE.2021.3095716&partnerID=40&md5=64846dc7deb80e95c9086d4606bf8084
   source:
     - IEEE (memory)
     - IEEE (other)
     - IEEE (quality)
     - IEEE (time)
+    - Google24 (other)
+    - IEEE24 (memory)
+    - IEEE24 (other)
+    - Scopus24 (memory)
+    - Scopus24 (other)
   year: 2022
   venue: IEEE TSE
   venue_type:
@@ -18302,7 +20106,7 @@
   benchmark_quality:
     - named
 
-- id: 372
+- id: 410
   title: "Trimmer: Application specialization for code debloating"
   url:
     - https://dl.acm.org/doi/10.1145/3238147.3238160
@@ -18365,7 +20169,7 @@
   benchmark_quality:
     - named
 
-- id: 373
+- id: 411
   title: "Trimming Mobile Applications for Bandwidth-Challenged Networks in Developing Regions"
   url:
     - https://ieeexplore.ieee.org/document/9453130/
@@ -18407,7 +20211,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 374
+- id: 412
   title: "Tuning applications for efficient GPU offloading to in-memory processing"
   url:
     - https://dl.acm.org/doi/10.1145/3392717.3392760
@@ -18466,7 +20270,7 @@
     - reused
     - unspecified
 
-- id: 375
+- id: 413
   title: "Tuning floating-point precision using dynamic program information and temporal locality"
   url:
     - https://ieeexplore.ieee.org/document/9355251
@@ -18510,7 +20314,7 @@
   benchmark_quality:
     - named
 
-- id: 376
+- id: 414
   title: "Tuning genetic algorithm parameters using design of experiments"
   url:
     - https://dl.acm.org/doi/10.1145/3377929.3398136
@@ -18551,7 +20355,49 @@
   benchmark_quality:
     - unspecified
 
-- id: 377
+- id: 415
+  title: "Understanding the Power of Evolutionary Computation for GPU Code Optimization"
+  url:
+    - https://ieeexplore.ieee.org/document/9975391/
+  source:
+    - IEEE24 (time)
+  year: 2022
+  venue: todo
+  venue_type:
+    - conference
+  fitness:
+    - execution time
+  fitness_secondary:
+    - none
+  fitness_multi: false
+  tool_name:
+    - GEVO
+  tool_search:
+    - genetic algorithm
+  tool_approach:
+    - source code changes
+  software_nb: 1
+  software_name:
+    - SIMCoV
+  software_set_name:
+    - unnamed
+  software_lang:
+    - GPU
+  software_size:
+    - project
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - unknown
+  benchmark_quality:
+    - named
+
+- id: 416
   title: "UNIT: Unifying Tensorized Instruction Compilation"
   url:
     - https://arxiv.org/abs/2101.08458
@@ -18593,7 +20439,7 @@
   benchmark_quality:
     - named
 
-- id: 378
+- id: 417
   title: "Using algorithm configuration tools to optimize genetic programming parameters: a case study"
   url:
     - https://dl.acm.org/doi/10.1145/3067695.3076097
@@ -18635,7 +20481,7 @@
   benchmark_quality:
     - named
 
-- id: 379
+- id: 418
   title: "Using an interactive software environment for the parallelization of real-world scientific applications"
   url:
     - https://doi.org/10.1080/00207160601169942
@@ -18687,9 +20533,10 @@
     - named
     - reused
 
-- id: 380
+- id: 419
   title: "Using automatic refactoring to improve energy efficiency of android apps"
-  url: https://ieeexplore.ieee.org/document/7972807
+  url:
+    - https://ieeexplore.ieee.org/document/7972807
   source:
     - Scopus (energy)
   year: 2017
@@ -18727,7 +20574,7 @@
   benchmark_quality:
     - unspecified
 
-- id: 381
+- id: 420
   title: "Using Genetic Improvement and Code Transplants to Specialise a C++ Program to a Problem Class"
   url:
     - https://link.springer.com/chapter/10.1007/978-3-662-44303-3_12
@@ -18768,7 +20615,7 @@
   benchmark_quality:
     - named
 
-- id: 382
+- id: 421
   title: "Using indexed data structures for program specialization"
   url:
     - https://doi.org/10.1145/568173.568180
@@ -18812,7 +20659,7 @@
   benchmark_quality:
     - described
 
-- id: 383
+- id: 422
   title: "Value-sensitive automatic code specialization for embedded software"
   url:
     - https://ieeexplore.ieee.org/document/1028105/
@@ -18870,7 +20717,7 @@
   benchmark_quality:
     - described
 
-- id: 384
+- id: 423
   title: "Vectorization techniques for prolog"
   url:
     - https://dl.acm.org/doi/10.1145/55364.55417
@@ -18912,7 +20759,7 @@
   benchmark_quality:
     - described
 
-- id: 385
+- id: 424
   title: "VISTA: VPO interactive system for tuning applications"
   url:
     - https://dl.acm.org/doi/10.1145/1196636.1196640
@@ -18962,7 +20809,7 @@
   benchmark_quality:
     - reused
 
-- id: 386
+- id: 425
   title: "WebJShrink: a web service for debloating Java bytecode"
   url:
     - https://dl.acm.org/doi/10.1145/3368089.3417934

@@ -104,6 +104,53 @@
     - Prabhat Mishra
   doi: https://doi.org/10.1145/1233501.1233551
 
+- id: "kaur:2021:acme"
+  title: "A brief review on multi-objective software refactoring and a new method for its recommendation"
+  source:
+    - Google24 (other)
+    - Google24 (time)
+  year: 2021
+  venue: Springer ACME
+  venue_type:
+    - Journal
+  fitness:
+    - Other
+  fitness_secondary:
+  fitness_multi: Search
+  tool_name:
+    - MOSHO
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Semantic
+  software_nb: 5
+  software_name:
+    - GanttProject
+    - JHotDraw
+    - orDrumBox
+    - HealthWatcher
+    - Xerces
+  software_lang:
+    - Java
+  software_size:
+    - Application
+  software_usage:
+    - irrelevant
+  software_origin:
+    - open-source
+  software_notoriety:
+    - toy
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - reused
+  author:
+    - Satnam Kaur
+    - Lalit K. Awasthi
+    - A. L. Sangal
+  doi: https://doi.org/10.1007/s11831-020-09491-5
+
 - id: "karlin:2012:sc-1"
   title: "Abstract: Memory and Parallelism Exploration Using the LULESH Proxy Application"
   source:
@@ -789,6 +836,110 @@
     - Rudolf Eigenmann
   doi: https://doi.org/10.1109/ICPP.2000.876107
 
+- id: "chen:2024:acmse"
+  title: "Adapting Multi-objectivized Software Configuration Tuning"
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+    - Google24 (energy)
+  year: 2024
+  venue: IEEE TSE
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+    - Energy
+    - Other
+  fitness_multi: Search
+  tool_name:
+    - AdMMO
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Configuration
+  software_nb: 7
+  software_name:
+    - MariaDB
+    - Storm
+    - VP9
+    - Keras
+    - MongoDB
+    - x264
+    - LLVM
+  software_lang:
+    - C/c++
+    - Java
+    - Perl
+    - Python
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - Windows
+    - Mac
+    - Unix/linux
+  benchmark_quality:
+    - reused
+    - available
+  author:
+    - Tao Chen
+    - Miqing Li
+  doi: https://doi.org/10.1145/3643751
+
+- id: "lin:2022:icde"
+  title: "Adaptive Code Learning for Spark Configuration Tuning"
+  source:
+    - Google24 (quality)
+    - IEEE24 (other)
+    - IEEE24 (time)
+  year: 2022
+  venue: ICDE
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - LITE
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Spark
+  software_lang:
+    - Scala
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Chen Lin
+    - Junqing Zhuang
+    - Jiadong Feng
+    - Hui Li
+    - Xuanhe Zhou
+    - Guoliang Li
+  doi: https://doi.org/10.1109/ICDE53745.2022.00195
+
 - id: "lee:2004:scopes"
   title: "A Flexible Tradeoff Between Code Size and WCET Using a Dual Instruction Set Processor"
   source:
@@ -1025,6 +1176,74 @@
     - Jingfei Kong
     - Huiyang Zhou
   doi: https://doi.org/10.1145/1806596.1806606
+
+- id: "xu:2024:ppopp"
+  title: "A Holistic Approach to Automatic Mixed-Precision Code Generation and Tuning for Affine Programs"
+  source:
+    - ACM24 (quality)
+  year: 2024
+  venue: PPoPP
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - PrecTuner
+  tool_search:
+    - Static
+  tool_approach:
+    - Loops
+    - Semantic
+  software_nb: 21
+  software_name:
+    - correlation
+    - covariance
+    - 2mm
+    - doitgen
+    - gemm
+    - symm
+    - syr2k
+    - syrk
+    - trmm
+    - cholesky
+    - durbin
+    - gramschmidt
+    - lu
+    - deriche
+    - floyd
+    - nussinov
+    - adi
+    - fdtd-2d
+    - heat-3d
+    - jacobi-2d
+    - seidel-2d
+  software_set_name:
+    - PolyBench
+  software_lang:
+    - C/c++
+  software_size:
+    - Block
+    - Function
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - Unix/linux
+  benchmark_quality:
+    - reused
+  author:
+    - Jinchen Xu
+    - Guanghui Song
+    - Bei Zhou
+    - Fei Li
+    - Jiangwei Hao
+    - Jie Zhao
+  doi: https://doi.org/10.1145/3627535.3638484
 
 - id: "courbot:2006:cardis"
   title: "A Low-Footprint Java-to-Native Compilation Scheme Using Formal Methods"
@@ -1326,8 +1545,8 @@
     - Marc Pouzet
   doi: https://doi.org/10.1145/2248418.2248426
 
-- id: "matsurama:2020:corr"
-  title: "AN5D: Automated Stencil Framework for High-Degree Temporal Blocking on GPUs"
+- id: "matsumura:2020:cgo"
+  title: "AN5D: Automated stencil framework for high-degree temporal blocking on GPUs"
   url:
     - https://arxiv.org/abs/2001.01473
   source:
@@ -1371,6 +1590,7 @@
     - Mohamed Wahib
     - Toshio Endo
     - Satoshi Matsuoka
+  doi: https://doi.org/10.1145/3368826.3377904
 
 - id: "selakovic:2017:issta"
   title: "An actionable performance profiler for optimizing the order of evaluations"
@@ -1699,6 +1919,7 @@
   title: "An Automated Tool for Analysis and Tuning of GPU-Accelerated Code in HPC Applications"
   source:
     - IEEE (time)
+    - Google24 (memory)
   year: 2022
   venue: IEEE TPDS
   venue_type:
@@ -1925,11 +2146,62 @@
     - Alexandru Nicolau
   doi: https://doi.org/10.1109/DATE.2002.998305
 
+- id: "syawanodya:2024:ijaseit"
+  title: "An Empirical Evaluation on the Effect of Refactoring Code Smells Mobile Applications Android with ASATs on Resource Usage"
+  source:
+    - Scopus24 (memory)
+  year: 2024
+  venue: IJASEIT
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - unnamed
+  tool_search:
+    - Static
+  tool_approach:
+    - Semantic
+  software_nb: 3
+  software_name:
+    - Calculator
+    - Todo-list
+    - Openflood
+  software_lang:
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - unknown
+  software_notoriety:
+    - toy
+  software_platform:
+    - Android
+  benchmark_quality:
+    - named
+  author:
+    - Indira Syawanodya
+    - Dian Anggraini
+    - Fajar Muhammad Al-Hijri
+    - Mochamad Iqbal Ardimansyah
+  doi: https://doi.org/10.18517/ijaseit.14.1.18852
+
 - id: "alkandari:2021:access"
   title: "An Empirical Investigation on the Effect of Code Smells on Resource Usage of Android Mobile Applications"
   source:
     - IEEE (memory)
     - Scopus (memory)
+    - IEEE24 (memory)
+    - IEEE24 (other)
+    - IEEE24 (quality)
+    - Scopus24 (memory)
+    - Scopus24 (other)
+    - Scopus24 (quality)
   year: 2021
   venue: IEEE Access
   venue_type:
@@ -2024,6 +2296,109 @@
     - Romain Rouvoy
   doi: https://doi.org/10.1145/2897073.2897100
 
+- id: "xu:2022:saner"
+  title: "An Empirical Study on the Impact of Deep Parameters on Mobile App Energy Usage"
+  source:
+    - IEEE24 (energy)
+    - Scopus24 (energy)
+  year: 2022
+  venue: SANER
+  venue_type:
+    - Conference
+  fitness:
+    - Energy
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - unnamed
+  tool_search:
+    - Sampling
+  tool_approach:
+    - Destructive
+  software_nb: 16
+  software_name:
+    - SAI
+    - ConnectBot
+    - AnySoftKeyboard
+    - KeePassDroid
+    - Amaze File Manager
+    - AntennaPod
+    - OpenKeychain
+    - Slide for Reddit
+    - Conversations
+    - Download Navi
+    - Wikimedia Commons
+    - Etar Calendar
+    - IPFS Lite
+    - F-Droid
+    - F-Droid Build Status
+    - RadarWeather
+  software_lang:
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Android
+  benchmark_quality:
+    - described
+  author:
+    - Qiang Xu
+    - James C. Davis
+    - Y. Charlie Hu
+    - Abhilash Jindal
+  doi: https://doi.org/10.1109/SANER53432.2022.00103
+
+- id: "hamdi:2021:mobilesoft"
+  title: "An Empirical Study on the Impact of Refactoring on Quality Metrics in Android Applications"
+  source:
+    - Google24 (time)
+  year: 2021
+  venue: MobileSoft
+  venue_type:
+    - Conference
+  fitness:
+    - Other
+  fitness_secondary:
+    - Size
+  fitness_multi: Report
+  tool_name:
+    - unnamed
+  tool_search:
+    - Static
+  tool_approach:
+    - Semantic
+  software_nb: 300
+  software_name:
+    - unnamed
+  software_lang:
+    - Unknown
+  software_size:
+    - Project
+    - Application
+  software_usage:
+    - unknown
+  software_origin:
+    - open-source
+  software_notoriety:
+    - unknown
+  software_platform:
+    - Android
+  benchmark_quality:
+    - unspecified
+  author:
+    - Oumayma Hamdi
+    - Ali Ouni
+    - Eman Abdullah AlOmar
+    - Mel Ó Cinnéide
+    - Mohamed Wiem Mkaouer
+  doi: https://doi.org/10.1109/MOBILESOFT52590.2021.00010
+
 - id: "chavarria-miranda:2002:pact"
   title: "An Evaluation of Data-Parallel Compiler Support for Line-Sweep Applications"
   source:
@@ -2074,6 +2449,8 @@
   source:
     - IEEE (other)
     - IEEE (quality)
+    - ACM24 (other)
+    - IEEE24 (other)
   year: 2021
   venue: CGO
   venue_type:
@@ -2253,6 +2630,52 @@
     - Paul Matos
     - Michael Lacaria
   doi: https://doi.org/10.1109/ASE.2019.00066
+
+- id: "aken:2021:vldbe"
+  title: "An Inquiry into Machine Learning-based Automatic Configuration Tuning Services on Real-World Database Management Systems"
+  source:
+    - ACM24 (quality)
+  year: 2021
+  venue: VLDBE
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - OtterTune
+  tool_search:
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 2
+  software_name:
+    - MySQL
+    - Postgres
+  software_lang:
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unix/linux
+  benchmark_quality:
+    - named
+  author:
+    - Dana Van Aken
+    - Dongsheng Yang
+    - Sebastien Brillard
+    - Ari Fiorino
+    - Bohan Zhang
+    - Christian Billian
+    - Andrew Pavlo
+  doi: https://doi.org/10.14778/3450980.3450992
 
 - id: "ma:2010:hipc"
   title: "An integer programming framework for optimizing shared memory use on GPUs"
@@ -2898,7 +3321,7 @@
   source:
     - Manual
   year: 2019
-  venue: SoftComputing
+  venue: Soft Computing
   venue_type:
     - Journal
   fitness:
@@ -3598,6 +4021,54 @@
     - David A. Padua
   doi: https://doi.org/10.1145/377792.377799
 
+- id: "brownlee:2022:joh"
+  title: "A systematic approach to parameter optimization and its application to flight schedule simulation software"
+  source:
+    - Google24 (memory)
+    - Scopus24 (other)
+    - Scopus24 (time)
+  year: 2022
+  venue: JoH
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+    - Other
+  fitness_secondary:
+  fitness_multi: Search
+  tool_name:
+    - irace
+    - SMAC
+  tool_search:
+    - Exploratory
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Opium
+  software_lang:
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - described
+  author:
+    - Alexander E. I. Brownlee
+    - Michael G. Epitropakis
+    - Jeroen Mulder
+    - Marc Paelinck
+    - Edmund K. Burke
+  doi: https://doi.org/10.1007/S10732-022-09501-8
+
 - id: "joisha:2011:popl"
   title: "A technique for the effective and automatic reuse of classical compiler optimizations on multithreaded code"
   source:
@@ -3811,6 +4282,57 @@
     - Meenakshi A. Kandaswamy
   doi: https://doi.org/10.1109/71.877759
 
+- id: "klieber:2022:apr-icse"
+  title: "Automated Code Repair to Ensure Spatial Memory Safety"
+  source:
+    - IEEE24 (memory)
+  year: 2021
+  venue: ICSE
+  venue_type:
+    - Workshop
+  fitness:
+    - Other
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - ACR
+  tool_search:
+    - Static
+  tool_approach:
+    - Semantic
+  software_nb: 4
+  software_name:
+    - bzip2
+    - mcf
+    - sjeng
+    - libquantum
+  software_set_name:
+    - SPEC
+  software_lang:
+    - C/c++
+  software_size:
+    - Project
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unix/linux
+  benchmark_quality:
+    - reused
+  author:
+    - William Klieber
+    - Ruben Martins
+    - Ryan Steele
+    - Matt Churilla
+    - Mike McCall
+    - David Svoboda
+  doi: https://doi.org/10.1109/APR52552.2021.00013
+
 - id: "aleen:2016:cf"
   title: "Automated compiler optimization of multiple vector loads/stores"
   source:
@@ -3869,6 +4391,53 @@
     - David Kreitzer
     - Chang-Sun Lin Jr.
   doi: https://doi.org/10.1145/2903150.2903169
+
+- id: "whaley:2001:pc"
+  title: "Automated empirical optimizations of software and the ATLAS project"
+  source:
+    - Google (memory)
+    - Google (other)
+    - Google (quality)
+  year: 2001
+  venue: Parallel Computing
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - ATLAS
+  tool_search:
+    - Exploratory
+  tool_approach:
+    - Loops
+    - Semantic
+  software_nb: 0
+  software_name:
+    - unnamed
+  software_set_name:
+    - BLAS
+  software_lang:
+    - C/c++
+  software_size:
+    - Block
+    - Function
+  software_usage:
+    - unknown
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - reused
+  author:
+    - R. Clinton Whaley
+    - Antoine Petitet
+    - Jack J. Dongarra
+  doi: https://doi.org/10.1016/S0167-8191(00)00087-9
 
 - id: "rahman:2011:hipeac"
   title: "Automated empirical tuning of scientific codes for performance and power consumption"
@@ -8021,8 +8590,96 @@
     - Maha Kooli
   doi: https://doi.org/10.1145/3378678.3391874
 
-- id: "wu:2015:gecco"
-  title: "Deep Parameter Optimisation"
+- id: "huang:2024:saner"
+  title: "Debloating Feature-Rich Closed-Source Windows Software"
+  source:
+    - IEEE24 (quality)
+  year: 2024
+  venue: SANER
+  venue_type:
+    - Conference
+  fitness:
+    - Other
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - BinDebloat
+  tool_search:
+    - Static
+  tool_approach:
+    - Destructive
+  software_nb: 2
+  software_name:
+    - 7zip
+    - Acrobat
+  software_lang:
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - unknown
+  software_origin:
+    - open-source
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - Windows
+  benchmark_quality:
+    - named
+  author:
+    - Zhen Huang
+  doi: https://doi.org/10.1109/SANER60148.2024.00047
+
+- id: "dou:2022:icpp"
+  title: "DeepCAT: A Cost-Efficient Online Configuration Auto-Tuning Approach for Big Data Frameworks"
+  source:
+    - ACM24 (quality)
+    - ACM24 (time)
+  year: 2022
+  venue: ICPP
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - DeepCat
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Configuration
+  software_nb: 3
+  software_name:
+    - Spark
+    - YARN
+    - HDFS
+  software_lang:
+    - Scala
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - unknown
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Hui Dou
+    - Yilun Wang
+    - Yiwen Zhang
+    - Pengfei Chen
+  doi: https://doi.org/10.1145/3545008.3545018
+
+- id: "bokhari:2017:gi-gecco"
+  title: "Deep Parameter Optimisation on Android Smartphones for Energy Minimisation -- A Tale of Woe and a Proof-of-Concept"
   source:
     - Manual
   year: 2015
@@ -8063,12 +8720,11 @@
   benchmark_quality:
     - named
   author:
-    - Fan Wu
-    - Westley Weimer
-    - Mark Harman
-    - Yue Jia
-    - Jens Krinke
-  doi: https://doi.org/10.1145/2739480.2754648
+    - Mahmoud A. Bokhari
+    - Bobby R. Bruce
+    - Brad Alexander
+    - Markus Wagner
+  doi: https://doi.org/10.1145/3067695.3082519
 
 - id: "weidmann:1997:iscope"
   title: "Design and Performance Improvement of a Real-World, Object-Oriented C++ Solver with STL"
@@ -8831,6 +9487,12 @@
   title: "Efficient Auto-Tuning of Parallel Programs with Interdependent Tuning Parameters via Auto-Tuning Framework (ATF)"
   source:
     - Manual
+    - ACM24 (memory)
+    - ACM24 (quality)
+    - ACM24 (time)
+    - Google24 (memory)
+    - Scopus24 (memory)
+    - Scopus24 (other)
   year: 2021
   venue: ACM TACO
   venue_type:
@@ -9029,6 +9691,101 @@
     - Anil Sharma
     - C. P. Ravikumar
   doi: https://doi.org/10.1109/ICVD.2000.812649
+
+- id: "song:2024:icse"
+  title: "Efficiently Trimming the Fat -- Streamlining Software Dependencies with Java Reflection and Dependency Analysis"
+  source:
+    - IEEE24 (other)
+  year: 2024
+  venue: ICSE
+  venue_type:
+    - Conference
+  fitness:
+    - Size
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - SLIMMING
+  tool_search:
+    - Static
+  tool_approach:
+    - Destructive
+  software_nb: 4035
+  software_name:
+    - unnamed
+  software_set_name:
+    - DaCapo
+  software_lang:
+    - Java
+  software_size:
+    - Project
+    - Application
+    - Unknown
+  software_usage:
+    - unknown
+  software_origin:
+    - open-source
+  software_notoriety:
+    - unknown
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - unspecified
+  author:
+    - Xiaohu Song
+    - Ying Wang
+    - Xiao Cheng
+    - Guangtai Liang
+    - Qianxiang Wang
+    - Zhiliang Zhu
+  doi: https://doi.org/10.1145/3597503.3639123
+
+- id: "dou:2023:internetware"
+  title: "EFTuner: A Bi-Objective Configuration Parameter Auto-Tuning Method Towards Energy-Efficient Big Data Processing"
+  source:
+    - ACM24 (energy)
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2023
+  venue: InternetWare
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+    - Energy
+  fitness_secondary:
+  fitness_multi: Search
+  tool_name:
+    - EFTuner
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Spark
+  software_lang:
+    - Scala
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Hui Dou
+    - Xing Wei
+    - Kang Wang
+    - Yiwen Zhang
+    - Pengfei Chen
+    - Yuee Huang
+  doi: https://doi.org/10.1145/3609437.3609443
 
 - id: "yeboah-antwi:2015:gi-gecco"
   title: "Embedding Adaptivity in Software Systems using the ECSELR framework"
@@ -9230,6 +9987,53 @@
     - Jie Chen
     - Guru Venkataramani
   doi: https://doi.org/10.1016/j.jpdc.2016.05.005
+
+- id: "sanlialp:2022:electronics"
+  title: "Energy Efficiency Analysis of Code Refactoring Techniques for Green and Sustainable Software in Portable Devices"
+  source:
+    - Scopus24 (energy)
+    - Scopus24 (quality)
+    - Scopus24 (time)
+  year: 2022
+  venue: Electronics
+  venue_type:
+    - Journal
+  fitness:
+    - Energy
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - unnamed
+  tool_search:
+    - Static
+  tool_approach:
+    - Loops
+    - Semantic
+  software_nb: 2
+  software_name:
+    - 2048
+    - 2048
+  software_lang:
+    - C#
+    - Java
+  software_size:
+    - Unknown
+  software_usage:
+    - unknown
+  software_origin:
+    - unknown
+  software_notoriety:
+    - toy
+  software_platform:
+    - Windows
+    - Android
+  benchmark_quality:
+    - unspecified
+  author:
+    - İbrahim Şanlıalp
+    - Muhammed Maruf Öztürk
+    - Tuncay Yiğit
+  doi: https://doi.org/10.3390/electronics11030442
 
 - id: "fei:2007:tecs"
   title: "Energy-optimizing source code transformations for operating system-driven embedded software"
@@ -9452,6 +10256,48 @@
     - Federica Sarro
     - Mark Harman
   doi: https://doi.org/10.1109/ICSE43902.2021.00120
+
+- id: "cao:2024:jss"
+  title: "ETune: Efficient configuration tuning for big-data software systems via configuration space reduction"
+  source:
+    - Scopus24 (other)
+  year: 2024
+  venue: JSS
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - ETune
+  tool_search:
+    - Exploratory
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Spark
+  software_lang:
+    - Scala
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Rong Cao
+    - Liang Bao
+    - Kaibi Zhao
+    - Panpan Zhangsun
+  doi: https://doi.org/10.1016/J.JSS.2023.111936
 
 - id: "anwar:2019:seaa"
   title: "Evaluating the Impact of Code Smell Refactoring on the Energy Consumption of Android Applications"
@@ -10625,6 +11471,61 @@
     - Ivica Crnkovic
   doi: https://doi.org/10.1145/2187836.2187947
 
+- id: "zhang:2022:vldbe"
+  title: "Facilitating Database Tuning with Hyper-Parameter Optimization -- A Comprehensive Experimental Evaluation"
+  source:
+    - ACM24 (quality)
+  year: 2022
+  venue: VLDBE
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - unnamed
+  tool_search:
+    - Evolutionary
+    - Exploratory
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 9
+  software_name:
+    - JOB
+    - SYSBENCH
+    - TPC-C
+    - SEATS
+    - SmallBank
+    - TATP
+    - Voter
+    - Twitter
+    - SIBench
+  software_lang:
+    - Unknown
+  software_size:
+    - Unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - unknown
+  software_notoriety:
+    - unknown
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Xinyi Zhang
+    - Zhuo Chang
+    - Yang Li
+    - Hong Wu
+    - Jian Tan
+    - Feifei Li
+    - Bin Cui
+  doi: https://doi.org/10.14778/3538598.3538604
+
 - id: "pan:2006:cgo"
   title: "Fast and Effective Orchestration of Compiler Optimizations for Automatic Performance Tuning"
   source:
@@ -10690,7 +11591,7 @@
   doi: https://doi.org/10.1109/CGO.2006.38
 
 - id: "bonny:2008:iccad"
-  title: "FBT: filled buffer technique to reduce code size for VLIW processors"
+  title: "FBT: Filled buffer technique to reduce code size for VLIW processors"
   source:
     - ACM (other)
   year: 2008
@@ -11075,6 +11976,49 @@
     - Mark Harman
   doi: https://doi.org/10.1007/s10710-016-9273-9
 
+- id: "langdon:2024:eurogp"
+  title: "Genetic Improvement of Last Level Cache"
+  source:
+    - Scopus24 (other)
+  year: 2024
+  venue: SSBSE
+  venue_type:
+    - Conference
+  fitness:
+    - Memory
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - Magpie
+  tool_search:
+    - Exploratory
+  tool_approach:
+    - Configuration
+    - Destructive
+  software_nb: 1
+  software_name:
+    - VIPS
+  software_set_name:
+    - PARSEC
+  software_lang:
+    - C/c++
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unix/linux
+  benchmark_quality:
+    - reused
+  author:
+    - William B. Langdon
+    - David Clark
+  doi: https://doi.org/10.1007/978-3-031-56957-9\_13
+
 - id: "haraldsson:2017:gi-gecco:2"
   title: "Genetic Improvement of Runtime and its fitness landscape in a Bioinformatics Application"
   source:
@@ -11220,6 +12164,49 @@
     - Carole-Jean Wu
   doi: https://doi.org/10.1145/3418055
 
+- id: "cheema:2023:gpgpu"
+  title: "GPU Auto-tuning Framework for Optimal Performance and Power Consumption"
+  source:
+    - ACM24 (energy)
+    - Scopus24 (energy)
+    - Scopus24 (other)
+  year: 2023
+  venue: GPGPU
+  venue_type:
+    - Workshop
+  fitness:
+    - Time
+    - Energy
+  fitness_secondary:
+  fitness_multi: Search
+  tool_name:
+    - MOKAT
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Configuration
+  software_nb: 8
+  software_name:
+    - unnamed
+  software_lang:
+    - Gpu
+  software_size:
+    - Block
+  software_usage:
+    - dataset
+  software_origin:
+    - unknown
+  software_notoriety:
+    - toy
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - unspecified
+  author:
+    - Sunbal Cheema
+    - Gul N. Khan
+  doi: https://doi.org/10.1145/3589236.3589241
+
 - id: "gu:2020:hipc"
   title: "GPU-FPtuner: Mixed-precision Auto-tuning for Floating-point Applications on GPU"
   source:
@@ -11268,10 +12255,56 @@
     - Michela Becchi
   doi: https://doi.org/10.1109/HiPC50609.2020.00043
 
+- id: "saju:2021:icrito"
+  title: "Green Mining for Android Based Applications Using Refactoring Approach"
+  source:
+    - Scopus24 (energy)
+  year: 2021
+  venue: ICRITO
+  venue_type:
+    - Conference
+  fitness:
+    - Energy
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - ADOCTOR
+  tool_search:
+    - Static
+  tool_approach:
+    - Semantic
+  software_nb: 23
+  software_name:
+    - unnamed
+  software_lang:
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Android
+  benchmark_quality:
+    - named
+  author:
+    - Nissy Saju
+    - Jaya Garg
+    - Rajni Sehgal
+    - Renuka Nagpal
+  doi: https://doi.org/10.1109/ICRITO51393.2021.9596476
+
 - id: "sehgal:2020:jksu-cis"
   title: "Green software: Refactoring approach"
   source:
     - Scopus (energy)
+    - Google24 (energy)
+    - Scopus24 (energy)
+    - Scopus24 (other)
+    - Scopus24 (quality)
   year: 2020
   venue: JKSUCI
   venue_type:
@@ -12141,6 +13174,121 @@
     - Mark Harman
   doi: https://doi.org/10.1145/2739480.2754652
 
+- id: "oliveira:2021:ese"
+  title: "Improving energy-efficiency by recommending Java collections"
+  source:
+    - Google24 (energy)
+  year: 2021
+  venue: ESE
+  venue_type:
+    - Journal
+  fitness:
+    - Energy
+  fitness_secondary:
+    - Time
+  fitness_multi: Report
+  tool_name:
+    - CT+
+  tool_search:
+    - Static
+  tool_approach:
+    - Destructive
+  software_nb: 17
+  software_name:
+    - Tomcat
+    - Xalan
+    - Barbecue
+    - Battlecry
+    - JodaTime
+    - Twfbplayer
+    - Xisemele
+    - Apache Commons Math
+    - Google Gson
+    - XStream
+    - BioJava
+    - Cassandra
+    - Graphchi
+    - Kafka
+    - Zxing
+    - FastSearch
+    - PasswordGen
+  software_set_name:
+    - DaCapo
+  software_lang:
+    - Java
+  software_size:
+    - Application
+    - Unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+    - open-source
+  software_notoriety:
+    - toy
+    - wild
+    - unknown
+  software_platform:
+    - Unix/linux
+    - Android
+  benchmark_quality:
+    - named
+    - reused
+  author:
+    - Wellington Oliveira
+    - Renato Oliveira
+    - Fernando Castor
+    - Gustavo Pinto
+    - João Paulo Fernandes
+  doi: https://doi.org/10.1007/S10664-021-09950-Y
+
+- id: "adler:2021:scam"
+  title: "Improving Readability of Scratch Programs with Search-based Refactoring"
+  source:
+    - IEEE24 (other)
+  year: 2021
+  venue: SCAM
+  venue_type:
+    - Conference
+  fitness:
+    - Size
+    - Other
+  fitness_secondary:
+  fitness_multi: Search
+  tool_name:
+    - LitterBox
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Semantic
+  software_nb: 1000
+  software_name:
+    - unnamed
+  software_lang:
+    - Scratch
+  software_size:
+    - File
+  software_usage:
+    - irrelevant
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - unspecified
+  author:
+    - Felix Adler
+    - Gordon Fraser
+    - Eva Gründinger
+    - Nina Körber
+    - Simon Labrenz
+    - Jonas Lerchenberger
+    - Stephan Lukasczyk
+    - Sebastian Schweikl
+  doi: https://doi.org/10.1109/SCAM52516.2021.00023
+
 - id: "langdon:2017:gi-gecco"
   title: "Improving SSE Parallel Code with Grow and Graft Genetic Programming"
   source:
@@ -12300,6 +13448,64 @@
     - Ken Kennedy
   doi: https://doi.org/10.1145/197320.197366
 
+- id: "wang:2022:fse"
+  title: "Industry practice of configuration auto-tuning for cloud applications and services"
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+    - Scopus24 (other)
+  year: 2022
+  venue: FSE
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - KeenTune
+  tool_search:
+    - Exploratory
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 4
+  software_name:
+    - MySQL
+    - OceanBase
+    - nginx
+    - ACK
+  software_set_name:
+    - SPEC (Java)
+  software_lang:
+    - Java
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+    - reused
+  author:
+    - Runzhe Wang
+    - Qinglong Wang
+    - Yuxi Hu
+    - Heyuan Shi
+    - Yuheng Shen
+    - Yu Zhan
+    - Ying Fu
+    - Zheng Liu
+    - Xiaohai Shi
+    - Yu Jiang
+  doi: https://doi.org/10.1145/3540250.3558962
+
 - id: "bree:2020:iwor-icse"
   title: "Inheritance versus Delegation: which is more energy efficient?"
   source:
@@ -12365,6 +13571,7 @@
     - spatial4j
   software_lang:
     - Java
+    - Scala
   software_size:
     - Application
   software_usage:
@@ -12975,6 +14182,100 @@
     - João Saraiva
   doi: https://doi.org/10.1145/3238147.3240473
 
+- id: "wang:2023:issta"
+  title: "KeenTune: Automated Tuning Tool for Cloud Application Performance Testing and Optimization"
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2023
+  venue: ISSTA
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - KeenTune
+  tool_search:
+    - Exploratory
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - nginx
+  software_lang:
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Qinglong Wang
+    - Runzhe Wang
+    - Yuxi Hu
+    - Xiaohai Shi
+    - Zheng Liu
+    - Tao Ma
+    - Houbing Song
+    - Heyuan Shi
+  doi: https://doi.org/10.1145/3597926.3604920
+
+- id: "zhan:2024:cmlds"
+  title: "KnobTune: A Dynamic Database Configuration Tuning Strategy Leveraging Historical Workload Similarities"
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+  year: 2024
+  venue: CMLDS
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - KnobTune
+    - SMAC
+  tool_search:
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - MySQL
+  software_lang:
+    - C/c++
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Yueyang Zhan
+    - Rui Xi
+    - Jianming Liao
+    - Shuhuan Fan
+    - Mengshu Hou
+  doi: https://doi.org/10.1145/3661725.3661734
+
 - id: "sachan:2021:jsa"
   title: "Learning based compilation of embedded applications targeting minimal energy consumption"
   source:
@@ -13108,6 +14409,58 @@
     - Marco Tulio Valente
   doi: https://doi.org/10.1145/2851553.2851571
 
+- id: "shypuya:2024:iclr"
+  title: "Learning Performance-Improving Code Edits"
+  url:
+    - https://arxiv.org/abs/2302.07867
+  source:
+    - Google24 (time)
+  year: 2024
+  venue: ICLR
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - unnamed
+  tool_search:
+    - Static
+  tool_approach:
+    - Semantic
+  software_nb: 77000
+  software_name:
+    - unnamed
+  software_set_name:
+    - PIE
+  software_lang:
+    - C/c++
+  software_size:
+    - File
+  software_usage:
+    - test suite
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - unspecified
+  author:
+    - Alexander Shypula
+    - Aman Madaan
+    - Yimeng Zeng
+    - Uri Alon
+    - Jacob R. Gardner
+    - Yiming Yang
+    - Milad Hashemi
+    - Graham Neubig
+    - Parthasarathy Ranganathan
+    - Osbert Bastani
+    - Amir Yazdanbakhsh
+
 - id: "wang:2019:access-2"
   title: "Leveraging WebAssembly for Numerical JavaScript Code Virtualization"
   source:
@@ -13170,6 +14523,49 @@
     - Fuwei Wang
     - Jie Ren
   doi: https://doi.org/10.1109/ACCESS.2019.2953511
+
+- id: "xin:2022:sigmod"
+  title: "LOCAT: Low-Overhead Online Configuration Auto-Tuning of Spark SQL Applications"
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+    - Google24 (memory)
+  year: 2022
+  venue: SIGMOD
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - LOCAT
+  tool_search:
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Spark
+  software_lang:
+    - Scala
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Jinhan Xin
+    - Kai Hwang
+    - Zhibin Yu
+  doi: https://doi.org/10.1145/3514221.3526157
 
 - id: "cody-kenny:2015:gi-gecco"
   title: "locoGP: Improving Performance by Genetic Programming Java Source Code"
@@ -13407,6 +14803,53 @@
     - Thomas E. Anderson
   doi: https://doi.org/10.1145/133057.133079
 
+- id: "zong:2022:tsc"
+  title: "MespaConfig: Memory-Sparing Configuration Auto-Tuning for Co-Located In-Memory Cluster Computing Jobs"
+  source:
+    - IEEE24 (memory)
+    - Scopus24 (memory)
+    - IEEE (memory)
+  year: 2022
+  venue: IEEE TSC
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+    - Memory
+  fitness_secondary:
+  fitness_multi: Search
+  tool_name:
+    - MespaConfig
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Spark
+  software_lang:
+    - Scala
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Zan Zong
+    - Lijie Wen
+    - Xuming Hu
+    - Rui Han
+    - Chen Qian
+    - Li Lin
+  doi: https://doi.org/10.1109/TSC.2021.3063118
+
 - id: "tsafrir:2009:oopsla"
   title: "Minimizing dependencies within generic classes for faster and smaller programs"
   source:
@@ -13449,7 +14892,7 @@
     - Bjarne Stroustrup
   doi: https://doi.org/10.1145/1640089.1640121
 
-- id: "colucci:2020:corr"
+- id: "colucci:2021:date"
   title: "MLComp: A Methodology for Machine Learning-based Performance Estimation and Adaptive Selection of Pareto-Optimal Compiler Optimization Sequences"
   url:
     - https://arxiv.org/abs/2012.05270
@@ -13507,9 +14950,10 @@
     - Alberto Marchisio
     - Semeen Rehman
     - Manfred Kreutzer
-    - Guenther Nadbath
+    - Günther Nadbath
     - Axel Jantsch
     - Muhammad Shafique
+  doi: https://doi.org/10.23919/DATE51398.2021.9474158
 
 - id: "blot:2016:lion"
   title: "MO-ParamILS: A Multi-objective Automatic Algorithm Configuration Framework"
@@ -13697,6 +15141,107 @@
     - Keiji Kimura
     - Hironori Kasahara
   doi: https://doi.org/10.1007/978-3-319-29778-1_8
+
+- id: "he:2022:icse"
+  title: "Multi-Intention-Aware Configuration Selection for Performance Tuning"
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2022
+  venue: ICSE
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - SafeTune
+  tool_search:
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 3
+  software_name:
+    - PostgrSQL
+    - Squid
+    - Spark
+  software_lang:
+    - Unknown
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unix/linux
+  benchmark_quality:
+    - named
+  author:
+    - Haochen He
+    - Zhouyang Jia
+    - Shanshan Li
+    - Yue Yu
+    - Chenglong Zhou
+    - Qing Liao
+    - Ji Wang
+    - Xiangke Liao
+  doi: https://doi.org/10.1145/3510003.3510094
+
+- id: "chen:2021:fse"
+  title: "Multi-objectivizing software configuration tuning"
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2021
+  venue: FSE
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+    - Other
+    - Energy
+  fitness_multi: Search
+  tool_name:
+    - MMO
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Configuration
+  software_nb: 4
+  software_name:
+    - Trimesh
+    - x264
+    - Storm
+    - Keras
+  software_lang:
+    - C/c++
+    - Java
+    - Python
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+    - industrial
+  software_notoriety:
+    - wild
+  software_platform:
+    - Windows
+    - Mac
+    - Unix/linux
+  benchmark_quality:
+    - named
+    - reused
+  author:
+    - Tao Chen
+    - Miqing Li
+  doi: https://doi.org/10.1145/3468264.3468555
 
 - id: "barati:2021:corr_1"
   title: "NEAT: A Framework for Automated Exploration of Floating Point Approximations"
@@ -14083,7 +15628,7 @@
   doi: https://doi.org/10.1145/1772954.1772969
 
 - id: "yeboah-antwi:2017:gpem"
-  title: "Online Genetic Improvement on the java virtual machine with ECSELR"
+  title: "Online Genetic Improvement on the Java virtual machine with ECSELR"
   source:
     - Manual
   year: 2017
@@ -15084,6 +16629,48 @@
     - Anindya Jyoti Pal
   doi: https://doi.org/10.1109/CEC.2012.6256576
 
+- id: "li:2022:taco"
+  title: "Phronesis: Efficient Performance Modeling for High-dimensional Configuration Tuning"
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+  year: 2023
+  venue: ACM TACO
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - Phronesis
+  tool_search:
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Spark
+  software_lang:
+    - Scala
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Yuhao Li
+    - Benjamin C. Lee
+  doi: https://doi.org/10.1145/3546868
+
 - id: "bartoli:2014:gecco"
   title: "Playing regex golf with genetic programming"
   source:
@@ -15329,6 +16916,58 @@
     - Thomas R. Gross
   doi: https://doi.org/10.1145/2166.357217
 
+- id: "wang:2024:icse"
+  title: "Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning"
+  source:
+    - IEEE24 (quality)
+  year: 2024
+  venue: ICSE
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - FPLearner
+  tool_search:
+    - Static
+  tool_approach:
+    - Destructive
+  software_nb: 4
+  software_name:
+    - CG
+    - MC
+    - Lulesh
+    - LBM
+  software_set_name:
+    - NAS
+    - LLNL
+    - SPEC
+  software_lang:
+    - C/c++
+    - Unknown
+  software_size:
+    - Application
+    - Unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+    - open-source
+    - unknown
+  software_notoriety:
+    - toy
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - reused
+  author:
+    - Yutong Wang
+    - Cindy Rubio-González
+  doi: https://doi.org/10.1145/3597503.3623338
+
 - id: "ball:1979:cc"
   title: "Predicting the effects of optimization on a procedure body"
   source:
@@ -15425,8 +17064,7 @@
     - Christopher Eibel
     - Oliver Mihelic
     - Rüdiger Kapitza
-  pdfs:
-    - https://www.usenix.org/system/files/conference/trios14/trios14-paper-hoenig.pdf
+  doi: https://doi.org/10.5555/2750315.2750321
 
 - id: "debray:2002:pldi"
   title: "Profile-Guided Code Compression"
@@ -15663,7 +17301,7 @@
   source:
     - Scopus (energy)
   year: 2016
-  venue: ParCo
+  venue: Parallel Computing
   venue_type:
     - Journal
   fitness:
@@ -16087,6 +17725,56 @@
     - Mark Harman
   doi: https://doi.org/10.1145/2739480.2754752
 
+- id: "somashekar:2022:acsos"
+  title: "Reducing the Tail Latency of Microservices Applications via Optimal Configuration Tuning"
+  source:
+    - IEEE24 (other)
+  year: 2022
+  venue: ACSOS
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - unnamed
+  tool_search:
+    - Exploratory
+  tool_approach:
+    - Configuration
+  software_nb: 3
+  software_name:
+    - social networking
+    - microservices
+    - train ticket
+  software_set_name:
+    - DeathStarBench
+  software_lang:
+    - Unknown
+  software_size:
+    - Unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - unknown
+  software_notoriety:
+    - toy
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+    - reused
+  author:
+    - Gagan Somashekar
+    - Amoghavarsha Suresh
+    - Saurabh Tyagi
+    - Vikas Dhyani
+    - Krishna Chaitanya Donkada
+    - Anurag Pradhan
+    - Anshul Gandhi
+  doi: https://doi.org/10.1109/ACSOS55765.2022.00029
+
 - id: "che:2005:hpcasia"
   title: "Reduction transformations for optimization parameter selection"
   source:
@@ -16237,6 +17925,48 @@
     - Milind Chabbi
     - Xu Liu
   doi: https://doi.org/10.1109/ICSE.2019.00103
+
+- id: "janjic:2021:ccpe"
+  title: "Refactoring for introducing and tuning parallelism for heterogeneous multicore machines in Erlang"
+  source:
+    - Scopus24 (time)
+  year: 2023
+  venue: CCPE
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - Lapedo
+  tool_search:
+    - Static
+  tool_approach:
+    - Semantic
+  software_nb: 4
+  software_name:
+    - unnamed
+  software_lang:
+    - Erlang
+  software_size:
+    - Unknown
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+  software_notoriety:
+    - toy
+  software_platform:
+    - Unix/linux
+  benchmark_quality:
+    - described
+  author:
+    - Vladimir Janjic
+    - Christopher Brown
+    - Adam D. Barwell
+    - Kevin Hammond
+  doi: https://doi.org/10.1002/CPE.5420
 
 - id: "tao:2014:icsme"
   title: "Refactoring Java Concurrent Programs Based on Synchronization Requirement Analysis"
@@ -16513,6 +18243,98 @@
     - Kanchi Gopinath
     - Manish Gupta
   doi: https://doi.org/10.1007/978-3-642-22655-7_19
+
+- id: "almogahed:2023:access"
+  title: "Revisiting Scenarios of Using Refactoring Techniques to Improve Software Systems Quality"
+  source:
+    - Google24 (time)
+    - IEEE24 (other)
+  year: 2023
+  venue: IEEE Access
+  venue_type:
+    - Journal
+  fitness:
+    - Other
+  fitness_secondary:
+  fitness_multi: Focus
+  tool_name:
+    - unnamed
+  tool_search:
+    - Static
+  tool_approach:
+    - Semantic
+  software_nb: 7
+  software_name:
+    - jHotDraw
+    - jGraphX
+    - Xerces
+    - jEdit
+  software_lang:
+    - Java
+  software_size:
+    - Project
+    - Application
+  software_usage:
+    - irrelevant
+  software_origin:
+    - academic
+    - open-source
+  software_notoriety:
+    - toy
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - described
+    - named
+  author:
+    - Abdullah Almogahed
+    - Mazni Omar
+    - Nur Haryani Zakaria
+    - Ghulam Muhammad
+    - Salman A. AlQahtani
+  doi: https://doi.org/10.1109/ACCESS.2022.3218007
+
+- id: "khan:2021:icpp"
+  title: "ROBOTune: High-Dimensional Configuration Tuning for Cluster-Based Data Analytics"
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  year: 2021
+  venue: ICPP
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - unnamed
+  tool_search:
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Spark
+  software_lang:
+    - Scala
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Md. Muhib Khan
+    - Weikuan Yu
+  doi: https://doi.org/10.1145/3472456.3472518
 
 - id: "hung-cuong:2013:iccasa"
   title: "Rule-Based Techniques Using Abstract Syntax Tree for Code Optimization and Secure Programming in Java"
@@ -17206,7 +19028,7 @@
   doi: https://doi.org/10.1145/3372297.3417866
 
 - id: "vasquez:2019:ist"
-  title: "Slimming javascript applications: An approach for removing unused functions from javascript libraries"
+  title: "Slimming JavaScript applications: An approach for removing unused functions from JavaScript libraries"
   source:
     - Manual
   year: 2019
@@ -18474,6 +20296,48 @@
     - Vilmundur Gudnason
   doi: https://doi.org/10.1109/ISCC.2017.8024536
 
+- id: "chen:2024:tc"
+  title: "TIE: Fast Experiment-Driven ML-Based Configuration Tuning for In-Memory Data Analytics"
+  source:
+    - IEEE24 (memory)
+    - IEEE24 (time)
+  year: 2024
+  venue: IEEE TC
+  venue_type:
+    - Journal
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - TIE
+  tool_search:
+    - Sampling
+  tool_approach:
+    - Configuration
+  software_nb: 1
+  software_name:
+    - Spark
+  software_lang:
+    - Scala
+  software_size:
+    - Application
+  software_usage:
+    - dataset
+  software_origin:
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Chao Chen
+    - Jinhan Xin
+    - Zhibin Yu
+  doi: https://doi.org/10.1109/TC.2024.3365937
+
 - id: "abdelaal:2021:ics"
   title: "Tile size selection of affine programs for GPGPUs using polyhedral cross-compilation"
   source:
@@ -18734,6 +20598,11 @@
     - IEEE (other)
     - IEEE (quality)
     - IEEE (time)
+    - Google24 (other)
+    - IEEE24 (memory)
+    - IEEE24 (other)
+    - Scopus24 (memory)
+    - Scopus24 (other)
   year: 2022
   venue: IEEE TSE
   venue_type:
@@ -19056,7 +20925,51 @@
     - Manbir Sodhi
   doi: https://doi.org/10.1145/3377929.3398136
 
-- id: "weng:2021:corr"
+- id: "liou:2022:iiswc"
+  title: "Understanding the Power of Evolutionary Computation for GPU Code Optimization"
+  source:
+    - IEEE24 (time)
+  year: 2022
+  venue: todo
+  venue_type:
+    - Conference
+  fitness:
+    - Time
+  fitness_secondary:
+  fitness_multi: 
+  tool_name:
+    - GEVO
+  tool_search:
+    - Evolutionary
+  tool_approach:
+    - Destructive
+  software_nb: 1
+  software_name:
+    - SIMCoV
+  software_lang:
+    - Gpu
+  software_size:
+    - Project
+  software_usage:
+    - dataset
+  software_origin:
+    - academic
+    - open-source
+  software_notoriety:
+    - wild
+  software_platform:
+    - Unknown
+  benchmark_quality:
+    - named
+  author:
+    - Jhe-Yu Liou
+    - Muaaz Awan
+    - Steven Hofmeyr
+    - Stephanie Forrest
+    - Carole-Jean Wu
+  doi: https://doi.org/10.1109/IISWC55918.2022.00025
+
+- id: "weng:2021:cgo"
   title: "UNIT: Unifying Tensorized Instruction Compilation"
   url:
     - https://arxiv.org/abs/2101.08458
@@ -19101,6 +21014,7 @@
     - Leyuan Wang
     - Yida Wang
     - Tony Nowatzki
+  doi: https://doi.org/10.1109/CGO51591.2021.9370330
 
 - id: "mcphee:2017:gecco-c_1"
   title: "Using algorithm configuration tools to optimize genetic programming parameters -- A case study"

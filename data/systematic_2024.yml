@@ -1,0 +1,3350 @@
+- id: 1
+  title: "A brief review on multi-objective software refactoring and a new method for its recommendation"
+  url:
+    - https://link.springer.com/article/10.1007/s11831-020-09491-5
+  source:
+    - Google24 (other)
+    - Google24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 2
+  title: "A Comparison of Different Optimization Algorithms for HW/SW Partitioning Using a High-Performance Cluster"
+  url:
+    - https://ieeexplore.ieee.org/document/9686929/
+  source:
+    - IEEE24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 3
+  title: "A comprehensive catalog of refactoring strategies to handle test smells in Java-based systems"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85186886998&doi=10.1007%2fs11219-024-09663-7&partnerID=40&md5=84cc5163a2bc3131e3bc22505fde6d5d
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 4
+  title: "Adaptation of XAI to Auto-tuning for Numerical Libraries"
+  url:
+    - https://arxiv.org/abs/2405.10973
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 5
+  title: "Adapting Multi-objectivized Software Configuration Tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3643751
+    - https://dl.acm.org/doi/abs/10.1145/3643751
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+    - Google24 (energy)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 6
+  title: "Adaptive Code Learning for Spark Configuration Tuning"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9835695/?casa_token=UvSZb6JFZq8AAAAA:USoNhwClNYWXnykZbXKXFXTkDia_m05jEWFWYzm1VuK4TMZbD5B6FbRNrh8kCJXuveu2gh0
+    - https://ieeexplore.ieee.org/document/9835695/
+  source:
+    - Google24 (quality)
+    - IEEE24 (other)
+    - IEEE24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 7
+  title: "A Deep Recurrent-Reinforcement Learning Method for Intelligent AutoScaling of Serverless Functions"
+  url:
+    - https://arxiv.org/abs/2308.05937
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - title
+
+- id: 8
+  title: "A detailed introduction to density-based topology optimisation of fluid flow problems with implementation in MATLAB"
+  url:
+    - https://arxiv.org/abs/2207.13695
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 9
+  title: "A Distributed Optimisation Framework Combining Natural Gradient with Hessian-Free for Discriminative Sequence Training"
+  url:
+    - https://arxiv.org/abs/2103.07554
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 10
+  title: "Advanced Image Classification on Intel Datasets Using Optimized EfficientNet and MobileNetV2"
+  url:
+    - https://ieeexplore.ieee.org/document/10543649/
+  source:
+    - IEEE24 (quality)
+  pass:
+    - none
+
+- id: 11
+  title: "Advancing Medical Image Segmentation with Mini-Net: A Lightweight Solution Tailored for Efficient Segmentation of Medical Images"
+  url:
+    - https://arxiv.org/abs/2405.17520
+  source:
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 12
+  title: "A Dynamic Programming Method for Energy Output Optimization of New Energy Vehicles"
+  url:
+    - https://ieeexplore.ieee.org/document/10151059/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 13
+  title: "A family of varying-parameter finite-time zeroing neural networks for solving time-varying Sylvester equation and its application"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0377042721004489?casa_token=5v-rwVksbgsAAAAA:568ujXj8ckeRcqqB9S01Gf2PQb9XM-_xIV_KBz-bnL3hnklX6Fhg5vR5QGeCsJ8TI32QMP8
+  source:
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 14
+  title: "A Flexible Approach for Solving Quality Issues by Means of Collecting Runtime Data"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85175634732&doi=10.1109%2fICoSSE58936.2023.00014&partnerID=40&md5=72667ceb2d8e35915ff9ff0d32f19386
+  source:
+    - Scopus24 (time)
+  pass:
+    - none
+
+- id: 15
+  title: "AgileCtrl: a self-adaptive framework for configuration tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3540250.3549136
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 16
+  title: "A Holistic Approach to Automatic Mixed-Precision Code Generation and Tuning for Affine Programs"
+  url:
+    - https://dl.acm.org/doi/10.1145/3627535.3638484
+  source:
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 17
+  title: "A literature review for measuring maintainability of code clone"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85163423385&doi=10.11591%2fijeecs.v31.i2.pp1118-1127&partnerID=40&md5=6c5d9de9162340eccbabae714f03784e
+  source:
+    - Scopus24 (time)
+  pass:
+    - none
+
+- id: 18
+  title: "A live environment for inspection and refactoring of software systems"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85116297018&doi=10.1145%2f3468264.3473100&partnerID=40&md5=20c1ae83ad3d2be9e6522d78cdb58c2b
+  source:
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 19
+  title: "A Live Environment to Improve the Refactoring Experience"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144247826&doi=10.1145%2f3532512.3535222&partnerID=40&md5=e23c099a0644ef3cac5d7b98721f4db5
+  source:
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 20
+  title: "A machine learning approach to software model refactoring"
+  url:
+    - https://www.tandfonline.com/doi/abs/10.1080/1206212X.2020.1711616
+  source:
+    - Google24 (other)
+    - Google24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 21
+  title: "A Memory Access Performance Detection and Optimization Driven by Address Mapping"
+  url:
+    - https://ieeexplore.ieee.org/document/9824079/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - title
+
+- id: 22
+  title: "A Metaprogramming Algorithm to Simplify the Coding Syntax of Data Analysis Methods"
+  url:
+    - https://ieeexplore.ieee.org/document/10316096/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - title
+
+- id: 23
+  title: "Analysis of Computer Application Software Progress Technology Based on Artificial Intelligence Background"
+  url:
+    - https://ieeexplore.ieee.org/document/10270640/
+  source:
+    - IEEE24 (other)
+    - IEEE24 (quality)
+    - IEEE24 (time)
+  pass:
+    - title
+
+- id: 24
+  title: "Analysis on the Impact of the MBKM Program on Improving the Competence of Teacher Training Students: A Study of Student Perceptions of the Teacher Training and …"
+  url:
+    - http://e-journal.undikma.ac.id/index.php/pedagogy/article/view/5333
+  source:
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 25
+  title: "Analyzing the sensitivity of multi-objective software architecture refactoring to configuration characteristics"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85102969874&doi=10.1016%2fj.infsof.2021.106568&partnerID=40&md5=80bfad092ec3fd1be7331fa228bf0ed0
+  source:
+    - Scopus24 (other)
+  pass:
+    - title
+    - abstract
+
+- id: 26
+  title: "An Application-oblivious Memory Scheduling System for DNN Accelerators"
+  url:
+    - https://dl.acm.org/doi/10.1145/3535355
+  source:
+    - ACM24 (memory)
+  pass:
+    - none
+
+- id: 27
+  title: "An automated tool for analysis and tuning of gpu-accelerated code in hpc applications"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9470950/?casa_token=44Bzh5y2U14AAAAA:rVQKyS78f-9uXF7avxAJpaxkMdfUwxszV62c0zf38ZSrWr-UuxAErpQxQAHtPDjCcS2lIVA
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 28
+  title: "Android code smells: From introduction to refactoring"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0164121221000613?casa_token=HMbEegm94-oAAAAA:SiSmQpmlLR0gP_1HH0QFQDCAjHJlael5aPzyBUUKjzOJFZh9vujsFtVjMsj_2_YgR02Ni3k
+  source:
+    - Google24 (other)
+  pass:
+    - title
+    - abstract
+
+- id: 29
+  title: "An efficient active-set method with applications to Efficient Configuration Coverage of Highly Configurable Digital Designs"
+  url:
+    - https://arxiv.org/abs/2405.01572
+  source:
+    - ArXiV24 (other)
+  pass:
+    - title
+
+- id: 30
+  title: "An efficient active-set method with applications to sparse approximations and risk minimization"
+  url:
+    - https://arxiv.org/abs/2405.04172
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (memory)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - title
+
+- id: 31
+  title: "An efficient parameter optimization of software reliability growth model by using chaotic grey wolf optimization algorithm"
+  url:
+    - https://link.springer.com/article/10.1007/s12652-020-02476-z
+  source:
+    - Google24 (quality)
+  pass:
+    - title
+
+- id: 32
+  title: "An Empirical Evaluation on the Effect of Refactoring Code Smells Mobile Applications Android with ASATs on Resource Usage"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85186932866&doi=10.18517%2fijaseit.14.1.18852&partnerID=40&md5=c17354efb35141d5135b848b46eee5f3
+  source:
+    - Scopus24 (memory)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 33
+  title: "An Empirical Investigation on the Effect of Code Smells on Resource Usage of Android Mobile Applications"
+  url:
+    - https://ieeexplore.ieee.org/document/9410530/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85104572199&doi=10.1109%2fACCESS.2021.3075040&partnerID=40&md5=d24e4568c0a9ab0b9e5eca21f8d08e0e
+  source:
+    - IEEE24 (memory)
+    - IEEE24 (other)
+    - IEEE24 (quality)
+    - Scopus24 (memory)
+    - Scopus24 (other)
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 34
+  title: "An Empirical Study of Parameter-Efficient Fine-Tuning Methods for Pre-Trained Code Models"
+  url:
+    - https://ieeexplore.ieee.org/document/10298587/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85178997973&doi=10.1109%2fASE56229.2023.00125&partnerID=40&md5=f5649ee69c1fcf7ab3baa56fbd0989b8
+  source:
+    - IEEE24 (memory)
+    - IEEE24 (other)
+    - IEEE24 (quality)
+    - Scopus24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 35
+  title: "An Empirical Study on the Impact of Deep Parameters on Mobile App Energy Usage"
+  url:
+    - https://ieeexplore.ieee.org/document/9825870/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85135829730&doi=10.1109%2fSANER53432.2022.00103&partnerID=40&md5=feeee83be991fd2ff7f1fb67345c65e0
+  source:
+    - IEEE24 (energy)
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 36
+  title: "An empirical study on the impact of refactoring on quality metrics in android applications"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9460932/
+  source:
+    - Google24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 37
+  title: "An Energy Efficient Model of Software Development Life Cycle for Mobile Application"
+  url:
+    - https://ieeexplore.ieee.org/document/10103246/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - title
+
+- id: 38
+  title: "An experience with code-size optimization for production iOS mobile applications"
+  url:
+    - https://dl.acm.org/doi/10.1109/CGO51591.2021.9370306
+    - https://ieeexplore.ieee.org/document/9370306/
+  source:
+    - ACM24 (other)
+    - IEEE24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 39
+  title: "An improvement of rough sets&#39; accuracy measure using containment neighborhoods with a medical application"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0020025521003376?casa_token=_wpDsVVubPAAAAAA:EyUcs4D1Trm1ajtSBpvE5ZpBwDRVDhFmofel13p12X7ofmS215QH7Zib7gGc7HvR_7IvuYM
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 40
+  title: "An inquiry into machine learning-based automatic configuration tuning services on real-world database management systems"
+  url:
+    - https://dl.acm.org/doi/10.14778/3450980.3450992
+  source:
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 41
+  title: "An on-demand resource allocation algorithm for a quantum network hub and its performance analysis"
+  url:
+    - https://arxiv.org/abs/2405.18066
+  source:
+    - ArXiV24 (other)
+  pass:
+    - none
+
+- id: 42
+  title: "A Novel Formulation of the Software Cognitive Complexity Reduction Problem"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85177865255&partnerID=40&md5=5c7d3b0d6b581f2b552e1d4a0552ea72
+  source:
+    - Scopus24 (other)
+    - Scopus24 (quality)
+  pass:
+    - none
+
+- id: 43
+  title: "A performance- and energy-oriented extended tuning process for time-step-based scientific applications"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85089858828&doi=10.1007%2fs11227-020-03402-y&partnerID=40&md5=88b5634b894f9cddfc1c61f54e6981db
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 44
+  title: "A Performance Improvement Model for Market Surveillance Application"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85146367738&doi=10.1109%2fIISEC56263.2022.9998279&partnerID=40&md5=f5c16227aae2e16aee872320b5cdee0e
+  source:
+    - Scopus24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 45
+  title: "APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets"
+  url:
+    - https://arxiv.org/abs/2406.18518
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 46
+  title: "Application of an amphipathic molecule at the NiOx/perovskite interface for improving the efficiency and long-term stability of the inverted perovskite solar cells"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S2095495622006805?casa_token=LH0XeN8Vv8sAAAAA:n13Kfes_9Qk6pmq4Ix_rEAzaZtWbPMckQyAVD2R4hxINnrW4fUMwlrQI615RYhYWSIMUa7I
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 47
+  title: "Application of artificial intelligence for improving early detection and prediction of therapeutic outcomes for gastric cancer in the era of precision oncology"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S1044579X23000676?casa_token=GQC3DDMvUicAAAAA:k8zRP3jvlDPFkBV9FKTwsz62Lz1rusnC_YVWN9pW0HI7Hx5rpToOTRniWZAcf8dQQBInru0
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 48
+  title: "Application of Bayesian Optimization in Black-box Parameter Fast Tuning for Industrial Robots"
+  url:
+    - https://dl.acm.org/doi/10.1145/3518781.3519191
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+  pass:
+    - title
+
+- id: 49
+  title: "Application of ChatGPT in improving operational efficiency in the context of entrepreneurship"
+  url:
+    - https://www.jurnal.polgan.ac.id/index.php/jmp/article/view/12667
+  source:
+    - Google24 (quality)
+  pass:
+    - title
+
+- id: 50
+  title: "Application of Deep Learning models for Code Smell Prediction"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144598099&doi=10.1109%2fICRITO56286.2022.9965048&partnerID=40&md5=4ddf2150ad50045a5c4497042515c699
+  source:
+    - Scopus24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 51
+  title: "Application of Lean Six Sigma framework for improving manufacturing efficiency: a case study in Indian context"
+  url:
+    - https://www.emerald.com/insight/content/doi/10.1108/IJPPM-05-2020-0223/full/html
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 52
+  title: "Application of mixed reality for improving architectural design comprehension effectiveness"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S092658052100128X?casa_token=YqYdWydHSagAAAAA:xYubznk6dn5-jgNuCdXweaz30F6Z9ooZztG3dQawNvwbQ-nxFGKHXm2J7HTBP3nb_ZfOOqs
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 53
+  title: "Application of Multi Parameter Coherent Distributed Optical Fiber Sensing Technology in Power OPGW Condition Monitoring"
+  url:
+    - https://dl.acm.org/doi/10.1145/3448734.3450828
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 54
+  title: "Application of optimisation technique in PV integrated multilevel inverter for power quality improvement"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0045790621005401?casa_token=KfH_ASDTn_IAAAAA:wkvfmli5SumxU-jTC1GZyWgggwrcGqXqIccqJvu3sdqO5osRxYqRrxRCGobgWPlOjMhYhPw
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 55
+  title: "Application Performance Modeling via Tensor Completion"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85179546415&doi=10.1145%2f3581784.3607069&partnerID=40&md5=290a2aa4b46c5397df219b6fb3bf6e27
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85190443646&doi=10.1145%2f3581784.3607069&partnerID=40&md5=6ed8bbba063d594f2e6c73c076d29b21
+  source:
+    - Scopus24 (memory)
+    - Scopus24 (other)
+  pass:
+    - title
+
+- id: 56
+  title: "Application Tool for Power System Analysis in Education and Research"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85142657650&doi=10.1002%2fcae.22587&partnerID=40&md5=1b1fa94a5a4fa84f381c289de21e7cbe
+  source:
+    - Scopus24 (energy)
+  pass:
+    - none
+
+- id: 57
+  title: "Applied energy optimization of multi-robot systems through motion parameter tuning"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S1755581721001280?casa_token=ySmKXlYieRgAAAAA:eNYmjYVU9bAAsRmAic_RikvClohRgU9xEStazI2D7c-MGnCE1RPRtPoGcKfaxaZyPhSRObs
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 58
+  title: "Applying Ant Lion Optimization Technique to Enhance Power Converters Performance via Effective Controller Tuning"
+  url:
+    - https://ieeexplore.ieee.org/document/10396672/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - title
+
+- id: 59
+  title: "Approximately Socially-Optimal Decentralized Coalition Formation with Application to P2P Energy Sharing"
+  url:
+    - https://dl.acm.org/doi/10.1145/3584024.3584026
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 60
+  title: "Are Human Rules Necessary? Generating Reusable APIs with CoT Reasoning and In-Context Learning"
+  url:
+    - https://arxiv.org/abs/2405.03509
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 61
+  title: "Artemis: Automatic Runtime Tuning of Parallel Execution Parameters Using Machine Learning"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85111411977&doi=10.1007%2f978-3-030-78713-4_24&partnerID=40&md5=6ab2f8fdf9a54d4ec1b8dea7ee8c6392
+  source:
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 62
+  title: "Artificial Intelligence-based Solution for the Prediction of Power Consumption in Electronics and Software Applications"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85146701831&doi=10.1080%2f03772063.2022.2131638&partnerID=40&md5=b2c4efd8609f8a4cb736b923fa05d26e
+  source:
+    - Scopus24 (energy)
+  pass:
+    - none
+
+- id: 63
+  title: "Artificial intelligence usage in cloud application performance improvement"
+  url:
+    - https://cajmtcs.centralasianstudies.org/index.php/CAJMTCS/article/view/491
+  source:
+    - Google24 (other)
+  pass:
+    - title
+
+- id: 64
+  title: "A Semi-Formal Verification Methodology for Efficient Configuration Coverage of Highly Configurable Digital Designs"
+  url:
+    - https://arxiv.org/abs/2405.01572
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - title
+
+- id: 65
+  title: "Assessing the Impact of Network Quality-of-Service on Metaverse Virtual Reality User Experience"
+  url:
+    - https://arxiv.org/abs/2407.10423
+  source:
+    - ArXiV24 (other)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 66
+  title: "Assessing the Impact of Refactoring Energy-Inefficient Code Patterns on Software Sustainability: An Industry Case Study"
+  url:
+    - https://ieeexplore.ieee.org/document/10298491/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85179008064&doi=10.1109%2fASE56229.2023.00205&partnerID=40&md5=9dcd5f803b4e58f4e57e0e2d543401c4
+  source:
+    - IEEE24 (energy)
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 67
+  title: "A Survey of Methods for Estimating Hurst Exponent of Time Sequence"
+  url:
+    - https://arxiv.org/abs/2310.19051
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 68
+  title: "A Survey of Refactoring Techniques to Maximize Code Coverage Metric"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85191460117&doi=10.1109%2fIIAI-AAI-Winter61682.2023.00015&partnerID=40&md5=45beb3cde9ade9eca61232b81b52205f
+  source:
+    - Scopus24 (quality)
+  pass:
+    - none
+
+- id: 69
+  title: "A survey on system level energy optimisation for MPSoCs in IoT and consumer electronics"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S1574013721000563?casa_token=EeAaWU4Q3f4AAAAA:4J9T3H6DcI7edjkQz3FJ3yrTrShgkoNOUMXud1ClhM-GS5QZHtwYCdPz7n9a7azzuad2OD0
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 70
+  title: "A systematic approach to parameter optimization and its application to flight schedule simulation software"
+  url:
+    - https://link.springer.com/article/10.1007/s10732-022-09501-8
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85133428509&doi=10.1007%2fs10732-022-09501-8&partnerID=40&md5=07800f086ba78a4cf8ebe6ebb4baacbe
+  source:
+    - Google24 (memory)
+    - Scopus24 (other)
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 71
+  title: "ATOMMIC: An Advanced Toolbox for Multitask Medical Imaging Consistency to facilitate Artificial Intelligence applications from acquisition to analysis in Magnetic Resonance Imaging"
+  url:
+    - https://arxiv.org/abs/2404.19665
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 72
+  title: "Automated code refactoring upon database-schema changes in web applications"
+  url:
+    - https://dl.acm.org/doi/10.1109/ASE51524.2021.9678934
+  source:
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 73
+  title: "Automated Code Repair to Ensure Spatial Memory Safety"
+  url:
+    - https://ieeexplore.ieee.org/document/9474531/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 74
+  title: "Automated Refactoring for Energy-Aware Software"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85123381683&doi=10.1109%2fICSME52107.2021.00082&partnerID=40&md5=e01210017471407fbc6a50fc450dd21d
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 75
+  title: "Automated Refactoring of Unbounded Queries in Software Automation Platforms"
+  url:
+    - https://ieeexplore.ieee.org/document/9643749/
+  source:
+    - IEEE24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 76
+  title: "Automated Selection of Energy-efficient Operating System Configurations"
+  url:
+    - https://dl.acm.org/doi/10.1145/3447555.3465327
+  source:
+    - ACM24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 77
+  title: "BoneJ2-refactoring established research software"
+  url:
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8063517/
+  source:
+    - Google24 (time)
+  pass:
+    - title
+
+- id: 78
+  title: "Bootstrap inference on the boundary of the parameter space, with application to conditional volatility models"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0304407620302232?casa_token=K1HmDC5jmLkAAAAA:zxAouTnyCOZJd-QFQToFfiosql9yPRx66p-6KXsm4c77Ka0yTLLh65xmjoJ4BTA1T_dkdfE
+  source:
+    - Google24 (other)
+  pass:
+    - none
+
+- id: 79
+  title: "Budget-Conscious Fine-Grained Configuration Optimization for Spatio-Temporal Applications"
+  url:
+    - https://dl.acm.org/doi/10.14778/3565838.3565858
+  source:
+    - ACM24 (memory)
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 80
+  title: "CALint: A Tool for Enforcing the Clean Architecture’s Dependency Rule in Python"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85135876161&doi=10.1007%2f978-3-031-10548-7_39&partnerID=40&md5=ddcddadbb3c3ec9f88e3db3067b3c6e7
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+
+- id: 81
+  title: "Characterizing and optimizing hybrid DRAM-PM main memory system with application awareness"
+  url:
+    - https://dl.acm.org/doi/10.5555/3539845.3540052
+  source:
+    - ACM24 (memory)
+  pass:
+    - title
+
+- id: 82
+  title: "Characterizing and Understanding HGNN Training on GPUs"
+  url:
+    - https://arxiv.org/abs/2407.11790
+  source:
+    - ArXiV24 (other)
+  pass:
+    - none
+
+- id: 83
+  title: "Characterizing refactoring graphs in Java and JavaScript projects"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85115166417&doi=10.1007%2fs10664-021-10023-3&partnerID=40&md5=b5a5afde2cbb7ec8d45f36d4006af9d6
+  source:
+    - Scopus24 (other)
+    - Scopus24 (time)
+  pass:
+    - none
+
+- id: 84
+  title: "CHOPPER: A Compiler Infrastructure for Programmable Bit-serial SIMD Processing Using Memory in DRAM"
+  url:
+    - https://ieeexplore.ieee.org/document/10071070/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - none
+
+- id: 85
+  title: "Circuit parameter optimization of class E power amplifier for wireless power transmission applications"
+  url:
+    - https://dl.acm.org/doi/10.1145/3443467.3444714
+  source:
+    - ACM24 (energy)
+  pass:
+    - title
+
+- id: 86
+  title: "Code quality improvement using Aquila Optimizer"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85150783025&doi=10.1002%2fsmr.2559&partnerID=40&md5=52a7cfc6f070ab644d7f582caf3b56ab
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 87
+  title: "Code review practices for refactoring changes"
+  url:
+    - https://dl.acm.org/doi/10.1145/3524842.3527932
+  source:
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 88
+  title: "Code Smells and Detection Techniques: A Survey"
+  url:
+    - https://ieeexplore.ieee.org/document/9447669/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85111388772&doi=10.1109%2fMIUCC52538.2021.9447669&partnerID=40&md5=d050d0c69812f8ba42c16b35381aa7f2
+  source:
+    - IEEE24 (time)
+    - Scopus24 (other)
+    - Scopus24 (time)
+  pass:
+    - none
+
+- id: 89
+  title: "Code smell severity detection using machine learning"
+  url:
+    - https://ieeexplore.ieee.org/document/9770680/
+  source:
+    - IEEE24 (quality)
+  pass:
+    - none
+
+- id: 90
+  title: "Cohesion Measure for Restructuring"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85096473870&doi=10.1007%2f978-981-15-7078-0_59&partnerID=40&md5=5b2d458638cea998a70cbd3d6241748e
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+
+- id: 91
+  title: "Comparative study of random search hyper-parameter tuning for software effort estimation"
+  url:
+    - https://dl.acm.org/doi/10.1145/3475960.3475986
+  source:
+    - ACM24 (quality)
+  pass:
+    - title
+
+- id: 92
+  title: "Compiler Test-Program Generation via Memoized Configuration Search"
+  url:
+    - https://dl.acm.org/doi/10.1109/ICSE48619.2023.00172
+  source:
+    - ACM24 (quality)
+  pass:
+    - none
+
+- id: 93
+  title: "Comprehensive Quantitative Tuning Method for Multiple LADRCs in High Order Plus Time Delay Processes"
+  url:
+    - https://ieeexplore.ieee.org/document/10472997/
+  source:
+    - IEEE24 (time)
+  pass:
+    - title
+
+- id: 94
+  title: "Configuration Error Localization Based on Delta Debugging"
+  url:
+    - https://ieeexplore.ieee.org/document/10224726/
+  source:
+    - IEEE24 (quality)
+  pass:
+    - none
+
+- id: 95
+  title: "Configuration Tuning for Distributed IoT Message Systems Using Deep Reinforcement Learning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3450268.3453517
+  source:
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 96
+  title: "ConfProf: White-Box Performance Profiling of Configuration Options"
+  url:
+    - https://dl.acm.org/doi/10.1145/3427921.3450255
+    - https://dl.acm.org/doi/abs/10.1145/3427921.3450255?casa_token=l529NHe5rtwAAAAA:nucI5R2thcLE5CtSGPsQxTjJrfxPe4NbQx5bp_O-KRvFJGnbC9I2uBHwnu9NGdM-0-6vSQTmtp4
+  source:
+    - ACM24 (other)
+    - Google24 (other)
+  pass:
+    - title
+    - abstract
+
+- id: 97
+  title: "Constraint Based Compiler Optimization for Energy Harvesting Applications"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85168921029&doi=10.4230%2fLIPIcs.ECOOP.2023.16&partnerID=40&md5=948288b718a5e48ed28f72e11390359c
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 98
+  title: "Correspondence of OOP Refactoring Techniques in PL/SQL Environment: A Case Study of Agile Project Code"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85174903069&doi=10.18576%2famis%2f170605&partnerID=40&md5=af733c2844794b9b544dfe53d9a13766
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 99
+  title: "Cross-Project Software Refactoring Prediction Using Optimized Deep Learning Neural Network With the Aid of Attribute Selection"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85130738070&doi=10.4018%2fIJOSSP.300756&partnerID=40&md5=242b5facb6672ebf14f1465c699beb8f
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+
+- id: 100
+  title: "DARK: Deep automatic Redis knobs tuning system depending on the persistence method"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85149320086&doi=10.1016%2fj.eswa.2023.119697&partnerID=40&md5=842461b33ab1adb288f8380665161dcf
+  source:
+    - Scopus24 (memory)
+  pass:
+    - title
+
+- id: 101
+  title: "Debloating Feature-Rich Closed-Source Windows Software"
+  url:
+    - https://ieeexplore.ieee.org/document/10589724/
+  source:
+    - IEEE24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 102
+  title: "Decoupling Application Logic from Persistent Memory Frameworks with AspectC++"
+  url:
+    - https://dl.acm.org/doi/10.1145/3477113.3487269
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119091176&doi=10.1145%2f3477113.3487269&partnerID=40&md5=9961e45ecc03add8770ae26d184c4c80
+  source:
+    - ACM24 (memory)
+    - Scopus24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 103
+  title: "DeepCAT: A Cost-Efficient Online Configuration Auto-Tuning Approach for Big Data Frameworks"
+  url:
+    - https://dl.acm.org/doi/10.1145/3545008.3545018
+  source:
+    - ACM24 (quality)
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 104
+  title: "Deep Multimodal Architecture for Detection of Long Parameter List and Switch Statements using DistilBERT"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85146921356&doi=10.1109%2fSCAM55253.2022.00018&partnerID=40&md5=8a6dd4bd4b43c10bd798a1d26dcb7e30
+  source:
+    - Scopus24 (memory)
+    - Scopus24 (quality)
+  pass:
+    - title
+
+- id: 105
+  title: "Deep Software Variability: Towards Handling Cross-Layer Configuration"
+  url:
+    - https://dl.acm.org/doi/10.1145/3442391.3442402
+  source:
+    - ACM24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 106
+  title: "Delving into Parameter-Efficient Fine-Tuning in Code Change Learning: An Empirical Study"
+  url:
+    - https://arxiv.org/abs/2402.06247
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 107
+  title: "DEMAND SIDE MANAGEMENT USING INTELLIGENT POWER CONTROLLER FOR LARGE CONSUMERS"
+  url:
+    - https://ieeexplore.ieee.org/document/9692490/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 108
+  title: "Design Flow Parameter Optimization with Multi-Phase Positive Nondeterministic Tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3505170.3506727
+  source:
+    - ACM24 (energy)
+  pass:
+    - title
+
+- id: 109
+  title: "Designing Solutions for High-Performance Communications Software Design in Network Applications"
+  url:
+    - https://ieeexplore.ieee.org/document/10470777/
+  source:
+    - IEEE24 (other)
+    - IEEE24 (quality)
+  pass:
+    - none
+
+- id: 110
+  title: "Design of Energy Consumption Prediction and Optimization Algorithm for Central Air Conditioning Systems Integrating Deep Learning"
+  url:
+    - https://ieeexplore.ieee.org/document/10510978/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 111
+  title: "Detecting and resolving feature envy through automated machine learning and move method refactoring"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85185817092&doi=10.11591%2fijece.v14i2.pp2330-2343&partnerID=40&md5=e2a8d1139827cfd4febddc042daf3eba
+  source:
+    - Scopus24 (quality)
+  pass:
+    - none
+
+- id: 112
+  title: "Detecting Coupling and Cohesion Code Smells of JavaScript Classes; [检测JavaScript类的内聚耦合Code Smell]"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85111999269&doi=10.13328%2fj.cnki.jos.006082&partnerID=40&md5=7f8dcb6eaeb82f18d5dfaefb632d1353
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 113
+  title: "Development and application of a hybrid long-short term memory–three dimensional variational technique for the improvement of PM2. 5 forecasting"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0048969720377524?casa_token=eM_BGG0JrNIAAAAA:JRJ-WtTuCKoAaaW4hjSssg5MpSdTJBapW1_aYQeNSUWfuM_V1bTdonHj4VAlH5-3jw90zGg
+  source:
+    - Google24 (memory)
+  pass:
+    - none
+
+- id: 114
+  title: "Development of slime mold optimizer with application for tuning cascaded PD-PI controller to enhance frequency stability in power systems"
+  url:
+    - https://www.mdpi.com/2227-7390/11/8/1796
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 115
+  title: "DiagConfig: Configuration Diagnosis of Performance Violations in Configurable Software Systems"
+  url:
+    - https://dl.acm.org/doi/10.1145/3611643.3616300
+  source:
+    - ACM24 (other)
+  pass:
+    - none
+
+- id: 116
+  title: "Does configuration encoding matter in learning software performance?"
+  url:
+    - https://dl.acm.org/doi/10.1145/3524842.3528431
+  source:
+    - ACM24 (other)
+  pass:
+    - none
+
+- id: 117
+  title: "Do Performance Aspirations Matter for Guiding Software Configuration Tuning? An Empirical Investigation under Dual Performance Objectives"
+  url:
+    - https://dl.acm.org/doi/10.1145/3571853
+  source:
+    - ACM24 (memory)
+    - ACM24 (other)
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 118
+  title: "DSO: A GPU Energy Efficiency Optimizer by Fusing Dynamic and Static Information"
+  url:
+    - https://arxiv.org/abs/2407.13096
+  source:
+    - ArXiV24 (other)
+  pass:
+    - none
+
+- id: 119
+  title: "Dynamic Characterization and Parameter Optimization of Direct-Drive Wind Station with Grid-Forming Energy Storage"
+  url:
+    - https://ieeexplore.ieee.org/document/10532373/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 120
+  title: "EcoAndroid: An Android Studio Plugin for Developing Energy-Efficient Java Mobile Applications"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85134242920&doi=10.1109%2fQRS54544.2021.00017&partnerID=40&md5=fb50452e930465857bb5e19f1c1e147c
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 121
+  title: "Effectiveness of the Automated Writing Evaluation Program on Improving Undergraduates&#39; Writing Performance."
+  url:
+    - https://eric.ed.gov/?id=EJ1352783
+  source:
+    - Google24 (other)
+  pass:
+    - none
+
+- id: 122
+  title: "Effective RNN-based forecasting methodology design for improving short-term power load forecasts: Application to large-scale power-grid time series"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S1877750323000443
+  source:
+    - Google24 (energy)
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 123
+  title: "Efficacy of cogmed working memory training program in improving working memory in school-age children with and without neurological insults or disorders: A meta …"
+  url:
+    - https://www.tandfonline.com/doi/abs/10.1080/21622965.2021.1920943
+  source:
+    - Google24 (memory)
+  pass:
+    - none
+
+- id: 124
+  title: "Efficient Auto-Tuning of Parallel Programs with Interdependent Tuning Parameters via Auto-Tuning Framework (ATF)"
+  url:
+    - https://dl.acm.org/doi/10.1145/3427093
+    - https://dl.acm.org/doi/abs/10.1145/3427093
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099782495&doi=10.1145%2f3427093&partnerID=40&md5=eaf467ee7ac66b0103dcaab5acaae53e
+  source:
+    - ACM24 (memory)
+    - ACM24 (quality)
+    - ACM24 (time)
+    - Google24 (memory)
+    - Scopus24 (memory)
+    - Scopus24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 125
+  title: "… efficient broadband near-infrared phosphor LiGaGe 2 O 6: Cr 3+ with EQE enhancement and spectral tuning by Sc 3+–Ga 3+ substitution for NIR pc-LED application"
+  url:
+    - https://pubs.rsc.org/en/content/articlehtml/2023/qi/d2qi02054h
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 126
+  title: "Efficient Generation of Application Specific Memory Controllers"
+  url:
+    - https://dl.acm.org/doi/10.1145/3422575.3422796
+  source:
+    - ACM24 (memory)
+  pass:
+    - none
+
+- id: 127
+  title: "Efficiently Trimming the Fat: Streamlining Software Dependencies with Java Reflection and Dependency Analysis"
+  url:
+    - https://ieeexplore.ieee.org/document/10549332/
+  source:
+    - IEEE24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 128
+  title: "EFTuner: A Bi-Objective Configuration Parameter Auto-Tuning Method Towards Energy-Efficient Big Data Processing"
+  url:
+    - https://dl.acm.org/doi/10.1145/3609437.3609443
+  source:
+    - ACM24 (energy)
+    - ACM24 (other)
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 129
+  title: "Embedded controller Visual Configuration software design analysis"
+  url:
+    - https://dl.acm.org/doi/10.1145/3507473.3507476
+  source:
+    - ACM24 (memory)
+  pass:
+    - none
+
+- id: 130
+  title: "Empirical Investigation of the Diverse Refactoring Effects on Software Quality: The Role of Refactoring Tools and Software Size"
+  url:
+    - https://ieeexplore.ieee.org/document/10293407/
+  source:
+    - IEEE24 (other)
+  pass:
+    - title
+
+- id: 131
+  title: "Empowering IoT Applications with Flexible, Energy-Efficient Remote Management of Low-Power Edge Devices"
+  url:
+    - https://dl.acm.org/doi/10.5555/3639940.3639947
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 132
+  title: "Energy Efficiency Analysis of Code Refactoring Techniques for Green and Sustainable Software in Portable Devices"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85123696731&doi=10.3390%2felectronics11030442&partnerID=40&md5=8fe011f33af431035e57ce272701b1b4
+  source:
+    - Scopus24 (energy)
+    - Scopus24 (quality)
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 133
+  title: "Energy Harvesting-assisted Ultra-Low-Power Processing-in-Memory Accelerator for ML Applications"
+  url:
+    - https://dl.acm.org/doi/10.1145/3649476.3660392
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 134
+  title: "Enhanced Thermal Management in High-Temperature Applications: Design and Optimization of a Water-Cooled Forced Convection System in a Hollow Cuboid Vapour Chamber Using COMSOL and MATLAB"
+  url:
+    - https://arxiv.org/abs/2405.02303
+  source:
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 135
+  title: "Enhancing Sleep Quality with Closed-Loop Autotuning of a Robotic Bed"
+  url:
+    - https://ieeexplore.ieee.org/document/10304729/
+  source:
+    - IEEE24 (other)
+  pass:
+    - none
+
+- id: 136
+  title: "Enhancing the Configuration Tuning Pipeline of Large-Scale Distributed Applications Using Large Language Models (Idea Paper)"
+  url:
+    - https://dl.acm.org/doi/10.1145/3578245.3585032
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85158859428&doi=10.1145%2f3578245.3585032&partnerID=40&md5=df78987a01149871fe9a149f2c8053df
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+    - Scopus24 (other)
+  pass:
+    - none
+
+- id: 137
+  title: "Error Control Codes Based Modified Orthogonal Latin Squares for High-Speed Cache Memories"
+  url:
+    - https://ieeexplore.ieee.org/document/10130241/
+  source:
+    - IEEE24 (time)
+  pass:
+    - none
+
+- id: 138
+  title: "Establishing a successful robotic surgery program and improving operating room efficiency: literature review and our experience report"
+  url:
+    - https://link.springer.com/article/10.1007/s11701-020-01121-3
+  source:
+    - Google24 (quality)
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 139
+  title: "ETune: Efficient configuration tuning for big-data software systems via configuration space reduction"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85181014377&doi=10.1016%2fj.jss.2023.111936&partnerID=40&md5=7bc713f34d3595ce08baa7e4051d8008
+  source:
+    - Scopus24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 140
+  title: "Execution‐Cache‐Memory modeling and performance tuning of sparse matrix‐vector multiplication and Lattice quantum chromodynamics on A64FX"
+  url:
+    - https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6512
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 141
+  title: "Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models"
+  url:
+    - https://arxiv.org/abs/2308.10462
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 142
+  title: "Exploring the Impacts of Software Cache Configuration for In-line Compressed Arrays"
+  url:
+    - https://ieeexplore.ieee.org/document/9926289/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85142259287&doi=10.1109%2fHPEC55821.2022.9926289&partnerID=40&md5=7bfbbb02536956e1d3be619138b6407a
+  source:
+    - IEEE24 (memory)
+    - Scopus24 (memory)
+  pass:
+    - none
+
+- id: 143
+  title: "Facilitating database tuning with hyper-parameter optimization"
+  url:
+    - https://dl.acm.org/doi/10.14778/3538598.3538604
+  source:
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 144
+  title: "Faster Person Re-Identification: One-Shot-Filter and Coarse-to-Fine Search"
+  url:
+    - https://ieeexplore.ieee.org/document/10354027/
+  source:
+    - IEEE24 (time)
+  pass:
+    - none
+
+- id: 145
+  title: "FedPop: A Bayesian Approach for Personalised Federated Learning"
+  url:
+    - https://arxiv.org/abs/2206.03611
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 146
+  title: "Fixing Your Own Smells: Adding a Mistake-Based Familiarisation Step When Teaching Code Refactoring"
+  url:
+    - https://dl.acm.org/doi/10.1145/3626252.3630856
+  source:
+    - ACM24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 147
+  title: "Fuzzy Inference System for Test Case Prioritization in Software Testing"
+  url:
+    - https://arxiv.org/abs/2404.16395
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (quality)
+  pass:
+    - none
+
+- id: 148
+  title: "Fuzzy Intelligent System for Student Software Project Evaluation"
+  url:
+    - https://arxiv.org/abs/2405.00453
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 149
+  title: "Game Theory&ndash;Based Parameter Tuning for Energy-Efficient Path Planning on Modern UAVs"
+  url:
+    - https://dl.acm.org/doi/10.1145/3565270
+  source:
+    - ACM24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 150
+  title: "Generating Software Tests for Mobile Applications Using Fine-Tuned Large Language Models"
+  url:
+    - https://dl.acm.org/doi/10.1145/3644032.3644454
+  source:
+    - ACM24 (memory)
+  pass:
+    - none
+
+- id: 151
+  title: "Genetic Improvement of Last Level Cache"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85190695645&doi=10.1007%2f978-3-031-56957-9_13&partnerID=40&md5=69aad7707cae5d1ce3e31c25eb0c64ad
+  source:
+    - Scopus24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 152
+  title: "GenMAT: A General-Purpose Machine Learning-Driven Auto-Tuner for Heterogeneous Platforms"
+  url:
+    - https://ieeexplore.ieee.org/document/9651163/
+  source:
+    - IEEE24 (time)
+  pass:
+    - none
+
+- id: 153
+  title: "Going green: optimizing GPUs for energy efficiency through model-steered auto-tuning"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85147908116&doi=10.1109%2fPMBS56514.2022.00010&partnerID=40&md5=4a1c33fca4ed83001d5956632744b80c
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 154
+  title: "GPU Auto-tuning Framework for Optimal Performance and Power Consumption"
+  url:
+    - https://dl.acm.org/doi/10.1145/3589236.3589241
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85163834542&doi=10.1145%2f3589236.3589241&partnerID=40&md5=e3ef7b43789e054e599c9e84a3f143ec
+  source:
+    - ACM24 (energy)
+    - Scopus24 (energy)
+    - Scopus24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 155
+  title: "Granite Code Models: A Family of Open Foundation Models for Code Intelligence"
+  url:
+    - https://arxiv.org/abs/2405.04324
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (memory)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 156
+  title: "Greener yet Powerful: Taming Large Code Generation Models with Quantization"
+  url:
+    - https://arxiv.org/abs/2303.05378
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 157
+  title: "Greening Large Language Models of Code"
+  url:
+    - https://ieeexplore.ieee.org/document/10554787/
+  source:
+    - IEEE24 (energy)
+    - IEEE24 (memory)
+    - IEEE24 (other)
+    - IEEE24 (quality)
+    - IEEE24 (time)
+  pass:
+    - none
+
+- id: 158
+  title: "Green Mining for Android Based Applications Using Refactoring Approach"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85123373550&doi=10.1109%2fICRITO51393.2021.9596476&partnerID=40&md5=0305fc9835d04f196c5beff133580443
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 159
+  title: "Green software: Refactoring approach"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S1319157820305164
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099001353&doi=10.1016%2fj.jksuci.2020.10.022&partnerID=40&md5=ad2fa81862fa3f7179c9ff773a7b71ad
+  source:
+    - Google24 (energy)
+    - Scopus24 (energy)
+    - Scopus24 (other)
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 160
+  title: "H2OPUS-TLR: High Performance Tile Low Rank Symmetric Factorizations using Adaptive Randomized Approximation"
+  url:
+    - https://arxiv.org/abs/2108.11932
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - title
+
+- id: 161
+  title: "HASPO: Harmony search-based parameter optimization for just-in-time software defect prediction in maritime software"
+  url:
+    - https://www.mdpi.com/2076-3417/11/5/2002
+  source:
+    - Google24 (memory)
+  pass:
+    - none
+
+- id: 162
+  title: "How do i refactor this? An empirical study on refactoring trends and topics in Stack Overflow"
+  url:
+    - https://link.springer.com/article/10.1007/s10664-021-10045-x
+  source:
+    - Google24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 163
+  title: "How Explicit Feature Traces Did Not Impact Developers’ Memory"
+  url:
+    - https://ieeexplore.ieee.org/document/9425954/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - none
+
+- id: 164
+  title: "How Software Refactoring Impacts Execution Time"
+  url:
+    - https://dl.acm.org/doi/10.1145/3485136
+    - https://dl.acm.org/doi/abs/10.1145/3485136?casa_token=M2Jz-hp8dcgAAAAA:VvXjNzF8THD_DtISgk98cfxrh03qyyiy8RCloK7ayM5Tbc1xgwgwu0B39YrY4nOC3nimpuLEna4
+    - https://dl.acm.org/doi/abs/10.1145/3485136?casa_token=lmNw5FMk0swAAAAA:_hv659eDPkKU8y2dLZ303-ltm7LzkB74vC0TH2VMtNIk72jpCIY3hsW4974mhOj8TmphuKeLvdA
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85130721100&doi=10.1145%2f3485136&partnerID=40&md5=f9a34a6c34f1e01727e0e5282eebc127
+  source:
+    - ACM24 (energy)
+    - ACM24 (time)
+    - Google24 (energy)
+    - Google24 (other)
+    - Scopus24 (energy)
+    - Scopus24 (other)
+    - Scopus24 (time)
+  pass:
+    - title
+
+- id: 165
+  title: "How to Shrink My FPGAs &mdash; Optimizing Tile Interfaces and the Configuration Logic in FABulous FPGA Fabrics"
+  url:
+    - https://dl.acm.org/doi/10.1145/3490422.3502371
+  source:
+    - ACM24 (memory)
+  pass:
+    - title
+
+- id: 166
+  title: "HPVM2FPGA: Enabling True Hardware-Agnostic FPGA Programming"
+  url:
+    - https://ieeexplore.ieee.org/document/9912020/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85132637604&doi=10.1109%2fASAP54787.2022.00012&partnerID=40&md5=53bf3a2389f00e7e71a7b78a6c6ef173
+  source:
+    - IEEE24 (other)
+    - Scopus24 (other)
+  pass:
+    - none
+
+- id: 167
+  title: "Hybrid renewable energy systems&#39; optimisation. a review and extended comparison of the most-used software tools"
+  url:
+    - https://www.mdpi.com/1996-1073/14/24/8268
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 168
+  title: "Identification and Optimisation of Type-Level Model Queries"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9643777/
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 169
+  title: "Identifying phase transitions in physical systems with neural networks: a neural architecture search perspective"
+  url:
+    - https://arxiv.org/abs/2404.15118
+  source:
+    - ArXiV24 (energy)
+  pass:
+    - none
+
+- id: 170
+  title: "Impact of parameter tuning for optimizing deep neural network models for predicting software faults"
+  url:
+    - https://onlinelibrary.wiley.com/doi/abs/10.1155/2021/6662932
+  source:
+    - Google24 (memory)
+    - Google24 (other)
+    - Google24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 171
+  title: "Implementation of a new coding scheme for improving the SET operations in Phase Change Memory (PCM)"
+  url:
+    - https://pubs2.ascee.org/index.php/aet/article/view/1006
+  source:
+    - Google24 (memory)
+  pass:
+    - none
+
+- id: 172
+  title: "Improvement of ant colony algorithm performance for the job-shop scheduling problem using evolutionary adaptation and software realization heuristics"
+  url:
+    - https://www.mdpi.com/1999-4893/16/1/15
+  source:
+    - Google24 (other)
+  pass:
+    - none
+
+- id: 173
+  title: "Improvement of mechanical energy using thermal efficiency of hybrid nanofluid on solar aircraft wings: an application of renewable, sustainable energy"
+  url:
+    - https://www.tandfonline.com/doi/abs/10.1080/17455030.2023.2184642
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 174
+  title: "Improving application performance with biased distributions of quantum states"
+  url:
+    - https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.043145
+  source:
+    - Google24 (other)
+  pass:
+    - title
+
+- id: 175
+  title: "Improving collaboration efficiency between ux/ui designers and developers in a low-code platform"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9643662/
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 176
+  title: "Improving energy-efficiency by recommending Java collections"
+  url:
+    - https://link.springer.com/article/10.1007/s10664-021-09950-y
+  source:
+    - Google24 (energy)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 177
+  title: "Improving mobile game performance with basic optimization techniques in unity"
+  url:
+    - https://www.mdpi.com/2673-3951/3/2/14
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 178
+  title: "Improving performance with hybrid feature selection and ensemble machine learning techniques for code smell detection"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0167642321001064?casa_token=rAKYhxBFc74AAAAA:uHxPpuF_-CIrbbXoQP0fM4bTbn8Y5QpP7WIZQAI03xaI752_wbNR1JVdbOdo81nmq5MK48U
+  source:
+    - Google24 (other)
+  pass:
+    - title
+
+- id: 179
+  title: "Improving Readability of Scratch Programs with Search-based Refactoring"
+  url:
+    - https://ieeexplore.ieee.org/document/9610643/
+  source:
+    - IEEE24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 180
+  title: "Improving rib fracture detection accuracy and reading efficiency with deep learning-based detection software: a clinical evaluation"
+  url:
+    - https://academic.oup.com/bjr/article-abstract/94/1118/20200870/7452528
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 181
+  title: "Improving the concept of energy security in an energy transition environment: Application to the gas sector in the European Union"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S2214790X2200003X
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 182
+  title: "Improving the representation of energy efficiency in an energy system optimization model"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0306261921013696?casa_token=8Ja6hRavTu4AAAAA:doPj5dLtE8lWcFbDZlAsdv0QKxxzQSf0vPcCOyodLjCYpVKATZfgkRrGlOU0Ei4Acdv1YyY
+  source:
+    - Google24 (energy)
+  pass:
+    - title
+
+- id: 183
+  title: "Incorporating energy efficiency measurement into CI/CD pipeline"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85127515247&doi=10.1145%2f3501774.3501777&partnerID=40&md5=424bd1af9d56242c020bdc9141a22380
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+
+- id: 184
+  title: "Industry practice of configuration auto-tuning for cloud applications and services"
+  url:
+    - https://dl.acm.org/doi/10.1145/3540250.3558962
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85143074502&doi=10.1145%2f3540250.3558962&partnerID=40&md5=50a70eecea2b90e139dcb35f48eb859f
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+    - Scopus24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 185
+  title: "In Rust We Trust – A Transpiler from Unsafe C to Safer Rust"
+  url:
+    - https://ieeexplore.ieee.org/document/9793767/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - none
+
+- id: 186
+  title: "Intelligent parameter identification and prediction of variable time fractional derivative and application in a symmetric chaotic financial system"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0960077921009449?casa_token=ToNrKHmAtQMAAAAA:5YEFcaK9aGh3iTXaCXSuTTU4kByUqXRtEFfyuYPSaLSqm415vLHHcwuoecA5c4BP93rHb9Q
+  source:
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 187
+  title: "Investigating Resource-efficient Neutron/Gamma Classification ML Models Targeting eFPGAs"
+  url:
+    - https://arxiv.org/abs/2404.14436
+  source:
+    - ArXiV24 (energy)
+  pass:
+    - none
+
+- id: 188
+  title: "Irradiance-to-power conversion based on physical model chain: An application on the optimal configuration of multi-energy microgrid in cold climate"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S1364032122002660?casa_token=NnD9C8IyFbwAAAAA:HYSIxsv7jQvig3oP0Py0BywtXVsUEpAZbrWa-qJfa5Y-_dTrUw-G_fVSARojJCY0q4QRV_Q
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 189
+  title: "Joint torques prediction of a robotic arm using neural networks"
+  url:
+    - https://arxiv.org/abs/2405.00695
+  source:
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+  pass:
+    - none
+
+- id: 190
+  title: "Joint User Scheduling, Power Configuration and Trajectory Planning Strategy for UAV-Aided WSNs"
+  url:
+    - https://dl.acm.org/doi/10.1145/3529508
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 191
+  title: "KeenTune: Automated Tuning Tool for Cloud Application Performance Testing and Optimization"
+  url:
+    - https://dl.acm.org/doi/10.1145/3597926.3604920
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 192
+  title: "KnobTune: A Dynamic Database Configuration Tuning Strategy Leveraging Historical Workload Similarities"
+  url:
+    - https://dl.acm.org/doi/10.1145/3661725.3661734
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 193
+  title: "Learning performance-improving code edits"
+  url:
+    - https://arxiv.org/abs/2302.07867
+  source:
+    - Google24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 194
+  title: "Learning Program Behavioral Models from Synthesized Input-Output Pairs"
+  url:
+    - https://arxiv.org/abs/2407.08597
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - title
+
+- id: 195
+  title: "Learning software configuration spaces: A systematic literature review"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0164121221001412?casa_token=Rfw9cZcttzIAAAAA:qg_zKRctQAuzOsJcGVkaFtOG8eFnoWBt23au8gw9CyZs6iuUxGe8mcJ4bhdcmdXSCs3GTd4
+    - https://www.sciencedirect.com/science/article/pii/S0164121221001412?casa_token=SrzY5WIQwlYAAAAA:HgoBvJFdqEb-P3CIuzXh9YLxo7TiHp-wZw9_d_AVUhDvKrr7FNs28FEt_XFz9jgdrbogOqI
+  source:
+    - Google24 (other)
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 196
+  title: "Lightweight Salient Object Detection in Optical Remote Sensing Images via Feature Correlation"
+  url:
+    - https://arxiv.org/abs/2201.08049
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 197
+  title: "LLMs in Web Development: Evaluating LLM-Generated PHP Code Unveiling Vulnerabilities and Limitations"
+  url:
+    - https://arxiv.org/abs/2404.14459
+  source:
+    - ArXiV24 (energy)
+  pass:
+    - none
+
+- id: 198
+  title: "LOCAT: Low-Overhead Online Configuration Auto-Tuning of Spark SQL Applications"
+  url:
+    - https://dl.acm.org/doi/10.1145/3514221.3526157
+    - https://dl.acm.org/doi/abs/10.1145/3514221.3526157
+  source:
+    - ACM24 (other)
+    - ACM24 (time)
+    - Google24 (memory)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 199
+  title: "Looking into Black Box Code Language Models"
+  url:
+    - https://arxiv.org/abs/2407.04868
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 200
+  title: "Lst: Ladder side-tuning for parameter and memory efficient transfer learning"
+  url:
+    - https://proceedings.neurips.cc/paper_files/paper/2022/hash/54801e196796134a2b0ae5e8adef502f-Abstract-Conference.html
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+
+- id: 201
+  title: "Lustre I/O performance investigations on Hazel Hen: experiments and heuristics"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85104154974&doi=10.1007%2fs11227-021-03730-7&partnerID=40&md5=50fc3c5fec07d80c9857678d3062a44a
+  source:
+    - Scopus24 (other)
+  pass:
+    - none
+
+- id: 202
+  title: "Machine Learning Implementation for Refactoring Prediction"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85143749249&doi=10.1109%2fPhDEDITS56681.2022.9955297&partnerID=40&md5=0769753080269bff877c35233f25cecf
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+
+- id: 203
+  title: "MEMO-QCD: Quantum Density Estimation through Memetic Optimisation for Quantum Circuit Design"
+  url:
+    - https://arxiv.org/abs/2406.08591
+  source:
+    - ArXiV24 (quality)
+  pass:
+    - none
+
+- id: 204
+  title: "Memory visualization tool for training neural network"
+  url:
+    - https://arxiv.org/abs/2110.13264
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 205
+  title: "MespaConfig: Memory-Sparing Configuration Auto-Tuning for Co-Located In-Memory Cluster Computing Jobs"
+  url:
+    - https://ieeexplore.ieee.org/document/9367004/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85102309709&doi=10.1109%2fTSC.2021.3063118&partnerID=40&md5=6b94495f891d600b67bad3d6b4c7ff05
+  source:
+    - IEEE24 (memory)
+    - Scopus24 (memory)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 206
+  title: "Metaheuristic-based hyperparameter tuning for recurrent deep learning: application to the prediction of solar energy generation"
+  url:
+    - https://www.mdpi.com/2075-1680/12/3/266
+  source:
+    - Google24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 207
+  title: "metaSafer: A Technique to Detect Heap Metadata Corruption in WebAssembly"
+  url:
+    - https://ieeexplore.ieee.org/document/10296897/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - none
+
+- id: 208
+  title: "Model for refactoring a software using feature oriented dependency (FOD)"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119828192&doi=10.3233%2fAPC210154&partnerID=40&md5=a7d734b1f0c018303df05f8bf633c230
+  source:
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 209
+  title: "Monitoring and control in program management as effectiveness drivers in polish energy sector. Diagnosis and directions of improvement"
+  url:
+    - https://www.mdpi.com/1996-1073/14/15/4661
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 210
+  title: "MPI parameter optimization during debugging phase of HPC system"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85108159129&doi=10.1007%2fs11227-021-03939-6&partnerID=40&md5=11a208a6e4aa5762c4b334a1904fb8a3
+  source:
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 211
+  title: "Multi-intention-aware configuration selection for performance tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3510003.3510094
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 212
+  title: "Multi-objective Optimization Configuration Scheme for Photovoltaic Energy Storage Charging Stations Considering Operational Efficiency"
+  url:
+    - https://dl.acm.org/doi/10.1145/3622896.3622924
+  source:
+    - ACM24 (energy)
+  pass:
+    - title
+
+- id: 213
+  title: "Multi-Objective Parameter Optimization of Fiber Laser Welding Considering Energy Consumption and Bead Geometry"
+  url:
+    - https://ieeexplore.ieee.org/document/9625639/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 214
+  title: "Multi-objectivizing software configuration tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3468264.3468555
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 215
+  title: "Network (In)security: Leniency in Protocols&#39; Design, Code and Configuration"
+  url:
+    - https://dl.acm.org/doi/10.1145/3532105.3536395
+  source:
+    - ACM24 (memory)
+  pass:
+    - none
+
+- id: 216
+  title: "Network-Level Coordinated Speed Optimization and Traffic Light Control for Connected and Automated Vehicles"
+  url:
+    - https://ieeexplore.ieee.org/document/9109692/
+  source:
+    - IEEE24 (time)
+  pass:
+    - none
+
+- id: 217
+  title: "New sizing methodology of energy storage and PV systems for electric vehicle charging stations considering voltage compensation in a low voltage grid"
+  url:
+    - https://ieeexplore.ieee.org/document/9698271/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 218
+  title: "No more fine-tuning? an experimental evaluation of prompt tuning in code intelligence"
+  url:
+    - https://dl.acm.org/doi/abs/10.1145/3540250.3549113?casa_token=7-DQPoNgImAAAAAA:aTMT0RWogq5YTrnzZ3YC8OPLVwUPhzPUxspvPriK-oEmBB7cTTt5S8m1WRRndu49MAYKoMfoXaU
+    - https://dl.acm.org/doi/abs/10.1145/3540250.3549113?casa_token=AkQCBKdfljAAAAAA:hQW-71mYk0DvJAAYmqMf71tTqdCTo-d6fV6AQ4ab6g5zIjYR2XMQYZsl2W2nn-b2KEAmBnTaDBE
+    - https://dl.acm.org/doi/abs/10.1145/3540250.3549113?casa_token=K4N6DQ_ZDI4AAAAA:F08tZnkN3ATMcO1HX_by74psGx8ypMRX_qW0nlr6VTxgpZ_sNOAu4T1iNJLddgnEcoc-U_QwkVI
+  source:
+    - Google24 (other)
+    - Google24 (quality)
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 219
+  title: "N ways to simulate short-range particle systems: Automated algorithm selection with the node-level library AutoPas"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85121610564&doi=10.1016%2fj.cpc.2021.108262&partnerID=40&md5=419448308dd6b28e5629b57d15162729
+  source:
+    - Scopus24 (memory)
+  pass:
+    - none
+
+- id: 220
+  title: "Octopack: Instruction tuning code large language models"
+  url:
+    - https://arxiv.org/abs/2308.07124
+  source:
+    - Google24 (other)
+  pass:
+    - none
+
+- id: 221
+  title: "OJXPERF: Featherlight Object Replica Detection for Java Programs"
+  url:
+    - https://ieeexplore.ieee.org/document/9794091/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85133546838&doi=10.1145%2f3510003.3510083&partnerID=40&md5=a699ea7fddad6c9eb773460588253628
+  source:
+    - IEEE24 (memory)
+    - Scopus24 (memory)
+    - Scopus24 (other)
+  pass:
+    - none
+
+- id: 222
+  title: "OMEGAlpes, an open-source optimisation model generation tool to support energy stakeholders at district scale"
+  url:
+    - https://www.mdpi.com/1996-1073/14/18/5928
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 223
+  title: "On Exploring the Optimum Configuration of Apache Spark Framework in Heterogeneous Clusters"
+  url:
+    - https://dl.acm.org/doi/10.1145/3503823.3503870
+  source:
+    - ACM24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 224
+  title: "Online Application Guidance for Heterogeneous Memory Systems"
+  url:
+    - https://dl.acm.org/doi/10.1145/3533855
+  source:
+    - ACM24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 225
+  title: "Online Power Management for Multi-Cores: A Reinforcement Learning Based Approach"
+  url:
+    - https://ieeexplore.ieee.org/document/9465707/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 226
+  title: "On the Assessment of Interactive Detection of Code Smells in Practice: A Controlled Experiment"
+  url:
+    - https://ieeexplore.ieee.org/document/10209161/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85166779930&doi=10.1109%2fACCESS.2023.3302260&partnerID=40&md5=5af575013096f100c03a749fd683aadf
+  source:
+    - IEEE24 (quality)
+    - IEEE24 (time)
+    - Scopus24 (quality)
+  pass:
+    - title
+
+- id: 227
+  title: "On the Co-Occurrence of Refactoring of Test and Source Code"
+  url:
+    - https://ieeexplore.ieee.org/document/9796251/
+  source:
+    - IEEE24 (other)
+    - IEEE24 (quality)
+  pass:
+    - title
+
+- id: 228
+  title: "On The Cross-Modal Transfer from Natural Language to Code through Adapter Modules"
+  url:
+    - https://ieeexplore.ieee.org/document/9796334/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - none
+
+- id: 229
+  title: "On the documentation of refactoring types"
+  url:
+    - https://link.springer.com/article/10.1007/s10515-021-00314-w
+  source:
+    - Google24 (other)
+  pass:
+    - none
+
+- id: 230
+  title: "On the effectiveness of parameter-efficient fine-tuning"
+  url:
+    - https://ojs.aaai.org/index.php/AAAI/article/view/26505
+  source:
+    - Google24 (quality)
+  pass:
+    - title
+
+- id: 231
+  title: "Optimal configuration method of distributed generation based on load transfer in distribution network"
+  url:
+    - https://ieeexplore.ieee.org/document/9654132/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - title
+
+- id: 232
+  title: "Optimal Configuration Method of Regulated Power Sources Considering New Energy Accommodation Saturation"
+  url:
+    - https://ieeexplore.ieee.org/document/10583258/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 233
+  title: "Optimisation method to obtain marginal abatement cost-curve through EnergyPLAN software"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S2666955221000022
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 234
+  title: "Optimization Method of Database Memory Sorting for Software and Hardware Application Integration"
+  url:
+    - https://dl.acm.org/doi/10.1145/3650400.3650615
+  source:
+    - ACM24 (memory)
+  pass:
+    - title
+
+- id: 235
+  title: "Optimization of Controller Parameters for Grid Photovoltaic System at Faulty Network Using Emperor Penguin Optimizer"
+  url:
+    - https://ieeexplore.ieee.org/document/9583024/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 236
+  title: "Optimized Hybrid Power System Configuration for The First Phase of Dedieselization Programs"
+  url:
+    - https://ieeexplore.ieee.org/document/9601010/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 237
+  title: "Optzconfig: Efficient parallel optimization of lossy compression configuration"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9730115/?casa_token=oDN16fDyEWsAAAAA:7Un0Khey04GbZK6QTaM9OKnyKAa8bWX7EmVxl_4v_cdrBBJj-Tik_b_4SyZ1Ebyvkc39oFE
+  source:
+    - Google24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 238
+  title: "Overview of Power System Planning under Uncertainty"
+  url:
+    - https://ieeexplore.ieee.org/document/10087977/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - none
+
+- id: 239
+  title: "Parameter-efficient is not sufficient: Exploring Parameter, Memory, and Time Efficient Adapter Tuning for Dense Predictions"
+  url:
+    - https://arxiv.org/abs/2306.09729
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - title
+
+- id: 240
+  title: "Parameterized Dynamic Logic -- Towards A Cyclic Logical Framework for General Program Specification and Verification"
+  url:
+    - https://arxiv.org/abs/2404.18098
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - title
+
+- id: 241
+  title: "Parameter Optimization of Three Branch Supercapacitor Model"
+  url:
+    - https://ieeexplore.ieee.org/document/10434596/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - title
+
+- id: 242
+  title: "Parameter Tuning of PID Heading Controller for Self Navigation Model Based on Improved Particle Swarm Optimization"
+  url:
+    - https://ieeexplore.ieee.org/document/10215773/
+  source:
+    - IEEE24 (other)
+    - IEEE24 (quality)
+    - IEEE24 (time)
+  pass:
+    - title
+
+- id: 243
+  title: "PASTA: Programming and Automation Support for Scalable Task-Parallel HLS Programs on Modern Multi-Die FPGAs"
+  url:
+    - https://ieeexplore.ieee.org/document/10171589/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - title
+
+- id: 244
+  title: "PATSMA: Parameter Auto-tuning for Shared Memory Algorithms"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85196031082&doi=10.1016%2fj.softx.2024.101789&partnerID=40&md5=3f2c1a0f3448f3562606793fa69ed774
+  source:
+    - Scopus24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 245
+  title: "Pattern-based Autotuning of OpenMP Loops using Graph Neural Networks"
+  url:
+    - https://ieeexplore.ieee.org/document/10027572/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85147957414&doi=10.1109%2fAI4S56813.2022.00010&partnerID=40&md5=d69b2eebe8b438d84a666418efa55b7c
+  source:
+    - IEEE24 (time)
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 246
+  title: "PCART: Automated Repair of Python API Parameter Compatibility Issues"
+  url:
+    - https://arxiv.org/abs/2406.03839
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 247
+  title: "Performance analysis and auto-tuning for spark in-memory analytics"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9474122/?casa_token=6SNTFs5vDg4AAAAA:-gz_05cW64i9nfdcU_hRMDayAmnekS-AT55nA-B_iOgI539hCCG0RQ4tZBJJAhtFGSDN1WQ
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 248
+  title: "Phronesis: Efficient Performance Modeling for High-dimensional Configuration Tuning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3546868
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 249
+  title: "PortAuthority: Integrating energy efficiency analysis into cross-platform development cycles via dynamic program analysis"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85102579752&doi=10.1016%2fj.suscom.2021.100530&partnerID=40&md5=2a3c63dca3438c27a173356ff67d18e8
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+
+- id: 250
+  title: "Power Constrained Autotuning using Graph Neural Networks"
+  url:
+    - https://ieeexplore.ieee.org/document/10177485/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85166639301&doi=10.1109%2fIPDPS54959.2023.00060&partnerID=40&md5=46c2c53cf21a5bd1e73baf7fdb1aa4be
+  source:
+    - IEEE24 (energy)
+    - IEEE24 (other)
+    - IEEE24 (quality)
+    - IEEE24 (time)
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 251
+  title: "PowerSpector: Towards Energy Efficiency with Calling-Context-Aware Profiling"
+  url:
+    - https://ieeexplore.ieee.org/document/9820673/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85136320522&doi=10.1109%2fIPDPS53621.2022.00126&partnerID=40&md5=a4c7ec945cc7c7fd1e2339150e3693df
+  source:
+    - IEEE24 (energy)
+    - Scopus24 (energy)
+  pass:
+    - title
+
+- id: 252
+  title: "Predicting JVM Parameters for Performance Tuning Using Different Regression Algorithms"
+  url:
+    - https://ieeexplore.ieee.org/document/10060788/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 253
+  title: "Predicting Performance and Accuracy of Mixed-Precision Programs for Precision Tuning"
+  url:
+    - https://ieeexplore.ieee.org/document/10548640/
+  source:
+    - IEEE24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 254
+  title: "Prodigy: Improving the memory latency of data-indirect irregular workloads using hardware-software co-design"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9407222/?casa_token=f5IQiLhUcX0AAAAA:XWOd6ecAkiqs6-3in_ruVlQGAk9uYf24wwDrKKH3W5KLg5sT0ZE0QCUWEq6Xw6r-7fK5FU4
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+
+- id: 255
+  title: "Profiling gem5 Simulator"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85164538853&doi=10.1109%2fISPASS57527.2023.00019&partnerID=40&md5=5831ff2e2e1f35fb196ec7d307ea8c80
+  source:
+    - Scopus24 (memory)
+  pass:
+    - title
+
+- id: 256
+  title: "Program memory optimization for automatically generated tests for AUTOSAR RTE"
+  url:
+    - https://ieeexplore.ieee.org/document/9499293/
+  source:
+    - IEEE24 (memory)
+  pass:
+    - none
+
+- id: 257
+  title: "PYREF: Refactoring Detection in Python Projects"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9610674/?casa_token=LuuKNQkRSZEAAAAA:ezJGuw69dNepTtlvTIdFK0QEFqbBZ6n0pav5ztdYIfzKt88FiZMBwQq6vCHq7xsNcsQPVwc
+    - https://ieeexplore.ieee.org/document/9610674/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85123293057&doi=10.1109%2fSCAM52516.2021.00025&partnerID=40&md5=7ddc5e923f24a7547e28a8a77255ba16
+  source:
+    - Google24 (time)
+    - IEEE24 (quality)
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 258
+  title: "Quantitative tuning of active disturbance rejection controller for FOPTD model with application to power plant control"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9325092/?casa_token=oeaDrHy4t_YAAAAA:hVWgQsGPpW_RWNFHkHxar5zwxgUILI4CYNJqXQ4cpHqgszzdO2zrp9BBDPOvtKcFc5SFKUA
+  source:
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 259
+  title: "Quantum annealer for network flow minimization in InSAR images"
+  url:
+    - https://ieeexplore.ieee.org/document/9472581/
+  source:
+    - IEEE24 (time)
+  pass:
+    - none
+
+- id: 260
+  title: "Reducing electronic health record-related burnout in providers through a personalized efficiency improvement program"
+  url:
+    - https://academic.oup.com/jamia/article-abstract/28/5/931/5964085
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 261
+  title: "Reducing the Tail Latency of Microservices Applications via Optimal Configuration Tuning"
+  url:
+    - https://ieeexplore.ieee.org/document/9935027/
+  source:
+    - IEEE24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 262
+  title: "Refactoring decision based on measurements for IoHT apps"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85110363972&doi=10.1145%2f3466933.3466945&partnerID=40&md5=08818bc470ae378e1f575e6d0fefce51
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 263
+  title: "Refactoring for introducing and tuning parallelism for heterogeneous multicore machines in Erlang"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85068082266&doi=10.1002%2fcpe.5420&partnerID=40&md5=02c8ed0ef943ec1bfe038e54afd1c822
+  source:
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 264
+  title: "Refactoring Index Tuning Process with Benefit Estimation"
+  url:
+    - https://dl.acm.org/doi/10.14778/3654621.3654622
+  source:
+    - ACM24 (quality)
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 265
+  title: "RefactoringMiner 2.0"
+  url:
+    - https://ieeexplore.ieee.org/document/9136878/
+  source:
+    - IEEE24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 266
+  title: "Refactoring Prediction Improvement using Various Feature Selection and Data Sampling Techniques"
+  url:
+    - https://ieeexplore.ieee.org/document/10481599/
+  source:
+    - IEEE24 (quality)
+    - IEEE24 (time)
+  pass:
+    - title
+
+- id: 267
+  title: "Refactoring test smells with junit 5: Why should developers keep up-to-date?"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9769994/?casa_token=xV4VSsRTdQQAAAAA:5t1k7EaZaDruNlKj1FZOFzkoC8Cgbw08QQ2nfDILvJfKBvhUmujsg6cRdI9l79dbwadge3w
+  source:
+    - Google24 (time)
+  pass:
+    - title
+
+- id: 268
+  title: "RefDiff 2.0: A Multi-Language Refactoring Detection Tool"
+  url:
+    - https://ieeexplore.ieee.org/document/8966516/
+  source:
+    - IEEE24 (quality)
+  pass:
+    - none
+
+- id: 269
+  title: "Regional Differences in Configurations of Energy Communities: Future Scenarios and Policy Implications"
+  url:
+    - https://dl.acm.org/doi/10.1145/3632775.3661940
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 270
+  title: "Reg-Tune: A Regression-Focused Fine-Tuning Approach for Profiling Low Energy Consumption and Latency"
+  url:
+    - https://dl.acm.org/doi/10.1145/3623380
+  source:
+    - ACM24 (energy)
+  pass:
+    - title
+
+- id: 271
+  title: "Research and Application of AGC Control Method for Energy Storage Power Stations Using Data of Regulation Cloud"
+  url:
+    - https://dl.acm.org/doi/10.1145/3582935.3583043
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 272
+  title: "Research on Spaceborne Memory Control Based on FPGA Configuration Refresh Technology"
+  url:
+    - https://dl.acm.org/doi/10.1145/3641584.3641714
+  source:
+    - ACM24 (memory)
+  pass:
+    - none
+
+- id: 273
+  title: "Research on target detection method of distracted driving behavior based on improved YOLOv8"
+  url:
+    - https://arxiv.org/abs/2407.01864
+  source:
+    - ArXiV24 (other)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 274
+  title: "Research on the Application of Energy Wisdom Based on Power Iot and Big Data"
+  url:
+    - https://dl.acm.org/doi/10.1145/3578339.3578347
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 275
+  title: "Rethinking software runtimes for disaggregated memory"
+  url:
+    - https://dl.acm.org/doi/abs/10.1145/3445814.3446713?casa_token=fMZQ6LobRegAAAAA:vvla5zuaF32-_NyJZjEo52D5kSzr0YbI_b9Jp3MS7IsPSlccDnWubSF6yNVZsd8SaK4hJTcNjec
+  source:
+    - Google24 (memory)
+  pass:
+    - title
+
+- id: 276
+  title: "Revealing MOVE METHOD: Machine Learning-driven Real-time Refactoring Identification for Enhanced Software Quality"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85190959287&doi=10.1109%2fESIC60604.2024.10481609&partnerID=40&md5=3c4dcb4ef1c4034aefeff9f8a771f35b
+  source:
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 277
+  title: "Review on effectiveness improvement by application of the lean tool in an industry"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S2214785320390933?casa_token=XL0NesYFVzAAAAAA:I8E0vfe0X67LMmuIzwTfaMfyvJ8nK5wLHRITlm919QbPrq_Ot4ddOpS8WdKo8RbvrekgO3U
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 278
+  title: "Revisiting Scenarios of Using Refactoring Techniques to Improve Software Systems Quality"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9932613/
+    - https://ieeexplore.ieee.org/document/9932613/
+  source:
+    - Google24 (time)
+    - IEEE24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 279
+  title: "Rigorous Simulation-based Testing for Autonomous Driving Systems -- Targeting the Achilles&#39; Heel of Four Open Autopilots"
+  url:
+    - https://arxiv.org/abs/2405.16914
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 280
+  title: "ROBOTune: High-Dimensional Configuration Tuning for Cluster-Based Data Analytics"
+  url:
+    - https://dl.acm.org/doi/10.1145/3472456.3472518
+  source:
+    - ACM24 (other)
+    - ACM24 (quality)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 281
+  title: "Robust and budget-constrained encoding configurations for in-memory database systems"
+  url:
+    - https://dl.acm.org/doi/10.14778/3503585.3503588
+  source:
+    - ACM24 (memory)
+  pass:
+    - title
+
+- id: 282
+  title: "Robust Stochastic Optimization for Energy Sharing between Multi-Carrier Microgrids using Transactive Energy Management System"
+  url:
+    - https://ieeexplore.ieee.org/document/9469638/
+  source:
+    - IEEE24 (energy)
+  pass:
+    - title
+
+- id: 283
+  title: "RT-Bench: an Extensible Benchmark Framework for the Analysis and Management of Real-Time Applications"
+  url:
+    - https://arxiv.org/abs/2203.11423
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 284
+  title: "Runtime Estimation of Application Memory Latency for Performance Analysis and Optimization"
+  url:
+    - https://dl.acm.org/doi/10.1145/3422575.3422773
+  source:
+    - ACM24 (memory)
+  pass:
+    - title
+
+- id: 285
+  title: "Scalable Kernel Logistic Regression with Nyström Approximation: Theoretical Analysis and Application to Discrete Choice Modelling"
+  url:
+    - https://arxiv.org/abs/2402.06763
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 286
+  title: "Scalable Tuning of (OpenMP) GPU Applications via Kernel Record and Replay"
+  url:
+    - https://ieeexplore.ieee.org/document/10485092/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85179556539&doi=10.1145%2f3581784.3607098&partnerID=40&md5=fc2f8c0bb7b13a0a36e777835a8d7681
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85190439928&doi=10.1145%2f3581784.3607098&partnerID=40&md5=8d8dfcc0f6100ec066d2ca231dbe3bf3
+  source:
+    - IEEE24 (time)
+    - Scopus24 (time)
+  pass:
+    - none
+
+- id: 287
+  title: "Scaling a Hippocampus Model with GPU Parallelisation and Test-Driven Refactoring"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144248719&doi=10.1007%2f978-3-031-20470-8_5&partnerID=40&md5=3d282ffd427bbe77a040414ea14cfd90
+  source:
+    - Scopus24 (memory)
+  pass:
+    - title
+
+- id: 288
+  title: "Security Analysis of Power Internet of Things Application Based on Guided Fuzzy Test"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85142447141&doi=10.1117%2f12.2652284&partnerID=40&md5=bc8af244c38de668de17aa6549df3e13
+  source:
+    - Scopus24 (energy)
+  pass:
+    - none
+
+- id: 289
+  title: "ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents"
+  url:
+    - https://arxiv.org/abs/2407.00132
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - title
+
+- id: 290
+  title: "Soar: a synthesis approach for data science api refactoring"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9402016/?casa_token=SEMNTDdmGVUAAAAA:mnGHDHRHFJkvZl46kcdvLDiRquU3wn5hkE-nhN3tG1VfAiPjM4L7jVsIqwTAE0o3YmcUrz4
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85159748861&doi=10.1109%2fICSE43902.2021.00023&partnerID=40&md5=2d7f67f463bdd282b791f9229619b552
+  source:
+    - Google24 (time)
+    - Scopus24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 291
+  title: "Software architecture of the internet of things (IoT) for smart city, healthcare and agriculture: analysis and improvement directions"
+  url:
+    - https://link.springer.com/article/10.1007/s12652-020-02197-3
+  source:
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 292
+  title: "Software defects prediction based on hybrid particle swarm optimization and sparrow search algorithm"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9402796/
+  source:
+    - Google24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 293
+  title: "Software Model Refactoring Driven by Performance Antipattern Detection"
+  url:
+    - https://dl.acm.org/doi/10.1145/3543146.3543159
+  source:
+    - ACM24 (other)
+  pass:
+    - title
+    - abstract
+
+- id: 294
+  title: "Software Testing and Code Refactoring: A Survey with Practitioners"
+  url:
+    - https://ieeexplore.ieee.org/document/10336348/
+  source:
+    - IEEE24 (other)
+    - IEEE24 (quality)
+  pass:
+    - none
+
+- id: 295
+  title: "Software tools for quantum control: Improving quantum computer performance through noise and error suppression"
+  url:
+    - https://iopscience.iop.org/article/10.1088/2058-9565/abdca6/meta?casa_token=_mVyW-Rzmx0AAAAA:o_HM75xq3irxFoT88D56_5UqDKwos6drB_gxIXxbTrepqwgFKt4qSMCOTpVouNqduATLH9QrGxkgKguI9guapNub
+  source:
+    - Google24 (other)
+  pass:
+    - title
+    - abstract
+
+- id: 296
+  title: "Sparse Algorithms for Markovian Gaussian Processes"
+  url:
+    - https://arxiv.org/abs/2103.10710
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 297
+  title: "Spinel ferrites (MFe2O4): Synthesis, improvement and catalytic application in environment and energy field"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0001868621001275?casa_token=q5KqXRSfieYAAAAA:hCOg18v0bCAuelPxo28yKUnXCnN71Mfky_kIspc29EyPRLeIvpOaUEt3U-xDyJMGmFeA9es
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 298
+  title: "sRouting: Towards a Better Flow Size Estimation Performance through Routing and Sketch Configuration"
+  url:
+    - https://dl.acm.org/doi/10.1145/3472456.3472465
+  source:
+    - ACM24 (other)
+  pass:
+    - title
+
+- id: 299
+  title: "Tales from the Code #2: A Detailed Assessment of Code Refactoring’s Impact on Energy Consumption"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85135082669&doi=10.1007%2f978-3-031-11513-4_5&partnerID=40&md5=1f113c384534c63ff88c29d9cbed657f
+  source:
+    - Scopus24 (energy)
+  pass:
+    - title
+    - abstract
+
+- id: 300
+  title: "Teaching tip: improving student performance by introducing a no-code approach: a course unit of decision support systems"
+  url:
+    - https://aisel.aisnet.org/jise/vol33/iss2/3/
+  source:
+    - Google24 (other)
+  pass:
+    - none
+
+- id: 301
+  title: "Technical Briefing on Parameter Efficient Fine-Tuning of (Large) Language Models for Code-Intelligence"
+  url:
+    - https://dl.acm.org/doi/10.1145/3639478.3643060
+  source:
+    - ACM24 (quality)
+    - ACM24 (time)
+  pass:
+    - none
+
+- id: 302
+  title: "Test-case prioritization for configuration testing"
+  url:
+    - https://dl.acm.org/doi/abs/10.1145/3460319.3464810
+  source:
+    - Google24 (time)
+  pass:
+    - none
+
+- id: 303
+  title: "The Application of Fast-time Simulation in the Airport Runway Configuration Optioning"
+  url:
+    - https://dl.acm.org/doi/10.1145/3544109.3544117
+  source:
+    - ACM24 (time)
+  pass:
+    - none
+
+- id: 304
+  title: "The Effectiveness of Improving Student Mathematics Literacy Through The Use of The Facebook Application"
+  url:
+    - http://download.garuda.kemdikbud.go.id/article.php?article=2611623&amp;val=7291&amp;title=T"HE%20EFFECTIVENESS%20OF%20IMPROVING%20STUDENT%20MATHEMATICS%20LITERACY%20THROUGH%20THE%20USE%20OF%20THE%20FACEBOOK%20APPLICATION"
+  source:
+    - Google24 (quality)
+  pass:
+    - none
+
+- id: 305
+  title: "The Impact of a Live Refactoring Environment on Software Development"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85194859369&doi=10.1145%2f3639478.3643100&partnerID=40&md5=44a2cb843b0a4843fc4dedb0b2b03b19
+  source:
+    - Scopus24 (quality)
+    - Scopus24 (time)
+  pass:
+    - none
+
+- id: 306
+  title: "The Impact of Cache and Dynamic Memory Management in Static Dataflow Applications"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85125135494&doi=10.1007%2fs11265-021-01730-7&partnerID=40&md5=44e1c4cb7795f782a458eb06c48e64e4
+  source:
+    - Scopus24 (memory)
+  pass:
+    - title
+    - abstract
+
+- id: 307
+  title: "The impact of phonological awareness in improving sequential memory among students with learning disabilities"
+  url:
+    - https://www.tandfonline.com/doi/abs/10.1080/1034912X.2021.1995853
+  source:
+    - Google24 (memory)
+  pass:
+    - none
+
+- id: 308
+  title: "Theory-inspired parameter control benchmarks for dynamic algorithm configuration"
+  url:
+    - https://dl.acm.org/doi/10.1145/3512290.3528846
+  source:
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 309
+  title: "TIE: Fast Experiment-Driven ML-Based Configuration Tuning for In-Memory Data Analytics"
+  url:
+    - https://ieeexplore.ieee.org/document/10436432/
+  source:
+    - IEEE24 (memory)
+    - IEEE24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 310
+  title: "Time Analysis of IoT Node Based on Ambient RF Energy Harvesting for Ultra-low Power Application"
+  url:
+    - https://dl.acm.org/doi/10.1145/3478905.3478907
+  source:
+    - ACM24 (energy)
+  pass:
+    - none
+
+- id: 311
+  title: "Tools for the analysis of quantum protocols requiring state generation within a time window"
+  url:
+    - https://arxiv.org/abs/2304.12673
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 312
+  title: "Toward Quantum Machine Translation of Syntactically Distinct Languages"
+  url:
+    - https://arxiv.org/abs/2307.16576
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - none
+
+- id: 313
+  title: "Towards an Approach to Pattern-based Domain-Specific Requirements Engineering"
+  url:
+    - https://arxiv.org/abs/2404.17338
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 314
+  title: "Towards Application-Specific Address Mapping for Emerging Memory Devices"
+  url:
+    - https://dl.acm.org/doi/10.1145/3422575.3422785
+  source:
+    - ACM24 (memory)
+  pass:
+    - none
+
+- id: 315
+  title: "Towards Dynamic and Safe Configuration Tuning for Cloud Databases"
+  url:
+    - https://dl.acm.org/doi/10.1145/3514221.3526176
+  source:
+    - ACM24 (time)
+  pass:
+    - title
+    - abstract
+
+- id: 316
+  title: "Transfer learning based methodology for migration and application of fault detection and diagnosis between building chillers for improving energy efficiency"
+  url:
+    - https://www.sciencedirect.com/science/article/pii/S0360132321003619?casa_token=ZrhLZt5VqV0AAAAA:5C_aU4aBZgSNBAH9O9Dh9GHCg7MM4dS7TJPDP7VH3q3pyAQ3lLj8eIWMbgeYfr3nCYZzHwk
+  source:
+    - Google24 (energy)
+  pass:
+    - none
+
+- id: 317
+  title: "Transfer-tuning: Reusing auto-schedules for efficient tensor program code generation"
+  url:
+    - https://dl.acm.org/doi/abs/10.1145/3559009.3569682?casa_token=rexneqgB1qMAAAAA:trqfivYjfbvj-ka7EuACyHkFQTK3NmbrYMfcMmHLV4uWPR5jDyWW1ecAOjdWwyP1VvSueB7Y1R4
+  source:
+    - Google24 (memory)
+  pass:
+    - none
+
+- id: 318
+  title: "Trimmer: An Automated System for Configuration-Based Software Debloating"
+  url:
+    - https://ieeexplore.ieee.org/abstract/document/9478582/?casa_token=a__YUmNiP10AAAAA:GoaABjaRRCj8ew6LgIoB1NfzWm1zXy00mZPkX5Q3-7skNk1Uc8D5NDxIwLodco7BbNf_dEU
+    - https://ieeexplore.ieee.org/document/9478582/
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85139125051&doi=10.1109%2fTSE.2021.3095716&partnerID=40&md5=64846dc7deb80e95c9086d4606bf8084
+  source:
+    - Google24 (other)
+    - IEEE24 (memory)
+    - IEEE24 (other)
+    - Scopus24 (memory)
+    - Scopus24 (other)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 319
+  title: "Trust: Trust-Region Optimisation with Ising Machines"
+  url:
+    - https://arxiv.org/abs/2407.04715
+  source:
+    - ArXiV24 (other)
+  pass:
+    - title
+
+- id: 320
+  title: "Tuning flexibility–rigidity conversion of liquid metal/polyurethane composites by phase transition for potential shape memory application"
+  url:
+    - https://onlinelibrary.wiley.com/doi/abs/10.1002/adem.202100372
+  source:
+    - Google24 (memory)
+  pass:
+    - none
+
+- id: 321
+  title: "Tuning Memory Fault Tolerance on the Edge"
+  url:
+    - https://dl.acm.org/doi/10.1145/3453688.3462231
+  source:
+    - ACM24 (memory)
+  pass:
+    - title
+
+- id: 322
+  title: "Understanding the Power of Evolutionary Computation for GPU Code Optimization"
+  url:
+    - https://ieeexplore.ieee.org/document/9975391/
+  source:
+    - IEEE24 (time)
+  pass:
+    - title
+    - abstract
+    - body
+
+- id: 323
+  title: "URegM: A unified prediction model of resource consumption for refactoring software smells in open source cloud"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85148417806&doi=10.1145%2f3571697.3571705&partnerID=40&md5=8fde6542076bdf61f059a4c5f064de70
+  source:
+    - Scopus24 (quality)
+  pass:
+    - title
+    - abstract
+
+- id: 324
+  title: "VHDL-Eval: A Framework for Evaluating Large Language Models in VHDL Code Generation"
+  url:
+    - https://arxiv.org/abs/2406.04379
+  source:
+    - ArXiV24 (energy)
+    - ArXiV24 (other)
+    - ArXiV24 (quality)
+    - ArXiV24 (time)
+  pass:
+    - none
+
+- id: 325
+  title: "WasmSlim: Optimizing WebAssembly Binary Distribution via Automatic Module Splitting"
+  url:
+    - https://ieeexplore.ieee.org/document/10123496/
+  source:
+    - IEEE24 (other)
+  pass:
+    - title
+    - abstract
+
+- id: 326
+  title: "What Constitutes the Deployment and Runtime Configuration System? An Empirical Study on OpenStack Projects"
+  url:
+    - https://dl.acm.org/doi/10.1145/3607186
+  source:
+    - ACM24 (time)
+  pass:
+    - none
+
+- id: 327
+  title: "When MOE Meets LLMs: Parameter Efficient Fine-tuning for Multi-task Medical Applications"
+  url:
+    - https://dl.acm.org/doi/10.1145/3626772.3657722
+  source:
+    - ACM24 (quality)
+  pass:
+    - title
+
+- id: 328
+  title: "Why my code summarization model does not work: Code comment improvement with category prediction"
+  url:
+    - https://dl.acm.org/doi/abs/10.1145/3434280?casa_token=7FFirpszyvUAAAAA:VxJ7JDN9VT2zIOoUGH5ZZgqqRCkDYAeDPEPobDVc8vGRVi3eBM5FyKbUcW-hnY5gIhRlL_xN0M4
+  source:
+    - Google24 (other)
+  pass:
+    - none
+
+- id: 329
+  title: "WMWatcher: Preventing Workload-Related Misconfigurations in Production Environment"
+  url:
+    - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85190526236&doi=10.1109%2fAPSEC60848.2023.00038&partnerID=40&md5=0ae172674f02e0471bcd562a10fa899a
+  source:
+    - Scopus24 (time)
+  pass:
+    - none
+
+- id: 330
+  title: "Workshop on Resource Arbitration for Dynamic Runtimes (RADR)"
+  url:
+    - https://ieeexplore.ieee.org/document/9835209/
+  source:
+    - IEEE24 (time)
+  pass:
+    - none
+
+- id: 331
+  title: "X-Centric: A Survey on Compute-, Memory- and Application-Centric Computer Architectures"
+  url:
+    - https://dl.acm.org/doi/10.1145/3422575.3422792
+  source:
+    - ACM24 (memory)
+  pass:
+    - none
+
+- id: 332
+  title: "XtraLibD: Detecting Irrelevant Third-Party libraries in Java and Python Applications"
+  url:
+    - https://arxiv.org/abs/2202.10776
+  source:
+    - ArXiV24 (memory)
+  pass:
+    - title
+    - abstract
+

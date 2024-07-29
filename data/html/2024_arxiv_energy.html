@@ -1,0 +1,2096 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- new favicon config and versions by realfavicongenerator.net -->
+<link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/1.0.0a5/images/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/1.0.0a5/images/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/1.0.0a5/images/icons/favicon-16x16.png">
+<link rel="manifest" href="https://static.arxiv.org/static/base/1.0.0a5/images/icons/site.webmanifest">
+<link rel="mask-icon" href="https://static.arxiv.org/static/base/1.0.0a5/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+<link rel="shortcut icon" href="https://static.arxiv.org/static/base/1.0.0a5/images/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#b31b1b">
+<meta name="msapplication-config" content="images/icons/browserconfig.xml">
+<meta name="theme-color" content="#b31b1b">
+<!-- end favicon config -->
+<title>Advanced Search | arXiv e-print repository</title>
+<script defer src="https://static.arxiv.org/static/base/1.0.0a5/fontawesome-free-5.11.2-web/js/all.js"></script>
+<link rel="stylesheet" href="https://static.arxiv.org/static/base/1.0.0a5/css/arxivstyle.css" />
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    messageStyle: "none",
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true,
+      ignoreClass: '.*',
+      processClass: 'mathjax.*'
+    },
+    TeX: {
+        extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+        noErrors: {
+          inlineDelimiters: ["$","$"],
+          multiLine: false,
+          style: {
+            "font-size": "normal",
+            "border": ""
+          }
+        }
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+<script src="https://static.arxiv.org/static/base/1.0.0a5/js/notification.js"></script>
+
+    
+  <link rel="stylesheet" href="https://static.arxiv.org/static/search/0.5.6/css/bulma-tooltip.min.css" />
+  <link rel="stylesheet" href="https://static.arxiv.org/static/search/0.5.6/css/search.css" />
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+
+  <script src="https://static.arxiv.org/static/search/0.5.6/js/fieldset.js"></script>
+  <style>
+  radio#cf-customfield_11400 {
+    display: none;
+  }
+  </style>
+
+  </head>
+  <body>
+  
+  
+  <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+    
+    <!-- contains Cornell logo and sponsor statement -->
+<div class="attribution level is-marginless" role="banner">
+  <div class="level-left">
+    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/1.0.0a5/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+  </div>
+  <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://arxiv.org/about/ourmembers">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+</div>
+<!-- contains arXiv identity and search bar -->
+<div class="identity level is-marginless">
+  <div class="level-left">
+    <div class="level-item">
+      <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo">
+        <img src="https://static.arxiv.org/static/base/1.0.0a5/images/arxiv-logo-one-color-white.svg" aria-label="logo" alt="arxiv logo" width="85" style="width:85px;"/>
+      </a>
+    </div>
+  </div>
+  
+  <div class="search-block level-right">
+    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+      <div class="field has-addons">
+        <div class="control">
+          <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+          <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+        </div>
+        <div class="control">
+          <div class="select is-small">
+            <select name="searchtype" aria-label="Field to search">
+              <option value="all" selected="selected">All fields</option>
+              <option value="title">Title</option>
+              <option value="author">Author</option>
+              <option value="abstract">Abstract</option>
+              <option value="comments">Comments</option>
+              <option value="journal_ref">Journal reference</option>
+              <option value="acm_class">ACM classification</option>
+              <option value="msc_class">MSC classification</option>
+              <option value="report_num">Report number</option>
+              <option value="paper_id">arXiv identifier</option>
+              <option value="doi">DOI</option>
+              <option value="orcid">ORCID</option>
+              <option value="author_id">arXiv author ID</option>
+              <option value="help">Help pages</option>
+              <option value="full_text">Full text</option>
+            </select>
+          </div>
+        </div>
+        <input type="hidden" name="source" value="header">
+        <button class="button is-small is-cul-darker">Search</button>
+      </div>
+    </form>
+  </div>
+</div> <!-- closes identity -->
+
+<div class="container">
+    <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+      <a href="https://arxiv.org/login">Login</a>
+    </div>
+</div>
+    
+  </header>
+  <main class="container" id="main-container">
+    
+
+
+    
+  <div class="level is-marginless">
+    <div class="level-left">
+      <h1 class="title is-clearfix">
+    
+        Showing 1&ndash;25 of 161 results
+    
+</h1>
+    </div>
+    <div class="level-right is-hidden-mobile">
+      <!-- feedback for mobile is moved to footer -->
+      <span class="help" style="display: inline-block;"><a href="https://github.com/arXiv/arxiv-search/releases">Search v0.5.6 released 2020-02-24</a>&nbsp;&nbsp;</span>
+      <button class="button is-small" id="feedback-button">Feedback?</button>
+    </div>
+  </div>
+    <div class="content">
+      
+  
+    
+
+    <div class="columns">
+      <div class="column is-two-thirds-tablet">
+        <p style="margin-bottom: .5em">Query: <a href="/search/advanced?terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first">order: -announced_date_first; size: 25; date_range: from 2021-01-01 to 2024-12-31; classification: Computer Science (cs); include_cross_list: True; terms: AND all=(code OR program OR software OR application) AND (optimising OR optimisation OR improving OR improvement OR refactoring OR tuning OR configuration OR parameter) AND (energy OR power)</a></p>
+        <div class="buttons">
+          <a class="button is-link" href="/search/advanced?terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first">Refine query</a><a class="button" href="/search/advanced">New search</a>
+        </div>
+      </div>
+      <div class="column is-one-third-tablet is-hidden-mobile">
+        <p class="has-text-right" style="margin-top: 1em">
+          
+          <a href="/search/?order=-announced_date_first&amp;size=25">Simple Search</a>
+          
+        </p>
+      </div>
+    </div>
+
+    
+        
+<div class="level breathe-horizontal">
+  <div class="level-left">
+    <form method="GET" action="/search/advanced">
+      <div style="display: none;">
+        
+          
+            <input id="advanced" name="advanced" type="hidden" value="">
+          
+        
+          
+            <ul id="terms"><li><label for="terms-0">Terms-0</label> <table id="terms-0"><tr><th><label for="terms-0-term">Search term...</label></th><td><input id="terms-0-term" name="terms-0-term" type="text" value="(code OR program OR software OR application) AND (optimising OR optimisation OR improving OR improvement OR refactoring OR tuning OR configuration OR parameter) AND (energy OR power)"></td></tr><tr><th><label for="terms-0-operator">Operator</label></th><td><select id="terms-0-operator" name="terms-0-operator"><option selected value="AND">AND</option><option value="OR">OR</option><option value="NOT">NOT</option></select></td></tr><tr><th><label for="terms-0-field">Field</label></th><td><select id="terms-0-field" name="terms-0-field"><option value="title">Title</option><option value="author">Author(s)</option><option value="abstract">Abstract</option><option value="comments">Comments</option><option value="journal_ref">Journal reference</option><option value="acm_class">ACM classification</option><option value="msc_class">MSC classification</option><option value="report_num">Report number</option><option value="paper_id">arXiv identifier</option><option value="cross_list_category">Cross-list category</option><option value="doi">DOI</option><option value="orcid">ORCID</option><option value="author_id">arXiv author ID</option><option selected value="all">All fields</option></select></td></tr></table></li></ul>
+          
+        
+          
+            <table id="classification"><tr><th><label for="classification-computer_science">Computer Science (cs)</label></th><td><input checked id="classification-computer_science" name="classification-computer_science" type="checkbox" value="y"></td></tr><tr><th><label for="classification-economics">Economics (econ)</label></th><td><input id="classification-economics" name="classification-economics" type="checkbox" value="y"></td></tr><tr><th><label for="classification-eess">Electrical Engineering and Systems Science (eess)</label></th><td><input id="classification-eess" name="classification-eess" type="checkbox" value="y"></td></tr><tr><th><label for="classification-mathematics">Mathematics (math)</label></th><td><input id="classification-mathematics" name="classification-mathematics" type="checkbox" value="y"></td></tr><tr><th><label for="classification-physics">Physics</label></th><td><input id="classification-physics" name="classification-physics" type="checkbox" value="y"></td></tr><tr><th><label for="classification-physics_archives">Physics Archives</label></th><td><select id="classification-physics_archives" name="classification-physics_archives"><option selected value="all">all</option><option value="astro-ph">astro-ph</option><option value="cond-mat">cond-mat</option><option value="gr-qc">gr-qc</option><option value="hep-ex">hep-ex</option><option value="hep-lat">hep-lat</option><option value="hep-ph">hep-ph</option><option value="hep-th">hep-th</option><option value="math-ph">math-ph</option><option value="nlin">nlin</option><option value="nucl-ex">nucl-ex</option><option value="nucl-th">nucl-th</option><option value="physics">physics</option><option value="quant-ph">quant-ph</option></select></td></tr><tr><th><label for="classification-q_biology">Quantitative Biology (q-bio)</label></th><td><input id="classification-q_biology" name="classification-q_biology" type="checkbox" value="y"></td></tr><tr><th><label for="classification-q_finance">Quantitative Finance (q-fin)</label></th><td><input id="classification-q_finance" name="classification-q_finance" type="checkbox" value="y"></td></tr><tr><th><label for="classification-statistics">Statistics (stat)</label></th><td><input id="classification-statistics" name="classification-statistics" type="checkbox" value="y"></td></tr><tr><th><label for="classification-include_cross_list">Include cross-list</label></th><td><ul id="classification-include_cross_list"><li><input checked id="classification-include_cross_list-0" name="classification-include_cross_list" type="radio" value="include"> <label for="classification-include_cross_list-0">Include cross-listed papers</label></li><li><input id="classification-include_cross_list-1" name="classification-include_cross_list" type="radio" value="exclude"> <label for="classification-include_cross_list-1">Exclude cross-listed papers</label></li></ul></td></tr></table>
+          
+        
+          
+            <table id="date"><tr><th><label for="date-filter_by">Filter by</label></th><td><ul id="date-filter_by"><li><input id="date-filter_by-0" name="date-filter_by" type="radio" value="all_dates"> <label for="date-filter_by-0">All dates</label></li><li><input id="date-filter_by-1" name="date-filter_by" type="radio" value="past_12"> <label for="date-filter_by-1">Past 12 months</label></li><li><input id="date-filter_by-2" name="date-filter_by" type="radio" value="specific_year"> <label for="date-filter_by-2">Specific year</label></li><li><input checked id="date-filter_by-3" name="date-filter_by" type="radio" value="date_range"> <label for="date-filter_by-3">Date range</label></li></ul></td></tr><tr><th><label for="date-year">Year</label></th><td><input id="date-year" name="date-year" type="text" value=""></td></tr><tr><th><label for="date-from_date">From</label></th><td><input id="date-from_date" name="date-from_date" type="text" value="2021"></td></tr><tr><th><label for="date-to_date">to</label></th><td><input id="date-to_date" name="date-to_date" type="text" value="2024"></td></tr><tr><th><label for="date-date_type">Apply to</label></th><td><ul id="date-date_type"><li><input checked id="date-date_type-0" name="date-date_type" type="radio" value="submitted_date"> <label for="date-date_type-0">Submission date (most recent)</label></li><li><input id="date-date_type-1" name="date-date_type" type="radio" value="submitted_date_first"> <label for="date-date_type-1">Submission date (original)</label></li><li><input id="date-date_type-2" name="date-date_type" type="radio" value="announced_date_first"> <label for="date-date_type-2">Announcement date</label></li></ul></td></tr></table>
+          
+        
+          
+        
+          
+        
+          
+            <input id="include_older_versions" name="include_older_versions" type="checkbox" value="y">
+          
+        
+          
+            <ul id="abstracts"><li><input checked id="abstracts-0" name="abstracts" type="radio" value="show"> <label for="abstracts-0">Show abstracts</label></li><li><input id="abstracts-1" name="abstracts" type="radio" value="hide"> <label for="abstracts-1">Hide abstracts</label></li></ul>
+          
+        
+      </div>
+      <div class="box field is-grouped is-grouped-multiline level-item">
+        <div class="control">
+          <span class="select is-small">
+            <select id="size" name="size"><option selected value="25">25</option><option value="50">50</option><option value="100">100</option><option value="200">200</option></select>
+          </span>
+          <label for="size">results per page</label>.
+        </div>
+        <div class="control">
+          <label for="order">Sort results by</label>
+          <span class="select is-small">
+            <select id="order" name="order"><option selected value="-announced_date_first">Announcement date (newest first)</option><option value="announced_date_first">Announcement date (oldest first)</option><option value="-submitted_date">Submission date (newest first)</option><option value="submitted_date">Submission date (oldest first)</option><option value="">Relevance</option></select>
+          </span>
+        </div>
+        <div class="control">
+          <button class="button is-small is-link">Go</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+        
+
+
+  <nav class="pagination is-small is-centered breathe-horizontal" role="navigation" aria-label="pagination">
+    
+    <a href=""
+      class="pagination-previous is-invisible">Previous
+    </a>
+    
+    
+      <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=25"
+        class="pagination-next" >Next
+      </a>
+    
+    <ul class="pagination-list">
+
+      <li>
+        <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=0"
+          class="pagination-link is-current"
+          aria-label="Goto page 1">1
+        </a>
+      </li>
+
+      
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=25"
+            class="pagination-link "
+            aria-label="Page 2"
+            aria-current="page">2
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=50"
+            class="pagination-link "
+            aria-label="Page 3"
+            aria-current="page">3
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=75"
+            class="pagination-link "
+            aria-label="Page 4"
+            aria-current="page">4
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=100"
+            class="pagination-link "
+            aria-label="Page 5"
+            aria-current="page">5
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=125"
+            class="pagination-link "
+            aria-label="Page 6"
+            aria-current="page">6
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=150"
+            class="pagination-link "
+            aria-label="Page 7"
+            aria-current="page">7
+          </a>
+        </li>
+        
+      
+    </ul>
+  </nav>
+  
+
+
+
+<ol class="breathe-horizontal" start="1"> 
+
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2407.08597">arXiv:2407.08597</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2407.08597">pdf</a>, <a href="https://arxiv.org/format/2407.08597">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Machine Learning">cs.LG</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Learning <span class="search-hit mathjax">Program</span> Behavioral Models from Synthesized Input-Output Pairs
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Mammadov%2C+T">Tural Mammadov</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Klakow%2C+D">Dietrich Klakow</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Koller%2C+A">Alexander Koller</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zeller%2C+A">Andreas Zeller</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2407.08597v1-abstract-short" style="display: inline;">
+        We introduce Modelizer - a novel framework that, given a black-box <span class="search-hit mathjax">program</span>, learns a _model from its input/output behavior_ using _neural machine translation_. The resulting model _mocks_ the original&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2407.08597v1-abstract-full').style.display = 'inline'; document.getElementById('2407.08597v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2407.08597v1-abstract-full" style="display: none;">
+        We introduce Modelizer - a novel framework that, given a black-box <span class="search-hit mathjax">program</span>, learns a _model from its input/output behavior_ using _neural machine translation_. The resulting model _mocks_ the original <span class="search-hit mathjax">program</span>: Given an input, the model predicts the output that would have been produced by the <span class="search-hit mathjax">program</span>. However, the model is also _reversible_ - that is, the model can predict the input that would have produced a given output. Finally, the model is _differentiable_ and can be efficiently restricted to predict only a certain aspect of the <span class="search-hit mathjax">program</span> behavior.
+  Modelizer uses _grammars_ to synthesize inputs and to parse the resulting outputs, allowing it to learn sequence-to-sequence associations between token streams. Other than input and output grammars, Modelizer only requires the ability to execute the <span class="search-hit mathjax">program</span>.
+  The resulting models are _small_, requiring fewer than 6.3 million <span class="search-hit mathjax">parameters</span> for languages such as Markdown or HTML; and they are _accurate_, achieving up to 95.4% accuracy and a BLEU score of 0.98 with standard error 0.04 in mocking real-world <span class="search-hit mathjax">applications</span>. We foresee several _applications_ of these models, especially as the output of the <span class="search-hit mathjax">program</span> can be any aspect of <span class="search-hit mathjax">program</span> behavior. Besides mocking and predicting <span class="search-hit mathjax">program</span> behavior, the model can also synthesize inputs that are likely to produce a particular behavior, such as failures or coverage.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2407.08597v1-abstract-full').style.display = 'none'; document.getElementById('2407.08597v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 11 July, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> July 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">42 pages, 6 figures, 8 tables</span>
+    </p>
+    
+
+    
+      <p class="comments is-size-7">
+        
+
+        
+          <span class="has-text-black-bis has-text-weight-semibold">MSC Class:</span>
+          68T07 (Primary); 68N30 (Secondary); 68Q42
+        
+
+        
+          <span class="has-text-black-bis has-text-weight-semibold">ACM Class:</span>
+          D.2.5; D.2.7; I.2.6; F.1.1; F.4.3
+        
+      </p>
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2407.04868">arXiv:2407.04868</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2407.04868">pdf</a>, <a href="https://arxiv.org/ps/2407.04868">ps</a>, <a href="https://arxiv.org/format/2407.04868">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Looking into Black Box <span class="search-hit mathjax">Code</span> Language Models
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Haider%2C+M+U">Muhammad Umair Haider</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Farooq%2C+U">Umar Farooq</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Siddique%2C+A+B">A. B. Siddique</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Marron%2C+M">Mark Marron</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2407.04868v1-abstract-short" style="display: inline;">
+        Language Models (LMs) have shown their <span class="search-hit mathjax">application</span> for tasks pertinent to&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2407.04868v1-abstract-full').style.display = 'inline'; document.getElementById('2407.04868v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2407.04868v1-abstract-full" style="display: none;">
+        Language Models (LMs) have shown their <span class="search-hit mathjax">application</span> for tasks pertinent to <span class="search-hit mathjax">code</span> and several <span class="search-hit mathjax">code</span>~LMs have been proposed recently. The majority of the studies in this direction only focus on the <span class="search-hit mathjax">improvements</span> in performance of the LMs on different benchmarks, whereas LMs are considered black boxes. Besides this, a handful of works attempt to understand the role of attention layers in the <span class="search-hit mathjax">code</span>~LMs. Nonetheless, feed-forward layers remain under-explored which consist of two-thirds of a typical transformer model&#39;s <span class="search-hit mathjax">parameters</span>.
+  In this work, we attempt to gain insights into the inner workings of <span class="search-hit mathjax">code</span> language models by examining the feed-forward layers. To conduct our investigations, we use two state-of-the-art <span class="search-hit mathjax">code</span>~LMs, Codegen-Mono and Ploycoder, and three widely used <span class="search-hit mathjax">programming</span> languages, Java, Go, and Python. We focus on examining the organization of stored concepts, the editability of these concepts, and the roles of different layers and input context size variations for output generation. Our empirical findings demonstrate that lower layers capture syntactic patterns while higher layers encode abstract concepts and semantics. We show concepts of interest can be edited within feed-forward layers without compromising <span class="search-hit mathjax">code</span>~LM performance. Additionally, we observe initial layers serve as ``thinking&#39;&#39; layers, while later layers are crucial for predicting subsequent <span class="search-hit mathjax">code</span> tokens. Furthermore, we discover earlier layers can accurately predict smaller contexts, but larger contexts need critical later layers&#39; contributions. We anticipate these findings will facilitate better understanding, debugging, and testing of <span class="search-hit mathjax">code</span>~LMs.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2407.04868v1-abstract-full').style.display = 'none'; document.getElementById('2407.04868v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 5 July, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> July 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2407.00132">arXiv:2407.00132</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2407.00132">pdf</a>, <a href="https://arxiv.org/format/2407.00132">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Shen%2C+H">Haiyang Shen</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Li%2C+Y">Yue Li</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Meng%2C+D">Desong Meng</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Cai%2C+D">Dongqi Cai</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Qi%2C+S">Sheng Qi</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zhang%2C+L">Li Zhang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Xu%2C+M">Mengwei Xu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Ma%2C+Y">Yun Ma</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2407.00132v1-abstract-short" style="display: inline;">
+        Recent advancements in integrating large language models (LLMs) with <span class="search-hit mathjax">application</span>&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2407.00132v1-abstract-full').style.display = 'inline'; document.getElementById('2407.00132v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2407.00132v1-abstract-full" style="display: none;">
+        Recent advancements in integrating large language models (LLMs) with <span class="search-hit mathjax">application</span> <span class="search-hit mathjax">programming</span> interfaces (APIs) have gained significant interest in both academia and industry. These API-based agents, leveraging the strong autonomy and planning capabilities of LLMs, can efficiently solve problems requiring multi-step actions. However, their ability to handle multi-dimensional difficulty levels, diverse task types, and real-world demands through APIs remains unknown. In this paper, we introduce \textsc{ShortcutsBench}, a large-scale benchmark for the comprehensive evaluation of API-based agents in solving tasks with varying levels of difficulty, diverse task types, and real-world demands. \textsc{ShortcutsBench} includes a wealth of real APIs from Apple Inc.&#39;s operating systems, refined user queries from shortcuts, human-annotated high-quality action sequences from shortcut developers, and accurate <span class="search-hit mathjax">parameter</span> filling values about primitive <span class="search-hit mathjax">parameter</span> types, enum <span class="search-hit mathjax">parameter</span> types, outputs from previous actions, and <span class="search-hit mathjax">parameters</span> that need to request necessary information from the system or user. Our extensive evaluation of agents built with $5$ leading open-source (size &gt;= 57B) and $4$ closed-source LLMs (e.g. Gemini-1.5-Pro and GPT-3.5) reveals significant limitations in handling complex queries related to API selection, <span class="search-hit mathjax">parameter</span> filling, and requesting necessary information from systems and users. These findings highlight the challenges that API-based agents face in effectively fulfilling real and complex user queries. All datasets, <span class="search-hit mathjax">code</span>, and experimental results will be available at \url{https://github.com/eachsheep/shortcutsbench}.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2407.00132v1-abstract-full').style.display = 'none'; document.getElementById('2407.00132v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 28 June, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> July 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2406.18518">arXiv:2406.18518</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2406.18518">pdf</a>, <a href="https://arxiv.org/format/2406.18518">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Computation and Language">cs.CL</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Machine Learning">cs.LG</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Liu%2C+Z">Zuxin Liu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Hoang%2C+T">Thai Hoang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zhang%2C+J">Jianguo Zhang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zhu%2C+M">Ming Zhu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Lan%2C+T">Tian Lan</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Kokane%2C+S">Shirley Kokane</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Tan%2C+J">Juntao Tan</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Yao%2C+W">Weiran Yao</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Liu%2C+Z">Zhiwei Liu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Feng%2C+Y">Yihao Feng</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Murthy%2C+R">Rithesh Murthy</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Yang%2C+L">Liangwei Yang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Savarese%2C+S">Silvio Savarese</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Niebles%2C+J+C">Juan Carlos Niebles</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Wang%2C+H">Huan Wang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Heinecke%2C+S">Shelby Heinecke</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Xiong%2C+C">Caiming Xiong</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2406.18518v1-abstract-short" style="display: inline;">
+        &hellip;and high-quality datasets. This paper presents APIGen, an automated data generation pipeline designed to synthesize verifiable high-quality datasets for function-calling <span class="search-hit mathjax">applications</span>. We leverage APIGen and collect 3,673 executable APIs across 21 different categories to generate diverse function-calling datasets in a scalable and structured manner. Each dat&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2406.18518v1-abstract-full').style.display = 'inline'; document.getElementById('2406.18518v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2406.18518v1-abstract-full" style="display: none;">
+        The advancement of function-calling agent models requires diverse, reliable, and high-quality datasets. This paper presents APIGen, an automated data generation pipeline designed to synthesize verifiable high-quality datasets for function-calling <span class="search-hit mathjax">applications</span>. We leverage APIGen and collect 3,673 executable APIs across 21 different categories to generate diverse function-calling datasets in a scalable and structured manner. Each data in our dataset is verified through three hierarchical stages: format checking, actual function executions, and semantic verification, ensuring its reliability and correctness. We demonstrate that models trained with our curated datasets, even with only 7B <span class="search-hit mathjax">parameters</span>, can achieve state-of-the-art performance on the Berkeley Function-Calling Benchmark, outperforming multiple GPT-4 models. Moreover, our 1B model achieves exceptional performance, surpassing GPT-3.5-Turbo and Claude-3 Haiku. We release a dataset containing 60,000 high-quality entries, aiming to advance the field of function-calling agent domains. The dataset is available on Huggingface: https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k and the project homepage: https://apigen-pipeline.github.io/
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2406.18518v1-abstract-full').style.display = 'none'; document.getElementById('2406.18518v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 26 June, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> June 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2406.04379">arXiv:2406.04379</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2406.04379">pdf</a>, <a href="https://arxiv.org/format/2406.04379">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Computation and Language">cs.CL</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        VHDL-Eval: A Framework for Evaluating Large Language Models in VHDL <span class="search-hit mathjax">Code</span> Generation
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Vijayaraghavan%2C+P">Prashanth Vijayaraghavan</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Shi%2C+L">Luyao Shi</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Ambrogio%2C+S">Stefano Ambrogio</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Mackin%2C+C">Charles Mackin</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Nitsure%2C+A">Apoorva Nitsure</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Beymer%2C+D">David Beymer</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Degan%2C+E">Ehsan Degan</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2406.04379v1-abstract-short" style="display: inline;">
+        With the unprecedented advancements in Large Language Models (LLMs), their <span class="search-hit mathjax">application</span> domains have expanded to include&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2406.04379v1-abstract-full').style.display = 'inline'; document.getElementById('2406.04379v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2406.04379v1-abstract-full" style="display: none;">
+        With the unprecedented advancements in Large Language Models (LLMs), their <span class="search-hit mathjax">application</span> domains have expanded to include <span class="search-hit mathjax">code</span> generation tasks across various <span class="search-hit mathjax">programming</span> languages. While significant progress has been made in enhancing LLMs for popular <span class="search-hit mathjax">programming</span> languages, there exists a notable gap in comprehensive evaluation frameworks tailored for Hardware Description Languages (HDLs), particularly VHDL. This paper addresses this gap by introducing a comprehensive evaluation framework designed specifically for assessing LLM performance in VHDL <span class="search-hit mathjax">code</span> generation task. We construct a dataset for evaluating LLMs on VHDL <span class="search-hit mathjax">code</span> generation task. This dataset is constructed by translating a collection of Verilog evaluation problems to VHDL and aggregating publicly available VHDL problems, resulting in a total of 202 problems. To assess the functional correctness of the generated VHDL <span class="search-hit mathjax">code</span>, we utilize a curated set of self-verifying testbenches specifically designed for those aggregated VHDL problem set. We conduct an initial evaluation of different LLMs and their variants, including zero-shot <span class="search-hit mathjax">code</span> generation, in-context learning (ICL), and <span class="search-hit mathjax">Parameter</span>-efficient fine-<span class="search-hit mathjax">tuning</span> (PEFT) methods. Our findings underscore the considerable challenges faced by existing LLMs in VHDL <span class="search-hit mathjax">code</span> generation, revealing significant scope for <span class="search-hit mathjax">improvement</span>. This study emphasizes the necessity of supervised fine-<span class="search-hit mathjax">tuning</span> <span class="search-hit mathjax">code</span> generation models specifically for VHDL, offering potential benefits to VHDL designers seeking efficient <span class="search-hit mathjax">code</span> generation solutions.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2406.04379v1-abstract-full').style.display = 'none'; document.getElementById('2406.04379v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 5 June, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> June 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">6 pages, 3 Figures, LAD&#39;24</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2406.03839">arXiv:2406.03839</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2406.03839">pdf</a>, <a href="https://arxiv.org/format/2406.03839">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        PCART: Automated Repair of Python API <span class="search-hit mathjax">Parameter</span> Compatibility Issues
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Zhang%2C+S">Shuai Zhang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Xiao%2C+G">Guanping Xiao</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Wang%2C+J">Jun Wang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Lei%2C+H">Huashan Lei</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Liu%2C+Y">Yepang Liu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Sui%2C+Y">Yulei Sui</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zheng%2C+Z">Zheng Zheng</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2406.03839v1-abstract-short" style="display: inline;">
+        In modern <span class="search-hit mathjax">software</span> development, Python third-party libraries have become crucial, particularly due to their widespread use in fields such as deep learning and scientific computing. However, the&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2406.03839v1-abstract-full').style.display = 'inline'; document.getElementById('2406.03839v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2406.03839v1-abstract-full" style="display: none;">
+        In modern <span class="search-hit mathjax">software</span> development, Python third-party libraries have become crucial, particularly due to their widespread use in fields such as deep learning and scientific computing. However, the <span class="search-hit mathjax">parameters</span> of APIs in third-party libraries often change during evolution, causing compatibility issues for client <span class="search-hit mathjax">applications</span> that depend on specific versions. Due to Python&#39;s flexible <span class="search-hit mathjax">parameter</span>-passing mechanism, different methods of <span class="search-hit mathjax">parameter</span> passing can result in different API compatibility. Currently, no tool is capable of automatically detecting and repairing Python API <span class="search-hit mathjax">parameter</span> compatibility issues. To fill this gap, we propose PCART, the first to implement a fully automated process from API extraction, <span class="search-hit mathjax">code</span> instrumentation, and API mapping establishment, to compatibility assessment, and finally to repair and validation, for solving various types of Python API <span class="search-hit mathjax">parameter</span> compatibility issues, i.e., <span class="search-hit mathjax">parameter</span> addition, removal, renaming, reordering of <span class="search-hit mathjax">parameters</span>, as well as the conversion of positional <span class="search-hit mathjax">parameters</span> to keyword <span class="search-hit mathjax">parameters</span>. We construct a large-scale benchmark PCBENCH, including 47,478 test cases mutated from 844 <span class="search-hit mathjax">parameter</span>-changed APIs of 33 popular Python libraries, to evaluate PCART. The evaluation results show that PCART is effective yet efficient, significantly outperforming existing tools (MLCatchUp and Relancer) and the large language model ChatGPT-4, achieving an F-measure of 96.49% in detecting API <span class="search-hit mathjax">parameter</span> compatibility issues and a repair accuracy of 91.36%. The evaluation on 14 real-world Python projects from GitHub further demonstrates that PCART has good practicality. We believe PCART can help programmers reduce the time spent on maintaining Python API updates and facilitate automated Python API compatibility issue repair.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2406.03839v1-abstract-full').style.display = 'none'; document.getElementById('2406.03839v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 6 June, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> June 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">Submitted to IEEE Transactions on <span class="search-hit mathjax">Software</span> Engineering</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2405.16914">arXiv:2405.16914</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2405.16914">pdf</a>, <a href="https://arxiv.org/format/2405.16914">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Rigorous Simulation-based Testing for Autonomous Driving Systems -- Targeting the Achilles&#39; Heel of Four Open Autopilots
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Li%2C+C">Changwen Li</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Sifakis%2C+J">Joseph Sifakis</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Yan%2C+R">Rongjie Yan</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zhang%2C+J">Jian Zhang</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2405.16914v1-abstract-short" style="display: inline;">
+        &hellip;a rigorous test method based on breaking down scenarios into simple ones, taking into account the fact that autopilots make decisions according to traffic rules whose <span class="search-hit mathjax">application</span> depends on local knowledge and context. This leads us to consider the autopilot as a dynamic system receiving three different types of vistas as input, each characterizing a specifi&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.16914v1-abstract-full').style.display = 'inline'; document.getElementById('2405.16914v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2405.16914v1-abstract-full" style="display: none;">
+        Simulation-based testing remains the main approach for validating Autonomous Driving Systems. We propose a rigorous test method based on breaking down scenarios into simple ones, taking into account the fact that autopilots make decisions according to traffic rules whose <span class="search-hit mathjax">application</span> depends on local knowledge and context. This leads us to consider the autopilot as a dynamic system receiving three different types of vistas as input, each characterizing a specific driving operation and a corresponding control policy.
+  The test method for the considered vista types generates test cases for critical <span class="search-hit mathjax">configurations</span> that place the vehicle under test in critical situations characterized by the transition from cautious behavior to progression in order to clear an obstacle. The test cases thus generated are realistic, i.e., they determine the initial conditions from which safe control policies are possible, based on knowledge of the vehicle&#39;s dynamic characteristics. Constraint analysis identifies the most critical test cases, whose success implies the validity of less critical ones. Test coverage can therefore be greatly simplified. Critical test cases reveal major defects in Apollo, Autoware, and the Carla and LGSVL autopilots. Defects include accidents, <span class="search-hit mathjax">software</span> failures, and traffic rule violations that would be difficult to detect by random simulation, as the test cases lead to situations characterized by finely-<span class="search-hit mathjax">tuned</span> <span class="search-hit mathjax">parameters</span> of the vehicles involved, such as their relative position and speed.
+  Our results corroborate real-life observations and confirm that autonomous driving systems still have a long way to go before offering acceptable safety guarantees.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.16914v1-abstract-full').style.display = 'none'; document.getElementById('2405.16914v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 27 May, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> May 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">57 pages, 19 figures, 29 tables</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2405.10973">arXiv:2405.10973</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2405.10973">pdf</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Machine Learning">cs.LG</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Mathematical Software">cs.MS</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Adaptation of XAI to Auto-<span class="search-hit mathjax">tuning</span> for Numerical Libraries
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Aoki%2C+S">Shota Aoki</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Katagiri%2C+T">Takahiro Katagiri</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Ohshima%2C+S">Satoshi Ohshima</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Kawai%2C+M">Masatoshi Kawai</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Nagai%2C+T">Toru Nagai</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Hoshino%2C+T">Tetsuya Hoshino</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2405.10973v1-abstract-short" style="display: inline;">
+        &hellip;Explainable AI (XAI) technology is gaining prominence, aiming to streamline AI model development and alleviate the burden of explaining AI outputs to users. Simultaneously, <span class="search-hit mathjax">software</span> auto-&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.10973v1-abstract-full').style.display = 'inline'; document.getElementById('2405.10973v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2405.10973v1-abstract-full" style="display: none;">
+        Concerns have arisen regarding the unregulated utilization of artificial intelligence (AI) outputs, potentially leading to various societal issues. While humans routinely validate information, manually inspecting the vast volumes of AI-generated results is impractical. Therefore, automation and visualization are imperative. In this context, Explainable AI (XAI) technology is gaining prominence, aiming to streamline AI model development and alleviate the burden of explaining AI outputs to users. Simultaneously, <span class="search-hit mathjax">software</span> auto-<span class="search-hit mathjax">tuning</span> (AT) technology has emerged, aiming to reduce the man-hours required for performance <span class="search-hit mathjax">tuning</span> in numerical calculations. AT is a potent tool for cost reduction during <span class="search-hit mathjax">parameter</span> optimization and high-performance <span class="search-hit mathjax">programming</span> for numerical computing. The synergy between AT mechanisms and AI technology is noteworthy, with AI finding extensive <span class="search-hit mathjax">applications</span> in AT. However, applying AI to AT mechanisms introduces challenges in AI model explainability. This research focuses on XAI for AI models when integrated into two different processes for practical numerical computations: performance <span class="search-hit mathjax">parameter</span> <span class="search-hit mathjax">tuning</span> of accuracy-guaranteed numerical calculations and sparse iterative algorithm.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.10973v1-abstract-full').style.display = 'none'; document.getElementById('2405.10973v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 12 May, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> May 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">This article has been submitted to Special Session: Performance Optimization and Auto-<span class="search-hit mathjax">Tuning</span> of <span class="search-hit mathjax">Software</span> on Multicore/Manycore Systems (POAT), In conjunction with IEEE MCSoC-2024 (Dec 16-19, 2024, Days Hotel & Suites by Wyndham Fraser Business Park, Kuala Lumpur)</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2405.04324">arXiv:2405.04324</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2405.04324">pdf</a>, <a href="https://arxiv.org/format/2405.04324">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Computation and Language">cs.CL</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Granite <span class="search-hit mathjax">Code</span> Models: A Family of Open Foundation Models for <span class="search-hit mathjax">Code</span> Intelligence
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Mishra%2C+M">Mayank Mishra</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Stallone%2C+M">Matt Stallone</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zhang%2C+G">Gaoyuan Zhang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Shen%2C+Y">Yikang Shen</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Prasad%2C+A">Aditya Prasad</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Soria%2C+A+M">Adriana Meza Soria</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Merler%2C+M">Michele Merler</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Selvam%2C+P">Parameswaran Selvam</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Surendran%2C+S">Saptha Surendran</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Singh%2C+S">Shivdeep Singh</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Sethi%2C+M">Manish Sethi</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Dang%2C+X">Xuan-Hong Dang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Li%2C+P">Pengyuan Li</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Wu%2C+K">Kun-Lung Wu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zawad%2C+S">Syed Zawad</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Coleman%2C+A">Andrew Coleman</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=White%2C+M">Matthew White</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Lewis%2C+M">Mark Lewis</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Pavuluri%2C+R">Raju Pavuluri</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Koyfman%2C+Y">Yan Koyfman</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Lublinsky%2C+B">Boris Lublinsky</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=de+Bayser%2C+M">Maximilien de Bayser</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Abdelaziz%2C+I">Ibrahim Abdelaziz</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Basu%2C+K">Kinjal Basu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Agarwal%2C+M">Mayank Agarwal</a>
+      , et al. (21 additional authors not shown)
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2405.04324v1-abstract-short" style="display: inline;">
+        Large Language Models (LLMs) trained on <span class="search-hit mathjax">code</span> are revolutionizing the&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.04324v1-abstract-full').style.display = 'inline'; document.getElementById('2405.04324v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2405.04324v1-abstract-full" style="display: none;">
+        Large Language Models (LLMs) trained on <span class="search-hit mathjax">code</span> are revolutionizing the <span class="search-hit mathjax">software</span> development process. Increasingly, <span class="search-hit mathjax">code</span> LLMs are being integrated into <span class="search-hit mathjax">software</span> development environments to <span class="search-hit mathjax">improve</span> the productivity of human programmers, and LLM-based agents are beginning to show promise for handling complex tasks autonomously. Realizing the full potential of <span class="search-hit mathjax">code</span> LLMs requires a wide range of capabilities, including <span class="search-hit mathjax">code</span> generation, fixing bugs, explaining and documenting <span class="search-hit mathjax">code</span>, maintaining repositories, and more. In this work, we introduce the Granite series of decoder-only <span class="search-hit mathjax">code</span> models for <span class="search-hit mathjax">code</span> generative tasks, trained with <span class="search-hit mathjax">code</span> written in 116 <span class="search-hit mathjax">programming</span> languages. The Granite <span class="search-hit mathjax">Code</span> models family consists of models ranging in size from 3 to 34 billion <span class="search-hit mathjax">parameters</span>, suitable for <span class="search-hit mathjax">applications</span> ranging from complex <span class="search-hit mathjax">application</span> modernization tasks to on-device memory-constrained use cases. Evaluation on a comprehensive set of tasks demonstrates that Granite <span class="search-hit mathjax">Code</span> models consistently reaches state-of-the-art performance among available open-source <span class="search-hit mathjax">code</span> LLMs. The Granite <span class="search-hit mathjax">Code</span> model family was optimized for enterprise <span class="search-hit mathjax">software</span> development workflows and performs well across a range of <span class="search-hit mathjax">coding</span> tasks (e.g. <span class="search-hit mathjax">code</span> generation, fixing and explanation), making it a versatile all around <span class="search-hit mathjax">code</span> model. We release all our Granite <span class="search-hit mathjax">Code</span> models under an Apache 2.0 license for both research and commercial use.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.04324v1-abstract-full').style.display = 'none'; document.getElementById('2405.04324v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 7 May, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> May 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">Corresponding Authors: Rameswar Panda, Ruchir Puri; Equal Contributors: Mayank Mishra, Matt Stallone, Gaoyuan Zhang</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2405.04172">arXiv:2405.04172</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2405.04172">pdf</a>, <a href="https://arxiv.org/ps/2405.04172">ps</a>, <a href="https://arxiv.org/format/2405.04172">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Optimization and Control">math.OC</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Mathematical Software">cs.MS</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        An efficient active-set method with <span class="search-hit mathjax">applications</span> to sparse approximations and risk minimization
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Pougkakiotis%2C+S">Spyridon Pougkakiotis</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Gondzio%2C+J">Jacek Gondzio</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Kalogerias%2C+D">Dionysis Kalogerias</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2405.04172v1-abstract-short" style="display: inline;">
+        In this paper we present an efficient active-set method for the solution of convex quadratic <span class="search-hit mathjax">programming</span> problems with general piecewise-linear terms in the objective, with&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.04172v1-abstract-full').style.display = 'inline'; document.getElementById('2405.04172v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2405.04172v1-abstract-full" style="display: none;">
+        In this paper we present an efficient active-set method for the solution of convex quadratic <span class="search-hit mathjax">programming</span> problems with general piecewise-linear terms in the objective, with <span class="search-hit mathjax">applications</span> to sparse approximations and risk-minimization. The algorithm is derived by combining a proximal method of multipliers (PMM) with a standard semismooth Newton method (SSN), and is shown to be globally convergent under minimal assumptions. Further local linear (and potentially superlinear) convergence is shown under standard additional conditions. The major computational bottleneck of the proposed approach arises from the solution of the associated SSN linear systems. These are solved using a Krylov-subspace method, accelerated by certain novel general-purpose preconditioners which are shown to be optimal with respect to the proximal penalty <span class="search-hit mathjax">parameters</span>. The preconditioners are easy to store and invert, since they exploit the structure of the nonsmooth terms appearing in the problem&#39;s objective to significantly reduce their memory requirements. We showcase the efficiency, robustness, and scalability of the proposed solver on a variety of problems arising in risk-averse portfolio selection, $L^1$-regularized partial differential equation constrained optimization, quantile regression, and binary classification via linear support vector machines. We provide computational evidence, on real-world datasets, to demonstrate the ability of the solver to efficiently and competitively handle a diverse set of medium- and large-scale optimization instances.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.04172v1-abstract-full').style.display = 'none'; document.getElementById('2405.04172v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 7 May, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> May 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">arXiv admin note: substantial text overlap with arXiv:2302.14497, arXiv:2201.10211</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2405.03509">arXiv:2405.03509</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2405.03509">pdf</a>, <a href="https://arxiv.org/format/2405.03509">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        </div>
+      
+        
+          <div class="is-inline-block" style="margin-left: 0.5rem">
+            <div class="tags has-addons">
+              <span class="tag is-dark is-size-7">doi</span>
+              <span class="tag is-light is-size-7"><a class="" href="https://doi.org/10.1145/3660811">10.1145/3660811 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+            </div>
+          </div>
+        
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Are Human Rules Necessary? Generating Reusable APIs with CoT Reasoning and In-Context Learning
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Mai%2C+Y">Yubo Mai</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Gao%2C+Z">Zhipeng Gao</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Hu%2C+X">Xing Hu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Bao%2C+L">Lingfeng Bao</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Liu%2C+Y">Yu Liu</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Sun%2C+J">Jianling Sun</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2405.03509v1-abstract-short" style="display: inline;">
+        Inspired by the great potential of Large Language Models (LLMs) for solving complex <span class="search-hit mathjax">coding</span> tasks, in this paper, we propose a novel approach, named Code2API, to automatically perform APIzation for Stack Overflow&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.03509v1-abstract-full').style.display = 'inline'; document.getElementById('2405.03509v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2405.03509v1-abstract-full" style="display: none;">
+        Inspired by the great potential of Large Language Models (LLMs) for solving complex <span class="search-hit mathjax">coding</span> tasks, in this paper, we propose a novel approach, named Code2API, to automatically perform APIzation for Stack Overflow <span class="search-hit mathjax">code</span> snippets. Code2API does not require additional model training or any manual crafting rules and can be easily deployed on personal computers without relying on other external tools. Specifically, Code2API guides the LLMs through well-designed prompts to generate well-formed APIs for given <span class="search-hit mathjax">code</span> snippets. To elicit knowledge and logical reasoning from LLMs, we used chain-of-thought (CoT) reasoning and few-shot in-context learning, which can help the LLMs fully understand the APIzation task and solve it step by step in a manner similar to a developer. Our evaluations show that Code2API achieves a remarkable accuracy in identifying method <span class="search-hit mathjax">parameters</span> (65%) and return statements (66%) equivalent to human-generated ones, surpassing the current state-of-the-art approach, APIzator, by 15.0% and 16.5% respectively. Moreover, compared with APIzator, our user study demonstrates that Code2API exhibits superior performance in generating meaningful method names, even surpassing the human-level performance, and developers are more willing to use APIs generated by our approach, highlighting the <span class="search-hit mathjax">applicability</span> of our tool in practice. Finally, we successfully extend our framework to the Python dataset, achieving a comparable performance with Java, which verifies the generalizability of our tool.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.03509v1-abstract-full').style.display = 'none'; document.getElementById('2405.03509v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 6 May, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> May 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2405.01572">arXiv:2405.01572</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2405.01572">pdf</a>, <a href="https://arxiv.org/format/2405.01572">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Hardware Architecture">cs.AR</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        A Semi-Formal Verification Methodology for Efficient <span class="search-hit mathjax">Configuration</span> Coverage of Highly <span class="search-hit mathjax">Configurable</span> Digital Designs
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Kumar%2C+A">Aman Kumar</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Simon%2C+S">Sebastian Simon</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2405.01572v1-abstract-short" style="display: inline;">
+        &hellip;System-on-Chips (SoCs) make use of Intellectual Property (IP) in order to shorten development cycles. When such IPs are developed, one of the main focuses lies in the high <span class="search-hit mathjax">configurability</span> of the design. This flexibility on the design side introduces the challenge of covering a huge state space of IP&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.01572v1-abstract-full').style.display = 'inline'; document.getElementById('2405.01572v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2405.01572v1-abstract-full" style="display: none;">
+        Nowadays, a majority of System-on-Chips (SoCs) make use of Intellectual Property (IP) in order to shorten development cycles. When such IPs are developed, one of the main focuses lies in the high <span class="search-hit mathjax">configurability</span> of the design. This flexibility on the design side introduces the challenge of covering a huge state space of IP <span class="search-hit mathjax">configurations</span> on the verification side to ensure the functional correctness under every possible <span class="search-hit mathjax">parameter</span> setting. The vast number of possibilities does not allow a brute-force approach, and therefore, only a selected number of settings based on typical and extreme assumptions are usually verified. Especially in automotive <span class="search-hit mathjax">applications</span>, which need to follow the ISO 26262 functional safety standard, the requirement of covering all significant variants needs to be fulfilled in any case. State-of-the-Art existing verification techniques such as simulation-based verification and formal verification have challenges such as time-space explosion and state-space explosion respectively and therefore, lack behind in verifying highly <span class="search-hit mathjax">configurable</span> digital designs efficiently. This paper is focused on a semi-formal verification methodology for efficient <span class="search-hit mathjax">configuration</span> coverage of highly <span class="search-hit mathjax">configurable</span> digital designs. The methodology focuses on reduced runtime based on simulative and formal methods that allow high <span class="search-hit mathjax">configuration</span> coverage. The paper also presents the results when the developed methodology was applied on a highly <span class="search-hit mathjax">configurable</span> microprocessor IP and discusses the gained benefits.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.01572v1-abstract-full').style.display = 'none'; document.getElementById('2405.01572v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 20 April, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> May 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">Published in DVCon U.S. 2021</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2405.00453">arXiv:2405.00453</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2405.00453">pdf</a>, <a href="https://arxiv.org/format/2405.00453">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Computers and Society">cs.CY</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Fuzzy Intelligent System for Student <span class="search-hit mathjax">Software</span> Project Evaluation
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Ogorodova%2C+A">Anna Ogorodova</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Shamoi%2C+P">Pakizar Shamoi</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Karatayev%2C+A">Aron Karatayev</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2405.00453v1-abstract-short" style="display: inline;">
+        Developing <span class="search-hit mathjax">software</span> projects allows students to put knowledge into practice and gain teamwork skills. However, assessing student performance in project-oriented courses poses significant challenges, particularly as the size of classes increases. The current paper introduces a fuzzy intelligent system designed to evaluate academic&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.00453v1-abstract-full').style.display = 'inline'; document.getElementById('2405.00453v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2405.00453v1-abstract-full" style="display: none;">
+        Developing <span class="search-hit mathjax">software</span> projects allows students to put knowledge into practice and gain teamwork skills. However, assessing student performance in project-oriented courses poses significant challenges, particularly as the size of classes increases. The current paper introduces a fuzzy intelligent system designed to evaluate academic <span class="search-hit mathjax">software</span> projects using object-oriented <span class="search-hit mathjax">programming</span> and design course as an example. To establish evaluation criteria, we first conducted a survey of student project teams (n=31) and faculty (n=3) to identify key <span class="search-hit mathjax">parameters</span> and their <span class="search-hit mathjax">applicable</span> ranges. The selected criteria - clean <span class="search-hit mathjax">code</span>, use of inheritance, and functionality - were selected as essential for assessing the quality of academic <span class="search-hit mathjax">software</span> projects. These criteria were then represented as fuzzy variables with corresponding fuzzy sets. Collaborating with three experts, including one professor and two course instructors, we defined a set of fuzzy rules for a fuzzy inference system. This system processes the input criteria to produce a quantifiable measure of project success. The system demonstrated promising results in automating the evaluation of projects. Our approach standardizes project evaluations and helps to reduce the subjective bias in manual grading.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2405.00453v1-abstract-full').style.display = 'none'; document.getElementById('2405.00453v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 1 May, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> May 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">Submitted to IJMECS for consideration</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.19665">arXiv:2404.19665</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.19665">pdf</a>, <a href="https://arxiv.org/format/2404.19665">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Medical Physics">physics.med-ph</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Mathematical Physics">math-ph</span>
+          
+        </div>
+      
+        
+          <div class="is-inline-block" style="margin-left: 0.5rem">
+            <div class="tags has-addons">
+              <span class="tag is-dark is-size-7">doi</span>
+              <span class="tag is-light is-size-7"><a class="" href="https://doi.org/10.2139/ssrn.4801289">10.2139/ssrn.4801289 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+            </div>
+          </div>
+        
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        ATOMMIC: An Advanced Toolbox for Multitask Medical Imaging Consistency to facilitate Artificial Intelligence <span class="search-hit mathjax">applications</span> from acquisition to analysis in Magnetic Resonance Imaging
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Karkalousos%2C+D">Dimitrios Karkalousos</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=I%C5%A1gum%2C+I">Ivana Išgum</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Marquering%2C+H+A">Henk A. Marquering</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Caan%2C+M+W+A">Matthan W. A. Caan</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.19665v1-abstract-short" style="display: inline;">
+        &hellip;MRI along the acquisition and processing chain. Advanced AI frameworks have been developed to apply AI in various successive tasks, such as image reconstruction, quantitative <span class="search-hit mathjax">parameter</span> map estimation, and image segmentation. Existing frameworks are often designed to perform tasks independently or are focused on specific models or datasets, limiting generaliz&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.19665v1-abstract-full').style.display = 'inline'; document.getElementById('2404.19665v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.19665v1-abstract-full" style="display: none;">
+        AI is revolutionizing MRI along the acquisition and processing chain. Advanced AI frameworks have been developed to apply AI in various successive tasks, such as image reconstruction, quantitative <span class="search-hit mathjax">parameter</span> map estimation, and image segmentation. Existing frameworks are often designed to perform tasks independently or are focused on specific models or datasets, limiting generalization. We introduce ATOMMIC, an open-source toolbox that streamlines AI <span class="search-hit mathjax">applications</span> for accelerated MRI reconstruction and analysis. ATOMMIC implements several tasks using DL networks and enables MultiTask Learning (MTL) to perform related tasks integrated, targeting generalization in the MRI domain. We first review the current state of AI frameworks for MRI through a comprehensive literature search and by parsing 12,479 GitHub repositories. We benchmark 25 DL models on eight publicly available datasets to present distinct <span class="search-hit mathjax">applications</span> of ATOMMIC on accelerated MRI reconstruction, image segmentation, quantitative <span class="search-hit mathjax">parameter</span> map estimation, and joint accelerated MRI reconstruction and image segmentation utilizing MTL. Our findings demonstrate that ATOMMIC is the only MTL framework with harmonized complex-valued and real-valued data support. Evaluations on single tasks show that physics-based models, which enforce data consistency by leveraging the physical properties of MRI, outperform other models in reconstructing highly accelerated acquisitions. Physics-based models that produce high reconstruction quality can accurately estimate quantitative <span class="search-hit mathjax">parameter</span> maps. When high-performing reconstruction models are combined with robust segmentation networks utilizing MTL, performance is <span class="search-hit mathjax">improved</span> in both tasks. ATOMMIC facilitates MRI reconstruction and analysis by standardizing workflows, enhancing data interoperability, integrating unique features like MTL, and effectively benchmarking DL models.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.19665v1-abstract-full').style.display = 'none'; document.getElementById('2404.19665v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 30 April, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.18098">arXiv:2404.18098</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.18098">pdf</a>, <a href="https://arxiv.org/ps/2404.18098">ps</a>, <a href="https://arxiv.org/format/2404.18098">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Logic in Computer Science">cs.LO</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Parameterized Dynamic Logic -- Towards A Cyclic Logical Framework for General <span class="search-hit mathjax">Program</span> Specification and Verification
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Zhang%2C+Y">Yuanrui Zhang</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.18098v2-abstract-short" style="display: inline;">
+        Dynamic logic and its variations, because of their clear and expressive forms for capturing <span class="search-hit mathjax">program</span> properties, have been used as formalisms in&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.18098v2-abstract-full').style.display = 'inline'; document.getElementById('2404.18098v2-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.18098v2-abstract-full" style="display: none;">
+        Dynamic logic and its variations, because of their clear and expressive forms for capturing <span class="search-hit mathjax">program</span> properties, have been used as formalisms in <span class="search-hit mathjax">program</span>/system specification and verification for years and have many other <span class="search-hit mathjax">applications</span>. The <span class="search-hit mathjax">program</span> models of dynamic logics are in explicit forms. For different target <span class="search-hit mathjax">program</span> models, different dynamic logic theories have to be proposed to adapt different models&#39; semantics. In this paper, we propose a parameterized `dynamic-logic-style&#39; formalism, namely $DL_p$, for specifying and reasoning about general <span class="search-hit mathjax">program</span> models. In $DL_p$, <span class="search-hit mathjax">program</span> models and logical formulas are taken as `<span class="search-hit mathjax">parameters</span>&#39;, allowing arbitrary forms according to different interested domains. This characteristic allows $DL_p$ to support direct reasoning based on the operational semantics of <span class="search-hit mathjax">program</span> models, while still preserving compositional reasoning based on syntactic structures. $DL_p$ provides a flexible verification framework to encompass different dynamic logic theories. In addition, it also facilitates reasoning about <span class="search-hit mathjax">program</span> models whose semantics is not compositional, examples are neural networks, automata-based models, synchronous <span class="search-hit mathjax">programming</span> languages, etc. We mainly focus on building the theory of $DL_p$, including defining its syntax and semantics, building a proof system and constructing a cyclic preproof structure. We analyze and prove the soundness of $DL_p$. Case studies show how $DL_p$ works for reasoning about different types of <span class="search-hit mathjax">program</span> models.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.18098v2-abstract-full').style.display = 'none'; document.getElementById('2404.18098v2-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 6 July, 2024; <span class="has-text-black-bis has-text-weight-semibold">v1</span> submitted 28 April, 2024;
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">Major modifications from last manuscript: altering the title so that it sounds more suitable; modifying the abstract and motivation part to make them more sound; fixing technical issues related to <span class="search-hit mathjax">program</span> transitions; rearranging some contents in a more right order; fixing other minor language problems</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.17338">arXiv:2404.17338</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.17338">pdf</a>, <a href="https://arxiv.org/format/2404.17338">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Towards an Approach to Pattern-based Domain-Specific Requirements Engineering
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Chuprina%2C+T">T. Chuprina</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=M%C3%A9ndez%2C+D">D. Méndez</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Nigam%2C+V">V. Nigam</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Reich%2C+M">M. Reich</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Schweiger%2C+A">A. Schweiger</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.17338v1-abstract-short" style="display: inline;">
+        &hellip;requirements. By using them, the intention is to reduce quality problems related to requirements artifacts. Patterns may need to vary in their syntax (e.g. domain details/ <span class="search-hit mathjax">parameter</span> incorporation) and semantics according to the particularities of the <span class="search-hit mathjax">application</span> domain. However, pattern-based approaches, such as EARS,&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.17338v1-abstract-full').style.display = 'inline'; document.getElementById('2404.17338v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.17338v1-abstract-full" style="display: none;">
+        Requirements specification patterns have received much attention as they promise to guide the structured specification of natural language requirements. By using them, the intention is to reduce quality problems related to requirements artifacts. Patterns may need to vary in their syntax (e.g. domain details/ <span class="search-hit mathjax">parameter</span> incorporation) and semantics according to the particularities of the <span class="search-hit mathjax">application</span> domain. However, pattern-based approaches, such as EARS, are designed domain-independently to facilitate their wide adoption across several domains. Little is yet known about how to adopt the principle idea of pattern-based requirements engineering to cover domain-specificity in requirements engineering and, ideally, integrate requirements engineering activities into quality assurance tasks. In this paper, we propose the Pattern-based Domain-specific Requirements Engineering Approach for the specification of functional and performance requirements in a holistic manner. This approach emerges from an academia-industry collaboration and is our first attempt to frame an approach which allows for analyzing domain knowledge and incorporating it into the requirements engineering process enabling automated checks for requirements quality assurance and computer-aided support for system verification. Our contribution is two-fold: First, we present a solution to pattern-based domain-specific requirements engineering and its exemplary integration into quality assurance techniques. Second, we showcase a proof of concept using a tool implementation for the domain of flight controllers for Unmanned Aerial Vehicles. Both shall allow us to outline next steps in our research agenda and foster discussions in this direction.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.17338v1-abstract-full').style.display = 'none'; document.getElementById('2404.17338v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 26 April, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">6 pages with 3 figures</span>
+    </p>
+    
+
+    
+      <p class="comments is-size-7">
+        
+
+        
+
+        
+          <span class="has-text-black-bis has-text-weight-semibold">ACM Class:</span>
+          D.2.1
+        
+      </p>
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.16395">arXiv:2404.16395</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.16395">pdf</a>, <a href="https://arxiv.org/format/2404.16395">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Fuzzy Inference System for Test Case Prioritization in <span class="search-hit mathjax">Software</span> Testing
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Karatayev%2C+A">Aron Karatayev</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Ogorodova%2C+A">Anna Ogorodova</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Shamoi%2C+P">Pakizar Shamoi</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.16395v1-abstract-short" style="display: inline;">
+        In the realm of <span class="search-hit mathjax">software</span> development, testing is crucial for ensuring&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.16395v1-abstract-full').style.display = 'inline'; document.getElementById('2404.16395v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.16395v1-abstract-full" style="display: none;">
+        In the realm of <span class="search-hit mathjax">software</span> development, testing is crucial for ensuring <span class="search-hit mathjax">software</span> quality and adherence to requirements. However, it can be time-consuming and resource-intensive, especially when dealing with large and complex <span class="search-hit mathjax">software</span> systems. Test case prioritization (TCP) is a vital strategy to enhance testing efficiency by identifying the most critical test cases for early execution. This paper introduces a novel fuzzy logic-based approach to automate TCP, using fuzzy linguistic variables and expert-derived fuzzy rules to establish a link between test case characteristics and their prioritization. Our methodology utilizes two fuzzy variables - failure rate and execution time - alongside two crisp <span class="search-hit mathjax">parameters</span>: Prerequisite Test Case and Recently Updated Flag. Our findings demonstrate the proposed system capacity to rank test cases effectively through experimental validation on a real-world <span class="search-hit mathjax">software</span> system. The results affirm the practical <span class="search-hit mathjax">applicability</span> of our approach in optimizing the TCP and reducing the resource intensity of <span class="search-hit mathjax">software</span> testing.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.16395v1-abstract-full').style.display = 'none'; document.getElementById('2404.16395v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 25 April, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">The article has been submitted to IEEE for consideration</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.15118">arXiv:2404.15118</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.15118">pdf</a>, <a href="https://arxiv.org/format/2404.15118">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Neural and Evolutionary Computing">cs.NE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Disordered Systems and Neural Networks">cond-mat.dis-nn</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Statistical Mechanics">cond-mat.stat-mech</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="High Energy Physics - Lattice">hep-lat</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Computational Physics">physics.comp-ph</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Identifying phase transitions in physical systems with neural networks: a neural architecture search perspective
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Terin%2C+R+C">Rodrigo Carmo Terin</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Arenas%2C+Z+G">Zochil González Arenas</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Santana%2C+R">Roberto Santana</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.15118v1-abstract-short" style="display: inline;">
+        &hellip;way to better understand the characteristics of these systems. Neural networks have been used to extract information of phases and phase transitions directly from many-body <span class="search-hit mathjax">configurations</span>. However, one limitation of neural networks is that they require the definition of the model architecture and&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.15118v1-abstract-full').style.display = 'inline'; document.getElementById('2404.15118v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.15118v1-abstract-full" style="display: none;">
+        The use of machine learning algorithms to investigate phase transitions in physical systems is a valuable way to better understand the characteristics of these systems. Neural networks have been used to extract information of phases and phase transitions directly from many-body <span class="search-hit mathjax">configurations</span>. However, one limitation of neural networks is that they require the definition of the model architecture and <span class="search-hit mathjax">parameters</span> previous to their <span class="search-hit mathjax">application</span>, and such determination is itself a difficult problem. In this paper, we investigate for the first time the relationship between the accuracy of neural networks for information of phases and the network <span class="search-hit mathjax">configuration</span> (that comprises the architecture and hyperparameters). We formulate the phase analysis as a regression task, address the question of generating data that reflects the different states of the physical system, and evaluate the performance of neural architecture search for this task. After obtaining the optimized architectures, we further implement smart data processing and analytics by means of neuron coverage metrics, assessing the capability of these metrics to estimate phase transitions. Our results identify the neuron coverage metric as promising for detecting phase transitions in physical systems.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.15118v1-abstract-full').style.display = 'none'; document.getElementById('2404.15118v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 23 April, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">9 pages, 7 figures</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.14459">arXiv:2404.14459</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.14459">pdf</a>, <a href="https://arxiv.org/format/2404.14459">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        LLMs in Web Development: Evaluating LLM-Generated PHP <span class="search-hit mathjax">Code</span> Unveiling Vulnerabilities and Limitations
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=T%C3%B3th%2C+R">Rebeka Tóth</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Bisztray%2C+T">Tamas Bisztray</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Erdodi%2C+L">László Erdodi</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.14459v2-abstract-short" style="display: inline;">
+        This study evaluates the security of web <span class="search-hit mathjax">application</span>&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.14459v2-abstract-full').style.display = 'inline'; document.getElementById('2404.14459v2-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.14459v2-abstract-full" style="display: none;">
+        This study evaluates the security of web <span class="search-hit mathjax">application</span> <span class="search-hit mathjax">code</span> generated by Large Language Models, analyzing 2,500 GPT-4 generated PHP websites. These were deployed in Docker containers and tested for vulnerabilities using a hybrid approach of Burp Suite active scanning, static analysis, and manual review. Our investigation focuses on identifying Insecure File Upload, SQL Injection, Stored XSS, and Reflected XSS in GPT-4 generated PHP <span class="search-hit mathjax">code</span>. This analysis highlights potential security risks and the implications of deploying such <span class="search-hit mathjax">code</span> in real-world scenarios. Overall, our analysis found 2,440 vulnerable <span class="search-hit mathjax">parameters</span>. According to Burp&#39;s Scan, 11.56% of the sites can be straight out compromised. Adding static scan results, 26% had at least one vulnerability that can be exploited through web interaction. Certain <span class="search-hit mathjax">coding</span> scenarios, like file upload functionality, are insecure 78% of the time, underscoring significant risks to <span class="search-hit mathjax">software</span> safety and security. To support further research, we have made the source <span class="search-hit mathjax">codes</span> and a detailed vulnerability record for each sample publicly available. This study emphasizes the crucial need for thorough testing and evaluation if generative AI technologies are used in <span class="search-hit mathjax">software</span> development.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.14459v2-abstract-full').style.display = 'none'; document.getElementById('2404.14459v2-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 21 May, 2024; <span class="has-text-black-bis has-text-weight-semibold">v1</span> submitted 21 April, 2024;
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.14436">arXiv:2404.14436</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.14436">pdf</a>, <a href="https://arxiv.org/format/2404.14436">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Machine Learning">cs.LG</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="High Energy Physics - Experiment">hep-ex</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Nuclear Experiment">nucl-ex</span>
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Instrumentation and Detectors">physics.ins-det</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Investigating Resource-efficient Neutron/Gamma Classification ML Models Targeting eFPGAs
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Johnson%2C+J">Jyothisraj Johnson</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Boxer%2C+B">Billy Boxer</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Prakash%2C+T">Tarun Prakash</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Grace%2C+C">Carl Grace</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Sorensen%2C+P">Peter Sorensen</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Tripathi%2C+M">Mani Tripathi</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.14436v1-abstract-short" style="display: inline;">
+        &hellip;big driver has been the release of the Python package, hls4ml, which has enabled porting models specified and trained using Python ML libraries to register transfer level (RTL) <span class="search-hit mathjax">code</span>. So far, the primary end targets have been commercial FPGAs or synthesized custom blocks on ASICs. However, recent developments in open-source embedded FPGA (eFPGA) frameworks no&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.14436v1-abstract-full').style.display = 'inline'; document.getElementById('2404.14436v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.14436v1-abstract-full" style="display: none;">
+        There has been considerable interest and resulting progress in implementing machine learning (ML) models in hardware over the last several years from the particle and nuclear physics communities. A big driver has been the release of the Python package, hls4ml, which has enabled porting models specified and trained using Python ML libraries to register transfer level (RTL) <span class="search-hit mathjax">code</span>. So far, the primary end targets have been commercial FPGAs or synthesized custom blocks on ASICs. However, recent developments in open-source embedded FPGA (eFPGA) frameworks now provide an alternate, more flexible pathway for implementing ML models in hardware. These customized eFPGA fabrics can be integrated as part of an overall chip design. In general, the decision between a fully custom, eFPGA, or commercial FPGA ML implementation will depend on the details of the end-use <span class="search-hit mathjax">application</span>. In this work, we explored the <span class="search-hit mathjax">parameter</span> space for eFPGA implementations of fully-connected neural network (fcNN) and boosted decision tree (BDT) models using the task of neutron/gamma classification with a specific focus on resource efficiency. We used data collected using an AmBe sealed source incident on Stilbene, which was optically coupled to an OnSemi J-series SiPM to generate training and test data for this study. We investigated relevant input features and the effects of bit-resolution and sampling rate as well as trade-offs in hyperparameters for both ML architectures while tracking total resource usage. The performance metric used to track model performance was the calculated neutron efficiency at a gamma leakage of 10$^{-3}$. The results of the study will be used to aid the specification of an eFPGA fabric, which will be integrated as part of a test chip.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.14436v1-abstract-full').style.display = 'none'; document.getElementById('2404.14436v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 19 April, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.04303">arXiv:2404.04303</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.04303">pdf</a>, <a href="https://arxiv.org/format/2404.04303">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Approximate Bayesian Computation As An Informed Fuzzing-Inference System
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Vaisnor%2C+C">Chris Vaisnor</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.04303v2-abstract-short" style="display: inline;">
+        The <span class="search-hit mathjax">power</span> of fuzz testing lies in its random, often brute-force, generation and execution of inputs to trigger unexpected behaviors and vulnerabilities in&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.04303v2-abstract-full').style.display = 'inline'; document.getElementById('2404.04303v2-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.04303v2-abstract-full" style="display: none;">
+        The <span class="search-hit mathjax">power</span> of fuzz testing lies in its random, often brute-force, generation and execution of inputs to trigger unexpected behaviors and vulnerabilities in <span class="search-hit mathjax">software</span> <span class="search-hit mathjax">applications</span>. However, given the reality of infinite possible input sequences, pursuing all test combinations would not only be computationally expensive, but practically impossible. Approximate Bayesian Computation (ABC), a form of Bayesian simulation, represents a novel, probabilistic approach to addressing this problem. The <span class="search-hit mathjax">parameter</span> space for working with these types of problems is effectively infinite, and the <span class="search-hit mathjax">application</span> of these techniques is untested in relevant literature. We use a relaxed, manual implementation of two ABC methods, a Sequential Monte Carlo (SMC) simulation, and a Markov Chain Monte Carlo (MCMC) simulation. We found promising results with the SMC posterior and mixed results with MCMC posterior distributions on our white-box fuzz-test function.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.04303v2-abstract-full').style.display = 'none'; document.getElementById('2404.04303v2-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 9 April, 2024; <span class="has-text-black-bis has-text-weight-semibold">v1</span> submitted 4 April, 2024;
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">5 pages</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.01549">arXiv:2404.01549</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.01549">pdf</a>, <a href="https://arxiv.org/format/2404.01549">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Computation and Language">cs.CL</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Octopus: On-device language model for function calling of <span class="search-hit mathjax">software</span> APIs
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Chen%2C+W">Wei Chen</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Li%2C+Z">Zhiyuan Li</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Ma%2C+M">Mingyuan Ma</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.01549v1-abstract-short" style="display: inline;">
+        &hellip;(LLMs) play a crucial role due to their advanced text processing and generation abilities. This study introduces a new strategy aimed at harnessing on-device LLMs in invoking <span class="search-hit mathjax">software</span> APIs. We meticulously compile a dataset derived from&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.01549v1-abstract-full').style.display = 'inline'; document.getElementById('2404.01549v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.01549v1-abstract-full" style="display: none;">
+        In the rapidly evolving domain of artificial intelligence, Large Language Models (LLMs) play a crucial role due to their advanced text processing and generation abilities. This study introduces a new strategy aimed at harnessing on-device LLMs in invoking <span class="search-hit mathjax">software</span> APIs. We meticulously compile a dataset derived from <span class="search-hit mathjax">software</span> API documentation and apply fine-<span class="search-hit mathjax">tuning</span> to LLMs with capacities of 2B, 3B and 7B <span class="search-hit mathjax">parameters</span>, specifically to enhance their proficiency in <span class="search-hit mathjax">software</span> API interactions. Our approach concentrates on refining the models&#39; grasp of API structures and syntax, significantly enhancing the accuracy of API function calls. Additionally, we propose \textit{conditional masking} techniques to ensure outputs in the desired formats and reduce error rates while maintaining inference speeds. We also propose a novel benchmark designed to evaluate the effectiveness of LLMs in API interactions, establishing a foundation for subsequent research. Octopus, the fine-<span class="search-hit mathjax">tuned</span> model, is proved to have better performance than GPT-4 for the <span class="search-hit mathjax">software</span> APIs calling. This research aims to advance automated <span class="search-hit mathjax">software</span> development and API integration, representing substantial progress in aligning LLM capabilities with the demands of practical <span class="search-hit mathjax">software</span> engineering <span class="search-hit mathjax">applications</span>.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.01549v1-abstract-full').style.display = 'none'; document.getElementById('2404.01549v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 1 April, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2404.00287">arXiv:2404.00287</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2404.00287">pdf</a>, <a href="https://arxiv.org/format/2404.00287">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Cryptography and Security">cs.CR</span>
+          
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        An Empirical Study of Automated Vulnerability Localization with Large Language Models
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Zhang%2C+J">Jian Zhang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Wang%2C+C">Chong Wang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Li%2C+A">Anran Li</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Sun%2C+W">Weisong Sun</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Zhang%2C+C">Cen Zhang</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Ma%2C+W">Wei Ma</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Liu%2C+Y">Yang Liu</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2404.00287v1-abstract-short" style="display: inline;">
+        Recently, Automated Vulnerability Localization (AVL) has attracted much attention, aiming to facilitate diagnosis by pinpointing the lines of <span class="search-hit mathjax">code</span> responsible for discovered vulnerabilities. Large Language Models (LLMs) have shown potential in various domains, yet their effectiveness in vulnerability localization remains underexplored. In this work, we perfo&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.00287v1-abstract-full').style.display = 'inline'; document.getElementById('2404.00287v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2404.00287v1-abstract-full" style="display: none;">
+        Recently, Automated Vulnerability Localization (AVL) has attracted much attention, aiming to facilitate diagnosis by pinpointing the lines of <span class="search-hit mathjax">code</span> responsible for discovered vulnerabilities. Large Language Models (LLMs) have shown potential in various domains, yet their effectiveness in vulnerability localization remains underexplored. In this work, we perform the first comprehensive study of LLMs for AVL. Our investigation encompasses 10+ leading LLMs suitable for <span class="search-hit mathjax">code</span> analysis, including ChatGPT and various open-source models, across three architectural types: encoder-only, encoder-decoder, and decoder-only, with model sizes ranging from 60M to 16B <span class="search-hit mathjax">parameters</span>. We explore the efficacy of these LLMs using 4 distinct paradigms: zero-shot learning, one-shot learning, discriminative fine-<span class="search-hit mathjax">tuning</span>, and generative fine-<span class="search-hit mathjax">tuning</span>. Our evaluation framework is applied to the BigVul-based dataset for C/C++, and an additional dataset comprising smart contract vulnerabilities. The results demonstrate that discriminative fine-<span class="search-hit mathjax">tuning</span> of LLMs can significantly outperform existing learning-based methods for AVL, while other paradigms prove less effective or unexpectedly ineffective for the task. We also identify challenges related to input length and unidirectional context in fine-<span class="search-hit mathjax">tuning</span> processes for encoders and decoders. We then introduce two remedial strategies: the sliding window and the right-forward embedding, both of which substantially enhance performance. Furthermore, our findings highlight certain generalization capabilities of LLMs across Common Weakness Enumerations (CWEs) and different projects, indicating a promising pathway toward their practical <span class="search-hit mathjax">application</span> in vulnerability localization.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2404.00287v1-abstract-full').style.display = 'none'; document.getElementById('2404.00287v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 30 March, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> April 2024.
+      
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2403.17214">arXiv:2403.17214</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2403.17214">pdf</a>, <a href="https://arxiv.org/format/2403.17214">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        
+          
+            <span class="tag is-small is-grey tooltip is-tooltip-top" data-tooltip="Artificial Intelligence">cs.AI</span>
+          
+        </div>
+      
+        
+          <div class="is-inline-block" style="margin-left: 0.5rem">
+            <div class="tags has-addons">
+              <span class="tag is-dark is-size-7">doi</span>
+              <span class="tag is-light is-size-7"><a class="" href="https://doi.org/10.1145/3650105.3652301">10.1145/3650105.3652301 <i class="fa fa-external-link" aria-hidden="true"></i></a></span>
+            </div>
+          </div>
+        
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Exploring the Impact of the Output Format on the Evaluation of Large Language Models for <span class="search-hit mathjax">Code</span> Translation
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Macedo%2C+M">Marcos Macedo</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Tian%2C+Y">Yuan Tian</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Cogo%2C+F+R">Filipe R. Cogo</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Adams%2C+B">Bram Adams</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2403.17214v1-abstract-short" style="display: inline;">
+        <span class="search-hit mathjax">Code</span> translation between&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2403.17214v1-abstract-full').style.display = 'inline'; document.getElementById('2403.17214v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2403.17214v1-abstract-full" style="display: none;">
+        <span class="search-hit mathjax">Code</span> translation between <span class="search-hit mathjax">programming</span> languages is a long-existing and critical task in <span class="search-hit mathjax">software</span> engineering, facilitating the modernization of legacy systems, ensuring cross-platform compatibility, and enhancing <span class="search-hit mathjax">software</span> performance. With the recent advances in large language models (LLMs) and their <span class="search-hit mathjax">applications</span> to <span class="search-hit mathjax">code</span> translation, there is an increasing need for comprehensive evaluation of these models. In this study, we empirically analyze the generated outputs of eleven popular instruct-<span class="search-hit mathjax">tuned</span> LLMs with <span class="search-hit mathjax">parameters</span> ranging from 1B up to 46.7B on 3,820 translation pairs across five languages, including C, C++, Go, Java, and Python. Our analysis found that between 26.4% and 73.7% of <span class="search-hit mathjax">code</span> translations produced by our evaluated LLMs necessitate post-processing, as these translations often include a mix of <span class="search-hit mathjax">code</span>, quotes, and text rather than being purely source <span class="search-hit mathjax">code</span>. Overlooking the output format of these models can inadvertently lead to underestimation of their actual performance. This is particularly evident when evaluating them with execution-based metrics such as Computational Accuracy (CA). Our results demonstrate that a strategic combination of prompt engineering and regular expression can effectively extract the source <span class="search-hit mathjax">code</span> from the model generation output. In particular, our method can help eleven selected models achieve an average <span class="search-hit mathjax">Code</span> Extraction Success Rate (CSR) of 92.73%. Our findings shed light on and motivate future research to conduct more reliable benchmarks of LLMs for <span class="search-hit mathjax">code</span> translation.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2403.17214v1-abstract-full').style.display = 'none'; document.getElementById('2403.17214v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 25 March, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> March 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">Accepted into 2024 IEEE/ACM First International Conference on AI Foundation Models and <span class="search-hit mathjax">Software</span> Engineering (Forge)</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+  <li class="arxiv-result">
+    <div class="is-marginless">
+      <p class="list-title is-inline-block"><a href="https://arxiv.org/abs/2403.09537">arXiv:2403.09537</a>
+        <span>&nbsp;[<a href="https://arxiv.org/pdf/2403.09537">pdf</a>, <a href="https://arxiv.org/format/2403.09537">other</a>]&nbsp;</span>
+      </p>
+      <div class="tags is-inline-block">
+        <span class="tag is-small is-link tooltip is-tooltip-top" data-tooltip="Software Engineering">cs.SE</span>
+        </div>
+      
+    </div>
+    
+    <p class="title is-5 mathjax">
+      
+        Analyzing and Mitigating (with LLMs) the Security Misconfigurations of Helm Charts from Artifact Hub
+      
+    </p>
+    <p class="authors">
+      <span class="has-text-black-bis has-text-weight-semibold">Authors:</span>
+      
+      <a href="/search/?searchtype=author&amp;query=Minna%2C+F">Francesco Minna</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Massacci%2C+F">Fabio Massacci</a>, 
+      
+      <a href="/search/?searchtype=author&amp;query=Tuma%2C+K">Katja Tuma</a>
+      
+    </p>
+    
+    <p class="abstract mathjax">
+      <span class="search-hit">Abstract</span>:
+      <span class="abstract-short has-text-grey-dark mathjax" id="2403.09537v1-abstract-short" style="display: inline;">
+        Background: Helm is a package manager that allows defining, installing, and upgrading <span class="search-hit mathjax">applications</span> with Kubernetes (K8s), a popular container orchestration platform. A Helm chart is a collection of files describing all dependencies, resources, and&hellip;
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2403.09537v1-abstract-full').style.display = 'inline'; document.getElementById('2403.09537v1-abstract-short').style.display = 'none';">&#9661; More</a>
+      </span>
+      <span class="abstract-full has-text-grey-dark mathjax" id="2403.09537v1-abstract-full" style="display: none;">
+        Background: Helm is a package manager that allows defining, installing, and upgrading <span class="search-hit mathjax">applications</span> with Kubernetes (K8s), a popular container orchestration platform. A Helm chart is a collection of files describing all dependencies, resources, and <span class="search-hit mathjax">parameters</span> required for deploying an <span class="search-hit mathjax">application</span> within a K8s cluster. Objective: The goal of this study is to mine and empirically evaluate the security of Helm charts, comparing the performance of existing tools in terms of misconfigurations reported by policies available by default, and measure to what extent LLMs could be used for removing misconfiguration. We also want to investigate whether there are false positives in both the LLM <span class="search-hit mathjax">refactorings</span> and the tool outputs. Method: We propose a pipeline to mine Helm charts from Artifact Hub, a popular centralized repository, and analyze them using state-of-the-art open-source tools, such as Checkov and KICS. First, such a pipeline will run several chart analyzers and identify the common and unique misconfigurations reported by each tool. Secondly, it will use LLMs to suggest mitigation for each misconfiguration. Finally, the chart <span class="search-hit mathjax">refactoring</span> previously generated will be analyzed again by the same tools to see whether it satisfies the tool&#39;s policies. At the same time, we will also perform a manual analysis on a subset of charts to evaluate whether there are false positive misconfigurations from the tool&#39;s reporting and in the LLM <span class="search-hit mathjax">refactoring</span>.
+        <a class="is-size-7" style="white-space: nowrap;" onclick="document.getElementById('2403.09537v1-abstract-full').style.display = 'none'; document.getElementById('2403.09537v1-abstract-short').style.display = 'inline';">&#9651; Less</a>
+      </span>
+    </p>
+    
+
+    <p class="is-size-7"><span class="has-text-black-bis has-text-weight-semibold">Submitted</span> 14 March, 2024; 
+      <span class="has-text-black-bis has-text-weight-semibold">originally announced</span> March 2024.
+      
+    </p>
+    
+    <p class="comments is-size-7">
+      <span class="has-text-black-bis has-text-weight-semibold">Comments:</span>
+      <span class="has-text-grey-dark mathjax">MSR 2024 - Registered Reports</span>
+    </p>
+    
+
+    
+
+    
+  </li>
+
+</ol>
+
+
+  <nav class="pagination is-small is-centered breathe-horizontal" role="navigation" aria-label="pagination">
+    
+    <a href=""
+      class="pagination-previous is-invisible">Previous
+    </a>
+    
+    
+      <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=25"
+        class="pagination-next" >Next
+      </a>
+    
+    <ul class="pagination-list">
+
+      <li>
+        <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=0"
+          class="pagination-link is-current"
+          aria-label="Goto page 1">1
+        </a>
+      </li>
+
+      
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=25"
+            class="pagination-link "
+            aria-label="Page 2"
+            aria-current="page">2
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=50"
+            class="pagination-link "
+            aria-label="Page 3"
+            aria-current="page">3
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=75"
+            class="pagination-link "
+            aria-label="Page 4"
+            aria-current="page">4
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=100"
+            class="pagination-link "
+            aria-label="Page 5"
+            aria-current="page">5
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=125"
+            class="pagination-link "
+            aria-label="Page 6"
+            aria-current="page">6
+          </a>
+        </li>
+        
+        <li>
+          <a href="/search/advanced?advanced=&amp;terms-0-operator=AND&amp;terms-0-term=%28code+OR+program+OR+software+OR+application%29+AND+%28optimising+OR+optimisation+OR+improving+OR+improvement+OR+refactoring+OR+tuning+OR+configuration+OR+parameter%29+AND+%28energy+OR+power%29&amp;terms-0-field=all&amp;classification-computer_science=y&amp;classification-physics_archives=all&amp;classification-include_cross_list=include&amp;date-year=&amp;date-filter_by=date_range&amp;date-from_date=2021&amp;date-to_date=2024&amp;date-date_type=submitted_date&amp;abstracts=show&amp;size=25&amp;order=-announced_date_first&amp;start=150"
+            class="pagination-link "
+            aria-label="Page 7"
+            aria-current="page">7
+          </a>
+        </li>
+        
+      
+    </ul>
+  </nav>
+  
+
+    
+  
+
+      <div class="is-hidden-tablet">
+        <!-- feedback for mobile only -->
+        <span class="help" style="display: inline-block;"><a href="https://github.com/arXiv/arxiv-search/releases">Search v0.5.6 released 2020-02-24</a>&nbsp;&nbsp;</span>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    
+    <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+  <!-- MetaColumn 1 -->
+  <div class="column">
+    <div class="columns">
+      <div class="column">
+        <ul class="nav-spaced">
+          <li><a href="https://arxiv.org/about">About</a></li>
+          <li><a href="https://arxiv.org/help">Help</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <ul class="nav-spaced">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+            <a href="https://arxiv.org/help/contact"> Contact</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+            <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- end MetaColumn 1 -->
+  <!-- MetaColumn 2 -->
+  <div class="column">
+    <div class="columns">
+      <div class="column">
+        <ul class="nav-spaced">
+          <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+          <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="column sorry-app-links">
+        <ul class="nav-spaced">
+          <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+          <li>
+            <p class="help">
+              <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+              Get status notifications via
+              <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+              or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- end MetaColumn 2 -->
+</div>
+    
+  </footer>
+  </body>
+</html>

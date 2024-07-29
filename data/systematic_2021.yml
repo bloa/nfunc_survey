@@ -5772,9 +5772,9 @@
   source:
     - Scopus (quality)
   pass:
-    - not found
     - title
     - abstract
+    - not found
 
 - id: 596
   title: "A three-year follow-up of older adult participants in a memory-skills training program."
@@ -6272,6 +6272,7 @@
   pass:
     - title
     - abstract
+    - body
 
 - id: 648
   title: "Automated empirical tuning of scientific codes for performance and power consumption"
@@ -6487,9 +6488,9 @@
   source:
     - Scopus (quality)
   pass:
-    - not found
     - title
     - abstract
+    - not found
 
 - id: 670
   title: "Automated Refactoring Using Design Differencing"
@@ -7109,9 +7110,9 @@
     - IEEE (quality)
     - IEEE (time)
   pass:
-    - not found
     - title
     - abstract
+    - not found
 
 - id: 733
   title: "Automatic generation of parallel C code for stencil applications written in MATLAB"
@@ -16698,7 +16699,6 @@
   source:
     - Scopus (energy)
   pass:
-    - none
     - title
     - abstract
 
@@ -16917,7 +16917,6 @@
   source:
     - Scopus (energy)
   pass:
-    - none
     - title
     - abstract
 
@@ -21714,7 +21713,9 @@
   source:
     - IEEE (memory)
   pass:
-    - none
+    - title
+    - abstract
+    - body
 
 - id: 2247
   title: "Message-Driven Test Case Generation Framework"
@@ -23226,7 +23227,6 @@
   source:
     - ArXiV (quality)
   pass:
-    - none
     - title
     - abstract
 
